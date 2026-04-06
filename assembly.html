@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Assembly Detail | Sabar Institute SIR</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+<!-- PapaParse for CSV handling (Bengali UTF-8) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+/* ── SPLASH ────────────────────────────────────────────────────────────── */
+#splash{
+  position:fixed;inset:0;z-index:9999;background:#0d0d0d;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;
+}
+#splash::before{
+  content:'';position:absolute;width:600px;height:600px;border-radius:50%;
+  background:radial-gradient(circle,rgba(185,191,31,.06) 0%,transparent 65%);pointer-events:none;
+}
+#splash.out{animation:splashOut .5s ease forwards}
+@keyframes splashOut{to{opacity:0;visibility:hidden}}
+.sp-logo{width:clamp(240px,40vw,380px);height:auto;opacity:0;transform:translateY(-10px);animation:logoIn .7s cubic-bezier(.22,1,.36,1) .1s forwards}
+@keyframes logoIn{to{opacity:1;transform:translateY(0)}}
+.sp-line{width:0;height:1.5px;background:linear-gradient(90deg,transparent,#B9BF1F,transparent);margin:18px 0 16px;animation:lineGrow .5s ease .6s forwards}
+@keyframes lineGrow{to{width:clamp(160px,28vw,260px)}}
+.sp-tag{font-family:'Barlow',sans-serif;font-weight:700;font-size:clamp(22px,3.5vw,34px);letter-spacing:-1px;color:#e8e8e8;overflow:hidden;white-space:nowrap;width:0;opacity:0;animation:tagShow .01s .85s forwards,tagType .65s steps(10,end) .85s forwards}
+.sp-tag b{color:#B9BF1F;font-weight:inherit}
+@keyframes tagShow{to{opacity:1}}
+@keyframes tagType{to{width:12ch}}
+.sp-sub{font-family:'Barlow',sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#888;opacity:0;margin-top:12px;animation:subIn .5s ease 1.45s forwards}
+@keyframes subIn{to{opacity:1}}
+.sp-bar{position:absolute;bottom:0;left:0;height:2px;background:linear-gradient(90deg,#B9BF1F,#e8f020,#B9BF1F);background-size:200% 100%;width:0%;animation:barGrow 1.9s cubic-bezier(.4,0,.2,1) .2s forwards,barShimmer 1.4s linear .5s infinite}
+@keyframes barGrow{to{width:100%}}
+@keyframes barShimmer{to{background-position:200% 0}}
+
+/* ── BASE ──────────────────────────────────────────────────────────────── */
+:root{
+  --bg:#0d0d0d;--s1:#161616;--s2:#1e1e1e;--bdr:#2a2a2a;
+  --txt:#e8e8e8;--muted:#888;--accent:#f0c040;--accent2:#B9BF1F;
+  --inc:#1a9e5c;--del:#cc2929;
+  --font-sans:'Barlow',Arial,sans-serif;
+  --font-serif:'EB Garamond',Georgia,serif;
+  --font-mono:'Courier New',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--txt);font-size:13px;line-height:1.6}
+
+/* ── NAV ───────────────────────────────────────────────────────────────── */
+.topnav{
+  background:var(--s1);border-bottom:1px solid var(--bdr);
+  padding:0 40px;display:flex;align-items:center;
+  justify-content:space-between;height:56px;
+  position:sticky;top:0;z-index:100;
+}
+.nav-left{display:flex;align-items:center;gap:16px}
+.nav-logo{height:26px}
+.nav-divider{width:1px;height:20px;background:var(--bdr)}
+.back-btn{
+  display:flex;align-items:center;gap:6px;
+  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);text-decoration:none;
+  padding:4px 10px;border-radius:6px;transition:all .2s;
+}
+.back-btn:hover{color:var(--txt);background:rgba(255,255,255,.04)}
+.back-btn::before{content:'←';font-size:13px}
+.nav-tag{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.2);color:var(--accent);padding:3px 10px;border-radius:20px}
+
+/* ── HEADER ────────────────────────────────────────────────────────────── */
+.ac-header{
+  padding:40px 40px 32px;
+  background:linear-gradient(135deg,#0d0d0d,#111108);
+  border-bottom:1px solid var(--bdr);position:relative;overflow:hidden;
+}
+.ac-header::after{
+  content:'';position:absolute;right:-80px;top:-80px;
+  width:400px;height:400px;border-radius:50%;
+  background:radial-gradient(circle,rgba(185,191,31,.04) 0%,transparent 60%);
+}
+.ac-badge{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.ac-title{font-family:var(--font-serif);font-size:clamp(28px,4vw,48px);font-weight:600;color:#fff;line-height:1.06;margin-bottom:4px}
+.ac-subtitle{font-size:12px;color:var(--muted);margin-bottom:24px}
+.header-stat-row{display:flex;gap:24px;flex-wrap:wrap}
+.hstat{border-left:2px solid var(--bdr);padding-left:14px}
+.hstat-val{font-family:var(--font-mono);font-size:20px;font-weight:700}
+.hstat-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+/* ── MAIN ──────────────────────────────────────────────────────────────── */
+main{max-width:1280px;margin:0 auto;padding:32px 40px 80px}
+
+/* ── SUMMARY SECTION ────────────────────────────────────────────────────── */
+.sec-lbl{font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+h2{font-family:var(--font-serif);font-size:20px;font-weight:600;margin-bottom:20px;color:#fff}
+.hr{border:none;border-top:1px solid var(--bdr);margin:32px 0}
+
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
+.stat-card{
+  background:var(--s1);border:1px solid var(--bdr);border-radius:8px;
+  padding:16px 18px;position:relative;overflow:hidden;
+}
+.stat-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%}
+.stat-card.inc::before{background:var(--inc)}
+.stat-card.del::before{background:var(--del)}
+.stat-card.neu::before{background:var(--accent)}
+.stat-card.inf::before{background:#60a5fa}
+.stat-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.stat-val{font-family:var(--font-mono);font-size:22px;font-weight:700;line-height:1}
+.stat-sub{font-size:11px;color:var(--muted);margin-top:4px}
+
+/* ── RATIO BAR ──────────────────────────────────────────────────────────── */
+.ratio-group{
+  background:var(--s1);border:1px solid var(--bdr);border-radius:8px;
+  padding:18px 20px;margin-bottom:24px;
+}
+.ratio-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.ratio-bar-wrap{display:flex;height:20px;border-radius:4px;overflow:hidden;margin-bottom:8px}
+.ratio-bar-seg{display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;font-weight:700;color:#fff;transition:width .6s ease;white-space:nowrap;overflow:hidden}
+.ratio-legend{display:flex;gap:16px;flex-wrap:wrap}
+.ratio-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:middle}
+.ratio-lbl{font-size:11px;color:var(--muted)}
+.ratio-lbl b{color:var(--txt)}
+
+/* ── PART TABLE ─────────────────────────────────────────────────────────── */
+.part-table-wrap{overflow-x:auto;border-radius:8px;border:1px solid var(--bdr)}
+table{width:100%;border-collapse:collapse;font-size:11px}
+thead{background:var(--s2)}
+th{
+  padding:8px 12px;text-align:right;
+  font-family:var(--font-mono);font-size:9px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);
+  border-bottom:1px solid var(--bdr);white-space:nowrap;
+}
+th:first-child{text-align:left}
+td{
+  padding:7px 12px;text-align:right;
+  border-bottom:1px solid rgba(255,255,255,.03);
+  font-family:var(--font-mono);
+}
+td:first-child{text-align:left;font-weight:700;color:var(--accent)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+.td-m{color:#60a5fa}.td-f{color:#f472b6}
+.td-inc{color:#4ade80}.td-del{color:#ff6b6b}
+
+/* ── CONTROLS ───────────────────────────────────────────────────────────── */
+.controls-bar{
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  background:var(--s1);border:1px solid var(--bdr);
+  border-radius:8px;padding:12px 16px;margin-bottom:20px;
+}
+.ctrl-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.phase-select{
+  background:var(--s2);border:1px solid var(--bdr);
+  color:var(--txt);font-family:var(--font-mono);font-size:12px;
+  padding:6px 12px;border-radius:6px;cursor:pointer;outline:none;
+  appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 10px center;
+  padding-right:28px;
+  transition:border-color .2s;
+}
+.phase-select:hover{border-color:var(--accent)}
+.phase-select:focus{border-color:var(--accent)}
+
+.tab-group{display:flex;gap:0;border:1px solid var(--bdr);border-radius:6px;overflow:hidden}
+.tab-btn{
+  flex:1;padding:7px 20px;cursor:pointer;
+  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  background:transparent;color:var(--muted);border:none;transition:all .2s;
+  white-space:nowrap;
+}
+.tab-btn.active.inc{background:rgba(26,158,92,.15);color:#4ade80}
+.tab-btn.active.del{background:rgba(204,41,41,.15);color:#ff6b6b}
+.tab-btn:not(.active):hover{background:rgba(255,255,255,.04);color:var(--txt)}
+.tab-divider{width:1px;background:var(--bdr)}
+
+.search-wrap{margin-left:auto;position:relative}
+.search-input{
+  background:var(--s2);border:1px solid var(--bdr);
+  color:var(--txt);font-family:var(--font-sans);font-size:12px;
+  padding:6px 12px 6px 30px;border-radius:6px;outline:none;width:200px;
+  transition:border-color .2s;
+}
+.search-input:focus{border-color:var(--accent)}
+.search-input::placeholder{color:var(--muted)}
+.search-icon{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:12px;pointer-events:none}
+
+/* ── DATA TABLE ─────────────────────────────────────────────────────────── */
+.data-table-wrap{
+  overflow-x:auto;border-radius:8px;border:1px solid var(--bdr);
+  max-height:620px;overflow-y:auto;
+}
+.data-table-wrap table td:nth-child(3){
+  font-family:'Barlow',sans-serif;  /* Bengali names render better with sans */
+  font-size:13px;
+}
+.row-count{font-size:11px;color:var(--muted);margin-bottom:8px}
+.empty-state{
+  padding:48px;text-align:center;color:var(--muted);
+  background:var(--s1);border:1px dashed var(--bdr);border-radius:8px;
+}
+.loading-spinner{
+  display:flex;flex-direction:column;align-items:center;
+  padding:48px;color:var(--muted);gap:12px;
+}
+.spin{
+  width:24px;height:24px;border:2px solid var(--bdr);
+  border-top-color:var(--accent);border-radius:50%;
+  animation:spin .7s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── INSIGHT BOXES ───────────────────────────────────────────────────────── */
+.ins{
+  background:var(--s1);border:1px solid var(--bdr);border-radius:8px;
+  padding:12px 16px;margin-bottom:10px;border-left:3px solid var(--accent);
+}
+.ins.inc{border-left-color:var(--inc)}
+.ins.del{border-left-color:var(--del)}
+.ins.inf{border-left-color:#60a5fa}
+.ins p{font-size:12px;color:var(--muted);line-height:1.7}
+.ins p strong{color:var(--txt)}
+
+/* ── MUSLIM POP ──────────────────────────────────────────────────────────── */
+.muslim-pop-card{
+  background:var(--s1);border:1px solid rgba(96,165,250,.2);
+  border-radius:8px;padding:16px 20px;margin-bottom:24px;
+  border-left:3px solid #60a5fa;
+}
+.muslim-pop-card .label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#60a5fa;margin-bottom:6px}
+.muslim-pop-row{display:flex;align-items:baseline;gap:12px}
+.muslim-pct{font-family:var(--font-mono);font-size:28px;font-weight:700;color:#93c5fd}
+.muslim-sub{font-size:11px;color:var(--muted);line-height:1.6}
+
+@media(max-width:700px){
+  .topnav,main,.ac-header{padding-left:20px;padding-right:20px}
+  .controls-bar{gap:8px}
+  .search-wrap{margin-left:0;width:100%}
+  .search-input{width:100%}
+}
+</style>
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash" aria-hidden="true">
+  <img class="sp-logo" src="assets/logo.svg" alt="Sabar Institute">
+  <div class="sp-line"></div>
+  <p class="sp-tag"><b>SIR </b>Analysis</p>
+  <p class="sp-sub">Adjudicated Data · Loading</p>
+  <div class="sp-bar"></div>
+</div>
+<script>
+(function(){
+  var MIN=2400,start=Date.now();
+  function go(){
+    var wait=Math.max(0,MIN-(Date.now()-start));
+    setTimeout(function(){
+      var el=document.getElementById('splash');
+      if(!el)return;
+      el.classList.add('out');
+      setTimeout(function(){if(el.parentNode)el.parentNode.removeChild(el);},600);
+    },wait);
+  }
+  if(document.readyState==='complete')go();
+  else window.addEventListener('load',go);
+})();
+</script>
+
+<!-- TOP NAV -->
+<nav class="topnav">
+  <div class="nav-left">
+    <img class="nav-logo" src="assets/logo.svg" alt="Sabar Institute">
+    <div class="nav-divider"></div>
+    <a class="back-btn" href="index.html">All Assemblies</a>
+  </div>
+  <span class="nav-tag" id="nav-tag">Loading…</span>
+</nav>
+
+<!-- ASSEMBLY HEADER -->
+<div class="ac-header">
+  <div class="ac-badge" id="ac-badge">AC · —</div>
+  <h1 class="ac-title" id="ac-title">Loading…</h1>
+  <p class="ac-subtitle" id="ac-subtitle"></p>
+  <div class="header-stat-row" id="header-stats"></div>
+</div>
+
+<!-- MAIN -->
+<main>
+
+<!-- SECTION: SUMMARY -->
+<section>
+  <div class="sec-lbl">Section 01</div>
+  <h2>Assembly Summary</h2>
+
+  <div class="stats-row" id="summary-cards">
+    <!-- filled by JS -->
+  </div>
+
+  <!-- Muslim population -->
+  <div class="muslim-pop-card" id="muslim-pop-card">
+    <div class="label">Muslim Population (Census Estimate)</div>
+    <div class="muslim-pop-row">
+      <div class="muslim-pct" id="muslim-pct">—</div>
+      <div class="muslim-sub">% of total assembly population.<br><span style="color:#60a5fa">Source: Census / local estimate. Hardcoded at deployment.</span></div>
+    </div>
+  </div>
+
+  <!-- Gender breakdown -->
+  <div class="ratio-group">
+    <div class="ratio-title">Gender Ratio — Inclusions &amp; Deletions Combined</div>
+    <div class="ratio-bar-wrap" id="gender-bar">
+      <div class="ratio-bar-seg" id="gb-male" style="background:#3b82f6;width:50%">M</div>
+      <div class="ratio-bar-seg" id="gb-female" style="background:#ec4899;width:50%">F</div>
+    </div>
+    <div class="ratio-legend">
+      <span class="ratio-lbl"><span class="ratio-dot" style="background:#3b82f6"></span>Male <b id="gb-male-pct">—</b></span>
+      <span class="ratio-lbl"><span class="ratio-dot" style="background:#ec4899"></span>Female <b id="gb-female-pct">—</b></span>
+    </div>
+  </div>
+
+  <!-- Religion breakdown -->
+  <div class="ratio-group">
+    <div class="ratio-title">Religion Ratio — Inclusions &amp; Deletions Combined</div>
+    <div class="ratio-bar-wrap" id="rel-bar">
+      <div class="ratio-bar-seg" id="rb-muslim" style="background:#60a5fa;width:40%">Muslim</div>
+      <div class="ratio-bar-seg" id="rb-nonmuslim" style="background:#34d399;width:60%">Non-Muslim</div>
+    </div>
+    <div class="ratio-legend">
+      <span class="ratio-lbl"><span class="ratio-dot" style="background:#60a5fa"></span>Muslim <b id="rb-muslim-pct">—</b></span>
+      <span class="ratio-lbl"><span class="ratio-dot" style="background:#34d399"></span>Non-Muslim <b id="rb-nonmuslim-pct">—</b></span>
+    </div>
+  </div>
+
+  <!-- Part-wise counts -->
+  <h2 style="font-size:16px;margin-bottom:12px;color:var(--muted)">Part-wise Cumulative Counts <span style="font-size:12px;font-weight:400">(across all phases)</span></h2>
+  <div class="part-table-wrap" id="part-table-wrap">
+    <div class="loading-spinner"><div class="spin"></div><span>Aggregating data…</span></div>
+  </div>
+</section>
+
+<div class="hr"></div>
+
+<!-- SECTION: DATA VIEWER -->
+<section>
+  <div class="sec-lbl">Section 02</div>
+  <h2>Phase-wise Data Viewer</h2>
+
+  <div class="controls-bar">
+    <span class="ctrl-label">Phase</span>
+    <select class="phase-select" id="phase-select">
+      <option value="">Select phase…</option>
+    </select>
+    <div class="tab-group">
+      <button class="tab-btn inc active" id="tab-inc" onclick="switchTab('inc')">▲ Inclusions</button>
+      <div class="tab-divider"></div>
+      <button class="tab-btn del" id="tab-del" onclick="switchTab('del')">▼ Deletions</button>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input class="search-input" id="search-input" type="text" placeholder="Search EPIC / Name…" oninput="filterTable()">
+    </div>
+  </div>
+
+  <div class="row-count" id="row-count"></div>
+  <div id="data-table-container">
+    <div class="empty-state">Select a phase above to view inclusion or deletion data.</div>
+  </div>
+</section>
+
+</main>
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+const params=new URLSearchParams(location.search);
+const AC_FOLDER=params.get('ac')||'';
+const BASE=`AC/${AC_FOLDER}`;
+let meta={};
+let currentTab='inc';
+let currentRows=[];
+let allPhaseData={inc:{},del:{}};
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+const fi=n=>(n!=null?Math.round(n).toLocaleString():0);
+const pct=(a,t)=>t?((a/t)*100).toFixed(1)+'%':'—';
+
+async function fetchCSV(url){
+  try{
+    const r=await fetch(url);
+    if(!r.ok)return null;
+    const txt=await r.text();
+    return Papa.parse(txt,{header:true,skipEmptyLines:true}).data;
+  }catch(e){return null;}
+}
+
+// ── Bootstrap ──────────────────────────────────────────────────────────────
+async function init(){
+  if(!AC_FOLDER){
+    document.getElementById('ac-title').textContent='Assembly not specified.';
+    return;
+  }
+
+  // Load meta
+  try{
+    const mr=await fetch(`${BASE}/meta.json`);
+    meta=await mr.json();
+  }catch(e){
+    meta={ac_no:'—',ac_name:AC_FOLDER,district:'',phases:[],muslim_population_pct:null};
+  }
+
+  // Update header
+  document.title=`${meta.ac_name} — SIR Data | Sabar Institute`;
+  document.getElementById('nav-tag').textContent=`AC · ${meta.ac_no}`;
+  document.getElementById('ac-badge').textContent=`AC · ${meta.ac_no} · ${meta.district||''}`;
+  document.getElementById('ac-title').textContent=meta.ac_name||AC_FOLDER;
+  document.getElementById('ac-subtitle').textContent=`${meta.district||''} · SIR 2025–26 · ${(meta.phases||[]).length} phase${(meta.phases||[]).length===1?'':'s'} available`;
+
+  // Muslim population
+  if(meta.muslim_population_pct!=null){
+    document.getElementById('muslim-pct').textContent=meta.muslim_population_pct+'%';
+  } else {
+    document.getElementById('muslim-pct').textContent='—';
+    document.querySelector('#muslim-pop-card .muslim-sub').innerHTML='Not yet configured. Set <code>muslim_population_pct</code> in <code>meta.json</code>.';
+  }
+
+  // Build phase dropdown
+  const sel=document.getElementById('phase-select');
+  (meta.phases||[]).forEach(ph=>{
+    const o=document.createElement('option');
+    o.value=ph;o.textContent=`Phase ${ph}`;
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change',()=>loadPhase(sel.value));
+
+  // Load all CSVs for summary
+  await buildSummary();
+}
+
+// ── Summary aggregation ────────────────────────────────────────────────────
+async function buildSummary(){
+  const phases=meta.phases||[];
+  const agg={inc:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}},
+             del:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}}};
+
+  await Promise.all(phases.flatMap(ph=>['inc','del'].map(async type=>{
+    const dir=type==='inc'?'inclusion':'deletion';
+    const data=await fetchCSV(`${BASE}/${dir}/phase_${ph}.csv`);
+    if(!data||!data.length){
+      allPhaseData[type][ph]=[];return;
+    }
+    allPhaseData[type][ph]=data;
+    data.forEach(row=>{
+      agg[type].total++;
+      const g=(row.gender||'').trim().toLowerCase();
+      const rel=(row.religion||'').trim().toLowerCase();
+      const part=String(row.part_no||row['part_no']||'').trim();
+      if(g==='male')agg[type].male++;
+      else if(g==='female')agg[type].female++;
+      if(rel==='muslim')agg[type].muslim++;
+      else if(rel.includes('non'))agg[type].nonmuslim++;
+      if(part){
+        if(!agg[type].parts[part])agg[type].parts[part]={total:0,male:0,female:0,muslim:0,nonmuslim:0};
+        agg[type].parts[part].total++;
+        if(g==='male')agg[type].parts[part].male++;
+        else if(g==='female')agg[type].parts[part].female++;
+        if(rel==='muslim')agg[type].parts[part].muslim++;
+        else if(rel.includes('non'))agg[type].parts[part].nonmuslim++;
+      }
+    });
+  })));
+
+  // Summary cards
+  const total=agg.inc.total+agg.del.total;
+  const totalM=agg.inc.male+agg.del.male;
+  const totalF=agg.inc.female+agg.del.female;
+  const totalMus=agg.inc.muslim+agg.del.muslim;
+  const totalNon=agg.inc.nonmuslim+agg.del.nonmuslim;
+
+  document.getElementById('summary-cards').innerHTML=`
+    <div class="stat-card inc"><div class="stat-lbl">Total Inclusions</div><div class="stat-val" style="color:#4ade80">${fi(agg.inc.total)}</div><div class="stat-sub">${phases.length} phases</div></div>
+    <div class="stat-card del"><div class="stat-lbl">Total Deletions</div><div class="stat-val" style="color:#ff6b6b">${fi(agg.del.total)}</div><div class="stat-sub">${phases.length} phases</div></div>
+    <div class="stat-card neu"><div class="stat-lbl">Net Change</div><div class="stat-val" style="color:${agg.inc.total>=agg.del.total?'#4ade80':'#ff6b6b'}">${agg.inc.total>=agg.del.total?'+':''}${fi(agg.inc.total-agg.del.total)}</div><div class="stat-sub">Inclusions − Deletions</div></div>
+    <div class="stat-card inf"><div class="stat-lbl">Muslim SIR Entries</div><div class="stat-val" style="color:#93c5fd">${fi(totalMus)}</div><div class="stat-sub">${pct(totalMus,total)} of total</div></div>
+  `;
+
+  // Header stats
+  document.getElementById('header-stats').innerHTML=`
+    <div class="hstat"><div class="hstat-val" style="color:#4ade80">${fi(agg.inc.total)}</div><div class="hstat-lbl">Inclusions</div></div>
+    <div class="hstat"><div class="hstat-val" style="color:#ff6b6b">${fi(agg.del.total)}</div><div class="hstat-lbl">Deletions</div></div>
+    <div class="hstat"><div class="hstat-val" style="color:var(--accent)">${phases.length}</div><div class="hstat-lbl">Phases</div></div>
+  `;
+
+  // Gender bar
+  const mPct=(totalM/Math.max(total,1)*100);
+  const fPct=(totalF/Math.max(total,1)*100);
+  document.getElementById('gb-male').style.width=mPct+'%';
+  document.getElementById('gb-female').style.width=fPct+'%';
+  document.getElementById('gb-male').textContent=totalM?'M':'';
+  document.getElementById('gb-female').textContent=totalF?'F':'';
+  document.getElementById('gb-male-pct').textContent=pct(totalM,total);
+  document.getElementById('gb-female-pct').textContent=pct(totalF,total);
+
+  // Religion bar
+  const musPct=(totalMus/Math.max(totalMus+totalNon,1)*100);
+  const nonPct=(totalNon/Math.max(totalMus+totalNon,1)*100);
+  document.getElementById('rb-muslim').style.width=musPct+'%';
+  document.getElementById('rb-nonmuslim').style.width=nonPct+'%';
+  document.getElementById('rb-muslim').textContent=totalMus?'Muslim':'';
+  document.getElementById('rb-nonmuslim').textContent=totalNon?'Non-Muslim':'';
+  document.getElementById('rb-muslim-pct').textContent=pct(totalMus,totalMus+totalNon);
+  document.getElementById('rb-nonmuslim-pct').textContent=pct(totalNon,totalMus+totalNon);
+
+  // Part table
+  const allParts=new Set([...Object.keys(agg.inc.parts),...Object.keys(agg.del.parts)]);
+  const sortedParts=[...allParts].sort((a,b)=>+a-+b||a.localeCompare(b));
+
+  if(!sortedParts.length){
+    document.getElementById('part-table-wrap').innerHTML='<div class="empty-state">No data loaded yet.</div>';
+    return;
+  }
+
+  document.getElementById('part-table-wrap').innerHTML=`
+    <table>
+      <thead><tr>
+        <th>Part No.</th>
+        <th>Inc. Total</th><th>Inc. Male</th><th>Inc. Female</th><th>Inc. Muslim</th>
+        <th>Del. Total</th><th>Del. Male</th><th>Del. Female</th><th>Del. Muslim</th>
+        <th>Net</th>
+      </tr></thead>
+      <tbody>
+        ${sortedParts.map(p=>{
+          const i=agg.inc.parts[p]||{total:0,male:0,female:0,muslim:0};
+          const d=agg.del.parts[p]||{total:0,male:0,female:0,muslim:0};
+          const net=i.total-d.total;
+          return`<tr>
+            <td>${p}</td>
+            <td class="td-inc">${i.total}</td>
+            <td class="td-m">${i.male}</td><td class="td-f">${i.female}</td>
+            <td style="color:#93c5fd">${i.muslim}</td>
+            <td class="td-del">${d.total}</td>
+            <td class="td-m">${d.male}</td><td class="td-f">${d.female}</td>
+            <td style="color:#93c5fd">${d.muslim}</td>
+            <td style="color:${net>=0?'#4ade80':'#ff6b6b'};font-weight:700">${net>=0?'+':''}${net}</td>
+          </tr>`;
+        }).join('')}
+        <tr style="border-top:1px solid var(--bdr);background:var(--s2)">
+          <td style="font-weight:700;color:var(--txt)">TOTAL</td>
+          <td class="td-inc" style="font-weight:700">${fi(agg.inc.total)}</td>
+          <td class="td-m" style="font-weight:700">${fi(agg.inc.male)}</td>
+          <td class="td-f" style="font-weight:700">${fi(agg.inc.female)}</td>
+          <td style="color:#93c5fd;font-weight:700">${fi(agg.inc.muslim)}</td>
+          <td class="td-del" style="font-weight:700">${fi(agg.del.total)}</td>
+          <td class="td-m" style="font-weight:700">${fi(agg.del.male)}</td>
+          <td class="td-f" style="font-weight:700">${fi(agg.del.female)}</td>
+          <td style="color:#93c5fd;font-weight:700">${fi(agg.del.muslim)}</td>
+          <td style="font-weight:700;color:${agg.inc.total>=agg.del.total?'#4ade80':'#ff6b6b'}">${agg.inc.total>=agg.del.total?'+':''}${fi(agg.inc.total-agg.del.total)}</td>
+        </tr>
+      </tbody>
+    </table>
+  `;
+}
+
+// ── Phase loader ────────────────────────────────────────────────────────────
+async function loadPhase(phase){
+  if(!phase){
+    document.getElementById('data-table-container').innerHTML='<div class="empty-state">Select a phase above.</div>';
+    document.getElementById('row-count').textContent='';
+    return;
+  }
+  document.getElementById('data-table-container').innerHTML='<div class="loading-spinner"><div class="spin"></div><span>Loading phase data…</span></div>';
+  document.getElementById('search-input').value='';
+
+  // Data already fetched during summary; just render
+  renderTable(phase,currentTab);
+}
+
+function switchTab(tab){
+  currentTab=tab;
+  document.getElementById('tab-inc').className='tab-btn inc'+(tab==='inc'?' active':'');
+  document.getElementById('tab-del').className='tab-btn del'+(tab==='del'?' active':'');
+  document.getElementById('search-input').value='';
+  const phase=document.getElementById('phase-select').value;
+  if(phase)renderTable(phase,tab);
+}
+
+function renderTable(phase,type){
+  let rows=allPhaseData[type][phase];
+  if(!rows){
+    document.getElementById('data-table-container').innerHTML='<div class="empty-state">Data for this phase is not available.</div>';
+    document.getElementById('row-count').textContent='';
+    currentRows=[];
+    return;
+  }
+  if(rows.length===0){
+    document.getElementById('data-table-container').innerHTML='<div class="empty-state">No entries in this phase (blank CSV).</div>';
+    document.getElementById('row-count').textContent='0 entries';
+    currentRows=[];
+    return;
+  }
+
+  // Sort by part_no numerically
+  rows=[...rows].sort((a,b)=>{
+    const pa=+(a.part_no||a['part_no']||0);
+    const pb=+(b.part_no||b['part_no']||0);
+    return pa-pb;
+  });
+
+  currentRows=rows;
+  displayRows(rows);
+}
+
+function displayRows(rows){
+  const q=(document.getElementById('search-input').value||'').toLowerCase();
+  const filtered=q?rows.filter(r=>{
+    const epic=(r.epic||r['epic']||'').toLowerCase();
+    const name=(r.name||r['name']||'').toLowerCase();
+    return epic.includes(q)||name.includes(q);
+  }):rows;
+
+  document.getElementById('row-count').textContent=`${filtered.length.toLocaleString()} entries${q?' (filtered)':''}`;
+
+  if(!filtered.length){
+    document.getElementById('data-table-container').innerHTML='<div class="empty-state">No results for your search.</div>';
+    return;
+  }
+
+  document.getElementById('data-table-container').innerHTML=`
+    <div class="data-table-wrap">
+      <table>
+        <thead><tr>
+          <th style="text-align:left">Part No.</th>
+          <th style="text-align:left">EPIC Number</th>
+          <th style="text-align:left">Name</th>
+          <th>Gender</th>
+        </tr></thead>
+        <tbody>
+          ${filtered.map(r=>{
+            const part=String(r.part_no||r['part_no']||'').trim();
+            const epic=(r.epic||r['epic']||'').trim();
+            const name=(r.name||r['name']||'').trim();
+            const g=(r.gender||r['gender']||'').trim();
+            const gClass=g.toLowerCase()==='male'?'td-m':'td-f';
+            return`<tr>
+              <td style="text-align:left">${part||'—'}</td>
+              <td style="text-align:left;font-size:11px;color:var(--accent)">${epic||'—'}</td>
+              <td style="text-align:left">${name||'—'}</td>
+              <td class="${gClass}">${g||'—'}</td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function filterTable(){
+  if(currentRows.length)displayRows(currentRows);
+}
+
+init();
+</script>
+</body>
+</html>
