@@ -35,20 +35,43 @@
   white-space: nowrap;
 
   width: 0;
-  opacity: 0;
+  opacity: 1; /* no flicker */
 
-  animation:
-    tagShow 0s .85s forwards,
-    tagType .8s steps(20,end) .85s forwards;
+  position: relative;
+
+  animation: tagType .8s steps(20,end) .85s forwards;
 }
 
-@keyframes tagShow {
-  to { opacity: 1; }
-}
-
+/* typing */
 @keyframes tagType {
   from { width: 0; }
   to   { width: max-content; }
+}
+
+/* recreate "line grow" safely */
+.sp-tag::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background: #B9BF1F;
+
+  transform: scaleX(0);
+  transform-origin: left;
+
+  animation: lineGrowX .6s ease .85s forwards;
+}
+
+@keyframes lineGrowX {
+  to { transform: scaleX(1); }
+}
+
+/* bold color stays stable */
+.sp-tag b {
+  color: #B9BF1F;
+  font-weight: inherit;
 }
 .sp-sub{font-family:'Barlow',sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#888;opacity:0;margin-top:12px;animation:subIn .5s ease 1.45s forwards}
 @keyframes subIn{to{opacity:1}}
