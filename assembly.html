@@ -9,122 +9,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <style>
-/* ── SPLASH ────────────────────────────────────────────────────────────── */
-#splash{
-  position:fixed;inset:0;z-index:9999;background:#0d0d0d;
-  display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;
-}
-#splash::before{
-  content:'';position:absolute;width:600px;height:600px;border-radius:50%;
-  background:radial-gradient(circle,rgba(185,191,31,.06) 0%,transparent 65%);pointer-events:none;
-}
+/* SPLASH */
+#splash{position:fixed;inset:0;z-index:9999;background:#0d0d0d;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;}
+#splash::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(185,191,31,.06) 0%,transparent 65%);pointer-events:none;}
 #splash.out{animation:splashOut .5s ease forwards}
 @keyframes splashOut{to{opacity:0;visibility:hidden}}
 .sp-logo{width:clamp(240px,40vw,380px);height:auto;opacity:0;transform:translateY(-10px);animation:logoIn .7s cubic-bezier(.22,1,.36,1) .1s forwards}
 @keyframes logoIn{to{opacity:1;transform:translateY(0)}}
 .sp-line{width:0;height:1.5px;background:linear-gradient(90deg,transparent,#B9BF1F,transparent);margin:18px 0 16px;animation:lineGrow .5s ease .6s forwards}
-.sp-tag {
-  display: inline-block;
-  font-family: 'Barlow', sans-serif;
-  font-weight: 700;
-  font-size: clamp(22px,3.5vw,34px);
-  letter-spacing: -1px;
-  color: #e8e8e8;
-
-  overflow: hidden;
-  white-space: nowrap;
-
-  width: 0;
-  opacity: 1;
-
-  animation: tagType .8s steps(17,end) .85s forwards;
-}
-
-/* typing */
-@keyframes tagType {
-  from { width: 0; }
-  to   { width: 19ch; } /* slightly bigger than text */
-}
-
-.sp-tag b {
-  color: #B9BF1F;
-  font-weight: inherit;
-}
-
-/* recreate "line grow" safely */
-.sp-tag::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  height: 2px;
-  width: 100%;
-  background: #B9BF1F;
-
-  transform: scaleX(0);
-  transform-origin: left;
-
-  animation: lineGrowX .6s ease .85s forwards;
-}
-
-@keyframes lineGrowX {
-  to { transform: scaleX(1); }
-}
-
-/* bold color stays stable */
-.sp-tag b {
-  color: #B9BF1F;
-  font-weight: inherit;
-}
+@keyframes lineGrow{to{width:clamp(160px,28vw,260px)}}
+.sp-tag{display:inline-block;font-family:'Barlow',sans-serif;font-weight:700;font-size:clamp(22px,3.5vw,34px);letter-spacing:-1px;color:#e8e8e8;overflow:hidden;white-space:nowrap;width:0;opacity:1;animation:tagType .8s steps(17,end) .85s forwards;}
+.sp-tag b{color:#B9BF1F;font-weight:inherit}
+@keyframes tagType{from{width:0}to{width:19ch}}
 .sp-sub{font-family:'Barlow',sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#888;opacity:0;margin-top:12px;animation:subIn .5s ease 1.45s forwards}
 @keyframes subIn{to{opacity:1}}
 .sp-bar{position:absolute;bottom:0;left:0;height:2px;background:linear-gradient(90deg,#B9BF1F,#e8f020,#B9BF1F);background-size:200% 100%;width:0%;animation:barGrow 1.9s cubic-bezier(.4,0,.2,1) .2s forwards,barShimmer 1.4s linear .5s infinite}
 @keyframes barGrow{to{width:100%}}
 @keyframes barShimmer{to{background-position:200% 0}}
-
-/* ── BASE ──────────────────────────────────────────────────────────────── */
-:root{
-  --bg:#0d0d0d;--s1:#161616;--s2:#1e1e1e;--bdr:#2a2a2a;
-  --txt:#e8e8e8;--muted:#888;--accent:#f0c040;--accent2:#B9BF1F;
-  --inc:#1a9e5c;--del:#cc2929;
-  --font-sans:'Barlow',Arial,sans-serif;
-  --font-serif:'EB Garamond',Georgia,serif;
-  --font-mono:'Courier New',monospace;
-}
+/* BASE */
+:root{--bg:#0d0d0d;--s1:#161616;--s2:#1e1e1e;--bdr:#2a2a2a;--txt:#e8e8e8;--muted:#888;--accent:#f0c040;--accent2:#B9BF1F;--inc:#1a9e5c;--del:#cc2929;--font-sans:'Barlow',Arial,sans-serif;--font-serif:'EB Garamond',Georgia,serif;--font-mono:'Courier New',monospace;}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:var(--font-sans);background:var(--bg);color:var(--txt);font-size:13px;line-height:1.6}
-
-/* ── NAV ───────────────────────────────────────────────────────────────── */
-.topnav{
-  background:var(--s1);border-bottom:1px solid var(--bdr);
-  padding:0 40px;display:flex;align-items:center;
-  justify-content:space-between;height:56px;
-  position:sticky;top:0;z-index:100;
-}
+/* NAV */
+.topnav{background:var(--s1);border-bottom:1px solid var(--bdr);padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;z-index:100;}
 .nav-left{display:flex;align-items:center;gap:16px}
 .nav-logo{height:26px;width:auto}
 .nav-divider{width:1px;height:20px;background:var(--bdr)}
-.back-btn{
-  display:flex;align-items:center;gap:6px;
-  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
-  color:var(--muted);text-decoration:none;
-  padding:4px 10px;border-radius:6px;transition:all .2s;
-}
+.back-btn{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:4px 10px;border-radius:6px;transition:all .2s;}
 .back-btn:hover{color:var(--txt);background:rgba(255,255,255,.04)}
 .back-btn::before{content:'←';font-size:13px}
 .nav-tag{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.2);color:var(--accent);padding:3px 10px;border-radius:20px}
-
-/* ── HEADER ────────────────────────────────────────────────────────────── */
-.ac-header{
-  padding:40px 40px 32px;
-  background:linear-gradient(135deg,#0d0d0d,#111108);
-  border-bottom:1px solid var(--bdr);position:relative;overflow:hidden;
-}
-.ac-header::after{
-  content:'';position:absolute;right:-80px;top:-80px;
-  width:400px;height:400px;border-radius:50%;
-  background:radial-gradient(circle,rgba(185,191,31,.04) 0%,transparent 60%);
-}
+/* HEADER */
+.ac-header{padding:40px 40px 32px;background:linear-gradient(135deg,#0d0d0d,#111108);border-bottom:1px solid var(--bdr);position:relative;overflow:hidden;}
+.ac-header::after{content:'';position:absolute;right:-80px;top:-80px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(185,191,31,.04) 0%,transparent 60%);}
 .ac-badge{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
 .ac-title{font-family:var(--font-serif);font-size:clamp(28px,4vw,48px);font-weight:600;color:#fff;line-height:1.06;margin-bottom:4px}
 .ac-subtitle{font-size:12px;color:var(--muted);margin-bottom:24px}
@@ -132,208 +49,122 @@ body{font-family:var(--font-sans);background:var(--bg);color:var(--txt);font-siz
 .hstat{border-left:2px solid var(--bdr);padding-left:14px}
 .hstat-val{font-family:var(--font-mono);font-size:20px;font-weight:700}
 .hstat-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
-
-/* ── MAIN ──────────────────────────────────────────────────────────────── */
+/* MAIN */
 main{max-width:1280px;margin:0 auto;padding:32px 40px 80px}
-
-/* ── SUMMARY SECTION ────────────────────────────────────────────────────── */
 .sec-lbl{font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
 h2{font-family:var(--font-serif);font-size:20px;font-weight:600;margin-bottom:20px;color:#fff}
 .hr{border:none;border-top:1px solid var(--bdr);margin:32px 0}
-
+/* STAT CARDS */
 .stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
-.stat-card{
-  background:var(--s1);border:1px solid var(--bdr);border-radius:8px;
-  padding:16px 18px;position:relative;overflow:hidden;
-}
+.stat-card{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:16px 18px;position:relative;overflow:hidden;}
 .stat-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%}
-.stat-card.inc::before{background:var(--inc)}
-.stat-card.del::before{background:var(--del)}
-.stat-card.neu::before{background:var(--accent)}
-.stat-card.inf::before{background:#60a5fa}
+.stat-card.inc::before{background:var(--inc)}.stat-card.del::before{background:var(--del)}.stat-card.neu::before{background:var(--accent)}.stat-card.inf::before{background:#60a5fa}
 .stat-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
 .stat-val{font-family:var(--font-mono);font-size:22px;font-weight:700;line-height:1}
 .stat-sub{font-size:11px;color:var(--muted);margin-top:4px}
-
-/* ── RATIO BAR ──────────────────────────────────────────────────────────── */
-.ratio-group{
-  background:var(--s1);border:1px solid var(--bdr);border-radius:8px;
-  padding:18px 20px;margin-bottom:24px;
-}
+/* GENDER BAR */
+.ratio-group{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:18px 20px;margin-bottom:24px;}
 .ratio-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 .ratio-bar-wrap{display:flex;height:20px;border-radius:4px;overflow:hidden;margin-bottom:8px}
 .ratio-bar-seg{display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;font-weight:700;color:#fff;transition:width .6s ease;white-space:nowrap;overflow:hidden}
 .ratio-legend{display:flex;gap:16px;flex-wrap:wrap}
 .ratio-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:middle}
-.ratio-lbl{font-size:11px;color:var(--muted)}
-.ratio-lbl b{color:var(--txt)}
-
-/* ── PART TABLE ─────────────────────────────────────────────────────────── */
-.part-table-wrap{overflow-x:auto;border-radius:8px;border:1px solid var(--bdr)}
-table{width:100%;border-collapse:collapse;font-size:11px}
-thead{background:var(--s2)}
-th{
-  padding:8px 12px;text-align:right;
-  font-family:var(--font-mono);font-size:9px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--muted);
-  border-bottom:1px solid var(--bdr);white-space:nowrap;
-}
-th:first-child{text-align:left}
-td{
-  padding:7px 12px;text-align:right;
-  border-bottom:1px solid rgba(255,255,255,.03);
-  font-family:var(--font-mono);
-}
-td:first-child{text-align:left;font-weight:700;color:var(--accent)}
-tr:last-child td{border-bottom:none}
-tr:hover td{background:rgba(255,255,255,.02)}
-.td-m{color:#60a5fa}.td-f{color:#f472b6}
-.td-inc{color:#4ade80}.td-del{color:#ff6b6b}
-
-/* ── CONTROLS ───────────────────────────────────────────────────────────── */
-.controls-bar{
-  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
-  background:var(--s1);border:1px solid var(--bdr);
-  border-radius:8px;padding:12px 16px;margin-bottom:20px;
-}
-.ctrl-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.phase-select{
-  background:var(--s2);border:1px solid var(--bdr);
-  color:var(--txt);font-family:var(--font-mono);font-size:12px;
-  padding:6px 12px;border-radius:6px;cursor:pointer;outline:none;
-  appearance:none;-webkit-appearance:none;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");
-  background-repeat:no-repeat;background-position:right 10px center;
-  padding-right:28px;transition:border-color .2s;
-}
-.phase-select:hover{border-color:var(--accent)}
-.phase-select:focus{border-color:var(--accent)}
-
-.tab-group{display:flex;gap:0;border:1px solid var(--bdr);border-radius:6px;overflow:hidden}
-.tab-btn{
-  flex:1;padding:7px 20px;cursor:pointer;
-  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
-  background:transparent;color:var(--muted);border:none;transition:all .2s;
-  white-space:nowrap;
-}
-.tab-btn.active.inc{background:rgba(26,158,92,.15);color:#4ade80}
-.tab-btn.active.del{background:rgba(204,41,41,.15);color:#ff6b6b}
-.tab-btn:not(.active):hover{background:rgba(255,255,255,.04);color:var(--txt)}
-.tab-divider{width:1px;background:var(--bdr)}
-
-.search-wrap{margin-left:auto;position:relative}
-.search-input{
-  background:var(--s2);border:1px solid var(--bdr);
-  color:var(--txt);font-family:var(--font-sans);font-size:12px;
-  padding:6px 12px 6px 30px;border-radius:6px;outline:none;width:200px;
-  transition:border-color .2s;
-}
-.search-input:focus{border-color:var(--accent)}
-.search-input::placeholder{color:var(--muted)}
-.search-icon{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:12px;pointer-events:none}
-
-/* ── DATA TABLE ─────────────────────────────────────────────────────────── */
-.data-table-wrap{
-  overflow-x:auto;border-radius:8px;border:1px solid var(--bdr);
-  max-height:620px;overflow-y:auto;
-}
-.data-table-wrap table td:nth-child(3){
-  font-family:'Barlow',sans-serif;
-  font-size:13px;
-}
-.row-count{font-size:11px;color:var(--muted);margin-bottom:8px}
-.empty-state{
-  padding:48px;text-align:center;color:var(--muted);
-  background:var(--s1);border:1px dashed var(--bdr);border-radius:8px;
-}
-.loading-spinner{
-  display:flex;flex-direction:column;align-items:center;
-  padding:48px;color:var(--muted);gap:12px;
-}
-.spin{
-  width:24px;height:24px;border:2px solid var(--bdr);
-  border-top-color:var(--accent);border-radius:50%;
-  animation:spin .7s linear infinite;
-}
-@keyframes spin{to{transform:rotate(360deg)}}
-
-/* ── INSIGHT BOXES ───────────────────────────────────────────────────────── */
-.ins{
-  background:var(--s1);border:1px solid var(--bdr);border-radius:8px;
-  padding:12px 16px;margin-bottom:10px;border-left:3px solid var(--accent);
-}
-.ins.inc{border-left-color:var(--inc)}
-.ins.del{border-left-color:var(--del)}
-.ins.inf{border-left-color:#60a5fa}
-.ins p{font-size:12px;color:var(--muted);line-height:1.7}
-.ins p strong{color:var(--txt)}
-
-/* ── MUSLIM POP ──────────────────────────────────────────────────────────── */
-.muslim-pop-card{
-  background:var(--s1);border:1px solid rgba(96,165,250,.2);
-  border-radius:8px;padding:16px 20px;margin-bottom:24px;
-  border-left:3px solid #60a5fa;
-}
+.ratio-lbl{font-size:11px;color:var(--muted)}.ratio-lbl b{color:var(--txt)}
+/* PIE CHART */
+.pie-group{background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:18px 20px;margin-bottom:24px;display:flex;align-items:center;gap:28px;flex-wrap:wrap;}
+.pie-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);width:100%;margin-bottom:4px}
+.pie-wrap{flex-shrink:0}
+.pie-wrap svg{display:block}
+.pie-legend{display:flex;flex-direction:column;gap:14px}
+.pie-legend-item{display:flex;align-items:center;gap:10px}
+.pie-legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.pie-legend-label{font-size:12px;color:var(--muted)}
+.pie-legend-label b{font-family:var(--font-mono);font-size:15px;color:var(--txt);display:block;line-height:1.2}
+.pie-legend-label span{font-size:10px}
+/* MUSLIM POP */
+.muslim-pop-card{background:var(--s1);border:1px solid rgba(96,165,250,.2);border-radius:8px;padding:16px 20px;margin-bottom:24px;border-left:3px solid #60a5fa;}
 .muslim-pop-card .label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#60a5fa;margin-bottom:6px}
 .muslim-pop-row{display:flex;align-items:baseline;gap:12px}
 .muslim-pct{font-family:var(--font-mono);font-size:28px;font-weight:700;color:#93c5fd}
 .muslim-sub{font-size:11px;color:var(--muted);line-height:1.6}
-
+/* CONTROLS */
+.controls-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--s1);border:1px solid var(--bdr);border-radius:8px;padding:12px 16px;margin-bottom:16px;}
+.ctrl-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.phase-select{background:var(--s2);border:1px solid var(--bdr);color:var(--txt);font-family:var(--font-mono);font-size:12px;padding:6px 12px;border-radius:6px;cursor:pointer;outline:none;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;padding-right:28px;transition:border-color .2s;}
+.phase-select:hover,.phase-select:focus{border-color:var(--accent)}
+.tab-group{display:flex;border:1px solid var(--bdr);border-radius:6px;overflow:hidden}
+.tab-btn{flex:1;padding:7px 18px;cursor:pointer;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:transparent;color:var(--muted);border:none;transition:all .2s;white-space:nowrap;}
+.tab-btn.active.inc{background:rgba(26,158,92,.15);color:#4ade80}
+.tab-btn.active.del{background:rgba(204,41,41,.15);color:#ff6b6b}
+.tab-btn:not(.active):hover{background:rgba(255,255,255,.04);color:var(--txt)}
+.tab-divider{width:1px;background:var(--bdr)}
+.search-wrap{position:relative}
+.search-input{background:var(--s2);border:1px solid var(--bdr);color:var(--txt);font-family:var(--font-sans);font-size:12px;padding:6px 12px 6px 30px;border-radius:6px;outline:none;width:200px;transition:border-color .2s;}
+.search-input:focus{border-color:var(--accent)}
+.search-input::placeholder{color:var(--muted)}
+.search-icon{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:12px;pointer-events:none}
+.dl-btn{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.06em;background:rgba(185,191,31,.1);border:1px solid rgba(185,191,31,.25);color:var(--accent2);padding:6px 14px;border-radius:6px;cursor:pointer;transition:all .2s;white-space:nowrap;}
+.dl-btn:hover{background:rgba(185,191,31,.2);border-color:rgba(185,191,31,.5)}
+/* TABLE */
+.data-table-wrap{overflow-x:auto;border-radius:8px;border:1px solid var(--bdr)}
+.data-table-wrap table td:nth-child(3){font-family:'Barlow',sans-serif;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:11px}
+thead{background:var(--s2)}
+th{padding:8px 12px;text-align:right;font-family:var(--font-mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--bdr);white-space:nowrap;}
+th:first-child{text-align:left}
+td{padding:7px 12px;text-align:right;border-bottom:1px solid rgba(255,255,255,.03);font-family:var(--font-mono);}
+td:first-child{text-align:left;font-weight:700;color:var(--accent)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+.td-m{color:#60a5fa}.td-f{color:#f472b6}.td-inc{color:#4ade80}.td-del{color:#ff6b6b}
+.row-count{font-size:11px;color:var(--muted);margin-bottom:8px}
+.empty-state{padding:48px;text-align:center;color:var(--muted);background:var(--s1);border:1px dashed var(--bdr);border-radius:8px;}
+.loading-spinner{display:flex;flex-direction:column;align-items:center;padding:48px;color:var(--muted);gap:12px;}
+.spin{width:24px;height:24px;border:2px solid var(--bdr);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* PAGINATION */
+.pagination{display:flex;align-items:center;gap:6px;margin-top:14px;flex-wrap:wrap;}
+.pg-btn{padding:5px 11px;border-radius:5px;cursor:pointer;font-family:var(--font-mono);font-size:11px;font-weight:700;background:var(--s1);border:1px solid var(--bdr);color:var(--muted);transition:all .2s;}
+.pg-btn:hover:not(:disabled){background:rgba(255,255,255,.06);color:var(--txt)}
+.pg-btn:disabled{opacity:.35;cursor:not-allowed}
+.pg-info{font-family:var(--font-mono);font-size:11px;color:var(--muted);margin:0 4px}
+.pg-spacer{flex:1}
 @media(max-width:700px){
   .topnav,main,.ac-header{padding-left:20px;padding-right:20px}
   .controls-bar{gap:8px}
-  .search-wrap{margin-left:0;width:100%}
+  .search-wrap,.dl-btn{width:100%;margin-left:0}
   .search-input{width:100%}
 }
 </style>
 </head>
 <body>
 
-<!-- ── SHARED INLINE SVG LOGO (used in both splash and nav) ─────────────────
-     All fills are hardcoded as attributes — no class-based colour rules,
-     so no external stylesheet can ever override them.
-──────────────────────────────────────────────────────────────────────────── -->
 <svg id="logo-tpl" xmlns="http://www.w3.org/2000/svg" viewBox="270 455 540 187" style="display:none">
-  <g>
-    <g>
-      <rect fill="#cbd222" x="472.38" y="550.13" width="12.44" height="12.44" transform="translate(-253.22 501.38) rotate(-45)"/>
-      <path fill="#cbd222" d="M489.39,477.01c-3.43,2.05-6.2,4.76-8.19,8.13-2.05,3.43-3.1,7.19-3.1,11.4.22,6.25,2.38,11.45,6.58,15.66,2.05,2.05,4.43,3.65,7.08,4.81,2.71,1.16,5.64,1.72,8.74,1.72h6.47c1.11,0,2.1.39,2.93,1.22.77.83,1.16,1.77,1.16,2.93s-.39,2.1-1.16,2.93c-.83.77-1.83,1.22-2.93,1.22h-32.48c-4.37,0-8.41,1.16-12.06,3.43-3.65,2.32-6.47,5.48-8.41,9.46l-2.43,5.03h55.11c4.09,0,7.8-1,11.23-3.04,3.38-1.99,6.09-4.65,8.08-8.02,1.99-3.32,2.99-7.08,3.04-11.18-.22-6.2-2.38-11.34-6.47-15.44-2.05-2.05-4.37-3.6-7.03-4.76-2.71-1.16-5.53-1.72-8.58-1.72h-6.36c-1.22,0-2.32-.44-3.15-1.27-.89-.83-1.38-1.88-1.44-3.1.05-1.33.44-2.38,1.33-3.21.88-.89,1.88-1.33,3.15-1.33h28.55v-17.93h-28.33c-4.1,0-7.91,1-11.34,3.04Z"/>
-      <rect fill="#cbd222" x="489.98" y="550.13" width="12.44" height="12.44" transform="translate(-248.06 513.77) rotate(-45)"/>
-      <path fill="#cbd222" d="M574.42,491.95c-.61,0-1.66,0-3.1-.06h-2.93c-.94,0-1.6,0-1.99.06h-5.98c-4.87,0-9.35,1.16-13.33,3.54-4.04,2.38-7.19,5.59-9.63,9.63-2.38,3.98-3.54,8.46-3.54,13.33s1.16,9.29,3.54,13.33c2.43,3.98,5.59,7.19,9.63,9.57,3.98,2.38,8.47,3.6,13.33,3.6h38.51v-60.31c-3.1,1.83-6.69,3.49-10.84,4.92-4.09,1.49-8.69,2.27-13.67,2.38ZM580.79,527.03h-20.58c-2.38,0-4.37-.83-6.09-2.49-1.66-1.72-2.49-3.71-2.49-6.09s.83-4.43,2.49-6.09c1.72-1.66,3.71-2.54,6.09-2.54h20.58v17.21Z"/>
-      <rect fill="#cbd222" x="636.47" y="550.13" width="12.44" height="12.44" transform="translate(-205.16 617.4) rotate(-45)"/>
-      <path fill="#cbd222" d="M663.6,491.51c-4.7-2.82-9.96-4.21-15.66-4.21h-23.07v-25.95l-6.31,2.99c-3.6,1.77-6.42,4.32-8.47,7.58-2.1,3.32-3.15,6.92-3.15,10.9v62.13h72.15v-26.5c0-5.75-1.44-10.95-4.21-15.66-2.82-4.7-6.58-8.46-11.29-11.29ZM661.17,527.03h-36.63c.22-1.22.33-2.43.33-3.65v-18.15h20.03c.77,0,1.77.11,3.04.22,1.33.17,2.71.55,4.21,1.16s2.93,1.6,4.37,2.93c.83.83,1.55,1.66,2.1,2.49,1.71,2.6,2.54,5.42,2.54,8.41v6.58Z"/>
-      <path fill="#cbd222" d="M725.34,491.95c-.61,0-1.66,0-3.1-.06h-2.93c-.94,0-1.6,0-1.99.06h-5.98c-4.87,0-9.35,1.16-13.33,3.54-4.04,2.38-7.19,5.59-9.63,9.63-2.38,3.98-3.54,8.46-3.54,13.33s1.16,9.29,3.54,13.33c2.43,3.98,5.59,7.19,9.63,9.57,3.98,2.38,8.46,3.6,13.33,3.6h38.51v-60.31c-3.1,1.83-6.7,3.49-10.84,4.92-4.09,1.49-8.69,2.27-13.67,2.38ZM731.7,527.03h-20.58c-2.38,0-4.37-.83-6.09-2.49-1.66-1.72-2.49-3.71-2.49-6.09s.83-4.43,2.49-6.09c1.71-1.66,3.71-2.54,6.09-2.54h20.58v17.21Z"/>
-      <polygon fill="#cbd222" points="793.39 472.86 782.65 462.07 771.87 472.86 782.65 483.59 793.39 472.86"/>
-      <path fill="#cbd222" d="M784.92,486.75c-4.98,0-9.52,1.22-13.61,3.65-4.09,2.43-7.36,5.7-9.79,9.79-2.43,4.09-3.65,8.63-3.65,13.61v31.15h17.98v-27.72c0-3.49,1.22-6.42,3.65-8.85,2.43-2.43,5.42-3.71,8.85-3.71h14.5v-17.93h-17.93Z"/>
-    </g>
-    <g>
-      <path fill="#cbd222" d="M443.32,544.95h-91.69c-20.07,0-36.34-16.27-36.34-36.34h0c0-20.07,16.27-36.34,36.34-36.34h91.69v72.69Z"/>
-      <path fill="#cbd222" d="M277.15,544.95h91.69c20.07,0,36.34,16.27,36.34,36.34h0c0,20.07-16.27,36.34-36.34,36.34h-91.69s0-72.69,0-72.69Z"/>
-    </g>
-    <g>
-      <path fill="#e8e8e8" d="M377.64,509.71h-39.19c-8.71,23.26,19.59,36.48,19.59,36.48,0,0,28.3-13.22,19.59-36.48Z"/>
-      <path fill="#eff1ba" d="M377.64,582.66h-39.19c-8.71-23.26,19.59-36.48,19.59-36.48,0,0,28.3,13.22,19.59,36.48Z"/>
-      <path fill="#eff1ba" d="M369.83,524.25h-23.57c-5.24,13.99,11.78,21.94,11.78,21.94,0,0,17.02-7.95,11.78-21.94Z"/>
-      <path fill="#e8e8e8" d="M369.83,568.13h-23.57c-5.24-13.99,11.78-21.94,11.78-21.94,0,0,17.02,7.95,11.78,21.94Z"/>
-    </g>
-    <g>
-      <path fill="#cbd222" d="M438.32,565.03h-22.05c-.2,0-.3.1-.3.3v2.01c0,.2.1.3.3.3.87,0,1.66.07,2.37.22.71.15,1.31.4,1.79.75.48.35.86.81,1.12,1.38.26.57.39,1.28.39,2.13v37.57c0,1.19-.14,2.14-.41,2.84-.27.7-.66,1.23-1.16,1.6-.5.37-1.1.62-1.81.73-.71.11-1.5.17-2.37.17-.12,0-.21.04-.24.11-.04.07-.06.14-.06.19v2.01c0,.05.02.11.06.19.04.07.12.11.24.11h22.05c.15,0,.24-.03.26-.09.02-.06.04-.13.04-.21v-2.01c0-.2-.1-.3-.3-.3-.87,0-1.66-.07-2.37-.22-.71-.15-1.31-.4-1.79-.75-.48-.35-.86-.81-1.12-1.38-.26-.57-.39-1.28-.39-2.13v-37.57c0-1.19.14-2.14.41-2.84.27-.7.66-1.23,1.16-1.6.5-.37,1.1-.62,1.81-.73.71-.11,1.5-.17,2.37-.17.12,0,.21-.04.24-.11.04-.07.06-.14.06-.19v-2.01s-.02-.11-.06-.19c-.04-.07-.12-.11-.24-.11Z"/>
-      <path fill="#cbd222" d="M501.34,615.4c-.22-.1-.54-.18-.95-.24-.41-.06-.86-.14-1.36-.24-.5-.1-1.01-.23-1.53-.39-.52-.16-1-.4-1.44-.73-.43-.32-.79-.73-1.06-1.23-.27-.5-.41-1.12-.41-1.87,0-1.59.02-2.95.06-4.07s.07-2.12.11-3c.04-.88.07-1.7.11-2.44.04-.75.06-1.55.06-2.42,0-.92-.04-1.95-.11-3.08-.07-1.13-.21-2.28-.41-3.43-.2-1.16-.49-2.29-.88-3.4-.39-1.11-.88-2.09-1.49-2.95s-1.36-1.55-2.26-2.07-1.95-.78-3.17-.78c-1.12,0-2.06.01-2.83.04-.77.03-1.48.09-2.13.21-.65.11-1.29.27-1.92.48-.63.21-1.36.51-2.16.9-.81.39-1.77.86-2.87,1.42-1.11.56-2.46,1.25-4.05,2.07-.12.07-.22.12-.3.13-.07.01-.17.02-.3.02s-.22-.12-.3-.37v-5.82c0-.6-.21-.9-.63-.9-.05,0-.13.02-.24.07-.11.05-.22.1-.32.15l-12.35,5.82c-.22.12-.37.25-.45.37-.07.12-.11.25-.11.37,0,.27.04.45.13.54.09.09.2.16.35.21.52.15,1.07.28,1.64.39s1.11.26,1.6.43c.5.17.91.43,1.23.76.32.34.49.8.49,1.4v18.95c0,1.12-.22,1.97-.67,2.56-.45.58-.97,1.01-1.57,1.27-.6.26-1.19.44-1.79.52-.6.09-1.06.21-1.38.35-.1.05-.19.21-.26.48-.07.27-.11.47-.11.6,0,.15.02.37.08.65.05.29.15.45.3.5h19.48c.15-.05.25-.22.3-.5.05-.29.07-.5.07-.65,0-.12-.04-.32-.11-.6-.07-.27-.16-.43-.26-.48-.32-.15-.78-.27-1.38-.35-.6-.09-1.19-.26-1.79-.52-.6-.26-1.12-.68-1.57-1.27-.45-.58-.67-1.44-.67-2.56v-18.28c.02-.25.14-.45.36-.62.21-.16.42-.3.62-.43,1.59-.77,2.86-1.38,3.8-1.83s1.71-.78,2.29-1.01,1.08-.37,1.49-.43c.41-.06.88-.09,1.4-.09,1.49,0,2.66.3,3.51.9.84.6,1.49,1.37,1.92,2.31.43.95.71,2.01.82,3.21.11,1.19.17,2.4.17,3.62,0,1.57.01,2.98.04,4.25.02,1.27.04,2.46.04,3.58,0,.52,0,.98-.02,1.38-.01.4-.03.76-.06,1.1-.03.34-.06.67-.09.99-.04.32-.08.67-.13,1.05-.15,1.19-.45,2.1-.91,2.7-.46.61-.97,1.06-1.53,1.36-.56.3-1.11.49-1.64.58-.54.09-.96.21-1.29.35-.1.05-.19.21-.26.48-.07.27-.11.47-.11.6,0,.15.02.37.07.65.05.29.15.45.3.5h20.82c.15-.05.25-.22.3-.5.05-.29.07-.5.07-.65,0-.12-.04-.32-.11-.6-.07-.27-.16-.43-.26-.48Z"/>
-      <path fill="#cbd222" d="M535.23,600.48c-1.17-1.09-2.44-2.06-3.82-2.91-1.38-.85-2.66-1.63-3.82-2.37-1.17-.73-2.15-1.46-2.93-2.18-.78-.72-1.18-1.5-1.18-2.35,0-.97.12-1.77.35-2.39.24-.62.55-1.11.95-1.47.4-.36.84-.6,1.34-.73.5-.12.99-.19,1.49-.19.84,0,1.59.19,2.24.58.65.39,1.21.9,1.7,1.53.48.63.91,1.34,1.29,2.13.37.78.71,1.56,1.01,2.33.07.22.24.39.5.48.26.1.53.15.8.15.3,0,.6-.09.91-.28.31-.19.47-.49.47-.91,0-1.54,0-2.79-.02-3.75-.01-.96-.04-1.72-.07-2.29-.04-.57-.11-.99-.22-1.25-.11-.26-.26-.45-.43-.58-.12-.07-.42-.2-.88-.37-.46-.17-1.02-.35-1.68-.52-.66-.17-1.38-.33-2.16-.47-.78-.14-1.56-.21-2.33-.21-1.47,0-2.94.26-4.42.78-1.48.52-2.82,1.22-4.01,2.09-1.19.87-2.16,1.87-2.91,3-.75,1.13-1.12,2.29-1.12,3.49,0,2.06.37,3.8,1.12,5.2.75,1.41,1.67,2.62,2.78,3.64,1.11,1.02,2.31,1.92,3.62,2.69,1.31.77,2.51,1.53,3.62,2.28,1.11.75,2.03,1.55,2.78,2.41.75.86,1.12,1.91,1.12,3.15,0,.62-.04,1.22-.13,1.79-.09.57-.27,1.08-.54,1.53-.27.45-.66.81-1.16,1.08-.5.27-1.14.41-1.94.41-1.04,0-1.94-.14-2.69-.43-.75-.29-1.39-.69-1.94-1.21-.55-.52-1.03-1.16-1.46-1.9-.42-.75-.85-1.58-1.27-2.5-.07-.15-.19-.32-.34-.52s-.32-.39-.5-.58c-.19-.19-.39-.34-.6-.47s-.4-.19-.58-.19c-.32,0-.63.06-.91.17-.29.11-.43.37-.43.76,0,.72.04,1.62.11,2.71.07,1.08.17,2.13.28,3.13s.22,1.87.32,2.59c.1.72.17,1.08.22,1.08h1.34c.2,0,.37-.06.52-.19.15-.12.3-.27.47-.43.16-.16.33-.31.5-.43.17-.12.37-.19.6-.19.05,0,.26.06.63.19.37.12.85.27,1.42.43.57.16,1.21.3,1.9.43.7.12,1.39.19,2.09.19,1.37,0,2.77-.22,4.2-.65s2.73-1.05,3.9-1.85c1.17-.8,2.13-1.77,2.87-2.93.75-1.16,1.12-2.46,1.12-3.9,0-1.94-.39-3.62-1.18-5.06-.78-1.43-1.76-2.69-2.93-3.79Z"/>
-      <path fill="#cbd222" d="M579.37,586.13c-.05-.46-.1-.88-.15-1.27-.05-.39-.1-.64-.15-.77-.08-.22-.19-.4-.34-.54-.15-.14-.42-.21-.82-.21h-9.51c-.27-.02-.44-.1-.5-.22-.06-.12-.09-.29-.09-.49.12-.47.26-.96.41-1.46.15-.5.29-.97.41-1.42.12-.45.23-.85.32-1.21.09-.36.13-.63.13-.8,0-.15-.1-.27-.3-.37-.2-.1-.37-.15-.52-.15-.67,0-1.33.21-1.98.62s-1.25.88-1.81,1.42-1.06,1.08-1.49,1.62c-.44.55-.78.96-1.03,1.23-.42.4-.91.83-1.46,1.31-.55.47-1.11.95-1.68,1.42-.57.47-1.15.93-1.73,1.36s-1.13.81-1.62,1.14c-.07.05-.14.15-.19.3-.05.15-.08.29-.08.41.02.2.14.39.34.56.2.17.47.26.82.26h2.8v20.86c0,1.14.24,2.25.73,3.32.48,1.07,1.15,2.02,2,2.85.85.83,1.85,1.5,3.02,2s2.43.75,3.77.75c.97,0,1.9-.17,2.78-.5s1.7-.76,2.44-1.27c.75-.51,1.42-1.06,2.03-1.66.61-.6,1.13-1.16,1.55-1.68.42-.52.76-.97,1.01-1.34.25-.37.39-.58.41-.63.05-.1.12-.24.21-.43.09-.19.13-.44.13-.77,0-.15-.03-.36-.09-.63-.06-.27-.27-.41-.62-.41-.5,0-.95.17-1.34.5-.4.34-.86.7-1.38,1.1-.52.4-1.14.76-1.87,1.1-.72.34-1.66.5-2.8.5-.4,0-.8-.1-1.19-.3s-.75-.5-1.06-.9c-.31-.4-.57-.9-.76-1.49-.2-.6-.3-1.29-.3-2.09v-18.54c0-.12,0-.21.02-.26.01-.05.08-.07.2-.07h11.23c.2,0,.3-.07.3-.22,0-.3-.02-.68-.06-1.14-.04-.46-.08-.92-.13-1.38Z"/>
-      <path fill="#cbd222" d="M603.52,574.06c1.59,0,2.86-.47,3.81-1.4.94-.93,1.42-2.2,1.42-3.79s-.47-2.86-1.42-3.81c-.95-.94-2.21-1.42-3.81-1.42s-2.86.47-3.81,1.42c-.94.95-1.42,2.21-1.42,3.81s.47,2.85,1.42,3.79,2.21,1.4,3.81,1.4Z"/>
-      <path fill="#cbd222" d="M613.96,615.4c-.32-.15-.78-.27-1.38-.35-.6-.09-1.19-.26-1.79-.52-.6-.26-1.12-.67-1.57-1.23s-.67-1.39-.67-2.48v-27.53c0-.6-.21-.9-.63-.9-.05,0-.13.03-.24.07-.11.05-.22.1-.32.15l-12.35,5.82c-.22.12-.37.25-.45.37-.07.12-.11.25-.11.37,0,.27.04.45.13.54.09.09.2.16.35.21.52.15,1.07.28,1.64.39s1.11.26,1.6.43c.5.17.91.43,1.23.77.32.34.48.8.48,1.4v17.91c0,1.1-.22,1.92-.67,2.48s-.97.97-1.57,1.23c-.6.26-1.19.44-1.79.52-.6.09-1.06.21-1.38.35-.1.05-.19.21-.26.48-.07.27-.11.47-.11.6,0,.15.02.37.08.65.05.29.15.45.3.5h19.48c.15-.05.25-.22.3-.5.05-.29.07-.5.07-.65,0-.12-.04-.32-.11-.6-.07-.27-.16-.43-.26-.48Z"/>
-      <path fill="#cbd222" d="M653.44,586.13c-.05-.46-.1-.88-.15-1.27-.05-.39-.1-.64-.15-.77-.08-.22-.19-.4-.34-.54-.15-.14-.42-.21-.82-.21h-9.51c-.27-.02-.44-.1-.5-.22-.06-.12-.09-.29-.09-.49.12-.47.26-.96.41-1.46.15-.5.29-.97.41-1.42.12-.45.23-.85.32-1.21.09-.36.13-.63.13-.8,0-.15-.1-.27-.3-.37-.2-.1-.37-.15-.52-.15-.67,0-1.33.21-1.98.62s-1.25.88-1.81,1.42-1.06,1.08-1.49,1.62c-.44.55-.78.96-1.03,1.23-.42.4-.91.83-1.46,1.31-.55.47-1.11.95-1.68,1.42-.57.47-1.15.93-1.73,1.36s-1.13.81-1.62,1.14c-.07.05-.14.15-.19.3-.05.15-.08.29-.08.41.02.2.14.39.34.56.2.17.47.26.82.26h2.8v20.86c0,1.14.24,2.25.73,3.32.48,1.07,1.15,2.02,2,2.85.85.83,1.85,1.5,3.02,2s2.43.75,3.77.75c.97,0,1.9-.17,2.78-.5s1.7-.76,2.44-1.27c.75-.51,1.42-1.06,2.03-1.66.61-.6,1.13-1.16,1.55-1.68.42-.52.76-.97,1.01-1.34.25-.37.39-.58.41-.63.05-.1.12-.24.21-.43.09-.19.13-.44.13-.77,0-.15-.03-.36-.09-.63-.06-.27-.27-.41-.62-.41-.5,0-.95.17-1.34.5-.4.34-.86.7-1.38,1.1-.52.4-1.14.76-1.87,1.1-.72.34-1.66.5-2.8.5-.4,0-.8-.1-1.19-.3s-.75-.5-1.06-.9c-.31-.4-.57-.9-.76-1.49-.2-.6-.3-1.29-.3-2.09v-18.54c0-.12,0-.21.02-.26.01-.05.08-.07.2-.07h11.23c.2,0,.3-.07.3-.22,0-.3-.02-.68-.06-1.14-.04-.46-.08-.92-.13-1.38Z"/>
-      <path fill="#cbd222" d="M708.26,611.45l-2.16.15c-1.12,0-1.93-.24-2.42-.71-.5-.47-.81-1.26-.93-2.35v-25.74c0-.22-.12-.34-.37-.34-.15,0-.3.01-.47.04-.16.03-.32.06-.47.11l-11.38,3.25c-.27.07-.44.19-.5.34-.06.15-.09.32-.09.52,0,.22.06.38.17.47.11.09.26.15.43.19.17.04.37.06.58.07.21.01.4.04.58.09.67.15,1.3.48,1.88.99.58.51.91,1.13.99,1.85v19.96c-.32.45-.75.88-1.27,1.29-.52.41-1.08.77-1.68,1.08-.6.31-1.22.57-1.87.77-.65.2-1.27.3-1.87.3-.85,0-1.67-.12-2.46-.37-.8-.25-1.5-.61-2.13-1.08-.62-.47-1.13-1.05-1.51-1.73s-.58-1.45-.58-2.29v-25.18c0-.42-.12-.63-.37-.63-.15,0-.3.01-.47.04-.16.03-.32.06-.47.11l-11.38,3.28c-.27.07-.44.19-.5.34-.06.15-.09.32-.09.52,0,.22.06.38.17.47s.26.15.43.19c.17.04.37.06.58.07.21.01.4.04.58.09.67.15,1.3.48,1.88.99.58.51.91,1.13.99,1.85v22.54c0,1.02.36,1.89,1.08,2.61.72.72,1.62,1.31,2.7,1.77,1.08.46,2.25.8,3.51,1.01,1.25.21,2.41.32,3.45.32.62,0,1.19-.05,1.72-.15.52-.1,1.01-.24,1.47-.41.46-.17.93-.35,1.4-.54.47-.19.98-.38,1.53-.58l5.97-2.91s.02-.07.08-.07h.15c.17,0,.3.05.37.15v3.58c0,.2.02.4.06.62.04.21.14.32.32.32.02,0,.14-.03.33-.09.2-.06.32-.11.37-.13l11.34-4.66c.25-.12.4-.32.47-.6.06-.27.09-.43.09-.48,0-.15-.01-.39-.04-.73s-.09-.5-.19-.5Z"/>
-      <path fill="#cbd222" d="M747.96,586.13c-.05-.46-.1-.88-.15-1.27-.05-.39-.1-.64-.15-.77-.07-.22-.19-.4-.34-.54-.15-.14-.42-.21-.82-.21h-9.51c-.27-.02-.44-.1-.5-.22-.06-.12-.09-.29-.09-.49.12-.47.26-.96.41-1.46.15-.5.29-.97.41-1.42.12-.45.23-.85.32-1.21.09-.36.13-.63.13-.8,0-.15-.1-.27-.3-.37-.2-.1-.37-.15-.52-.15-.67,0-1.33.21-1.98.62-.65.41-1.25.88-1.81,1.42s-1.06,1.08-1.49,1.62c-.44.55-.78.96-1.03,1.23-.42.4-.91.83-1.46,1.31-.55.47-1.11.95-1.68,1.42s-1.15.93-1.73,1.36-1.13.81-1.62,1.14c-.07.05-.14.15-.19.3-.05.15-.07.29-.07.41.02.2.14.39.34.56.2.17.47.26.82.26h2.8v20.86c0,1.14.24,2.25.73,3.32.49,1.07,1.15,2.02,2,2.85.84.83,1.85,1.5,3.02,2,1.17.5,2.42.75,3.77.75.97,0,1.9-.17,2.78-.5.88-.34,1.7-.76,2.44-1.27.75-.51,1.42-1.06,2.03-1.66.61-.6,1.12-1.16,1.55-1.68.42-.52.76-.97,1.01-1.34.25-.37.39-.58.41-.63.05-.1.12-.24.2-.43.09-.19.13-.44.13-.77,0-.15-.03-.36-.09-.63-.06-.27-.27-.41-.62-.41-.5,0-.94.17-1.34.5s-.86.7-1.38,1.1c-.52.4-1.14.76-1.87,1.1s-1.65.5-2.8.5c-.4,0-.8-.1-1.19-.3-.4-.2-.75-.5-1.06-.9-.31-.4-.57-.9-.77-1.49-.2-.6-.3-1.29-.3-2.09v-18.54c0-.12,0-.21.02-.26.01-.05.08-.07.21-.07h11.23c.2,0,.3-.07.3-.22,0-.3-.02-.68-.06-1.14-.04-.46-.08-.92-.13-1.38Z"/>
-      <path fill="#cbd222" d="M771.7,597.23h22.01c.32,0,.55-.21.69-.62.14-.41.21-.79.21-1.14,0-1.07-.22-2.18-.67-3.34-.45-1.16-1-2.24-1.64-3.26-.65-1.02-1.34-1.92-2.07-2.69-.73-.77-1.39-1.31-1.96-1.6-.5-.3-.99-.58-1.47-.84-.48-.26-1.01-.49-1.57-.67-.56-.19-1.18-.34-1.85-.45s-1.43-.17-2.28-.17c-2.84,0-5.37.5-7.59,1.49-2.23,1-4.11,2.39-5.65,4.18s-2.72,3.91-3.54,6.36c-.82,2.45-1.23,5.13-1.23,8.04,0,1.99.35,3.95,1.06,5.88.71,1.93,1.75,3.65,3.11,5.17,1.37,1.52,3.05,2.74,5.04,3.67s4.27,1.4,6.83,1.4c1.27,0,2.61-.22,4.03-.67,1.42-.45,2.8-1.04,4.16-1.77,1.36-.73,2.63-1.57,3.82-2.5,1.19-.93,2.2-1.88,3.02-2.85.1-.1.15-.19.15-.26s-.04-.15-.11-.22c-.12-.17-.3-.39-.52-.65s-.45-.49-.67-.69c-.12-.12-.22-.19-.3-.19-.05,0-.15.02-.3.07-.65.52-1.33,1.05-2.05,1.57-.72.52-1.49,1-2.31,1.42-.82.42-1.68.76-2.57,1.03-.9.26-1.83.39-2.8.39-1.54,0-3.01-.3-4.4-.91-1.39-.61-2.63-1.5-3.69-2.69-1.07-1.18-1.92-2.62-2.56-4.33-.63-1.7-.95-3.65-.95-5.84,0-.65.04-1.19.13-1.64.09-.45.25-.67.5-.67ZM772.57,591.22c.31-.77.78-1.52,1.4-2.24.62-.72,1.38-1.34,2.28-1.85.9-.51,1.94-.76,3.13-.76.99,0,1.9.19,2.7.56.81.37,1.5.89,2.07,1.55.57.66,1.01,1.42,1.32,2.28s.47,1.77.47,2.74c0,.57-.32.86-.97.86h-12.2c-.2,0-.36-.09-.49-.26-.12-.17-.19-.47-.19-.9,0-.55.15-1.21.47-1.98Z"/>
-    </g>
-  </g>
+  <g><g>
+    <rect fill="#cbd222" x="472.38" y="550.13" width="12.44" height="12.44" transform="translate(-253.22 501.38) rotate(-45)"/>
+    <path fill="#cbd222" d="M489.39,477.01c-3.43,2.05-6.2,4.76-8.19,8.13-2.05,3.43-3.1,7.19-3.1,11.4.22,6.25,2.38,11.45,6.58,15.66,2.05,2.05,4.43,3.65,7.08,4.81,2.71,1.16,5.64,1.72,8.74,1.72h6.47c1.11,0,2.1.39,2.93,1.22.77.83,1.16,1.77,1.16,2.93s-.39,2.1-1.16,2.93c-.83.77-1.83,1.22-2.93,1.22h-32.48c-4.37,0-8.41,1.16-12.06,3.43-3.65,2.32-6.47,5.48-8.41,9.46l-2.43,5.03h55.11c4.09,0,7.8-1,11.23-3.04,3.38-1.99,6.09-4.65,8.08-8.02,1.99-3.32,2.99-7.08,3.04-11.18-.22-6.2-2.38-11.34-6.47-15.44-2.05-2.05-4.37-3.6-7.03-4.76-2.71-1.16-5.53-1.72-8.58-1.72h-6.36c-1.22,0-2.32-.44-3.15-1.27-.89-.83-1.38-1.88-1.44-3.1.05-1.33.44-2.38,1.33-3.21.88-.89,1.88-1.33,3.15-1.33h28.55v-17.93h-28.33c-4.1,0-7.91,1-11.34,3.04Z"/>
+    <rect fill="#cbd222" x="489.98" y="550.13" width="12.44" height="12.44" transform="translate(-248.06 513.77) rotate(-45)"/>
+    <path fill="#cbd222" d="M574.42,491.95c-.61,0-1.66,0-3.1-.06h-2.93c-.94,0-1.6,0-1.99.06h-5.98c-4.87,0-9.35,1.16-13.33,3.54-4.04,2.38-7.19,5.59-9.63,9.63-2.38,3.98-3.54,8.46-3.54,13.33s1.16,9.29,3.54,13.33c2.43,3.98,5.59,7.19,9.63,9.57,3.98,2.38,8.47,3.6,13.33,3.6h38.51v-60.31c-3.1,1.83-6.69,3.49-10.84,4.92-4.09,1.49-8.69,2.27-13.67,2.38ZM580.79,527.03h-20.58c-2.38,0-4.37-.83-6.09-2.49-1.66-1.72-2.49-3.71-2.49-6.09s.83-4.43,2.49-6.09c1.72-1.66,3.71-2.54,6.09-2.54h20.58v17.21Z"/>
+    <rect fill="#cbd222" x="636.47" y="550.13" width="12.44" height="12.44" transform="translate(-205.16 617.4) rotate(-45)"/>
+    <path fill="#cbd222" d="M663.6,491.51c-4.7-2.82-9.96-4.21-15.66-4.21h-23.07v-25.95l-6.31,2.99c-3.6,1.77-6.42,4.32-8.47,7.58-2.1,3.32-3.15,6.92-3.15,10.9v62.13h72.15v-26.5c0-5.75-1.44-10.95-4.21-15.66-2.82-4.7-6.58-8.46-11.29-11.29ZM661.17,527.03h-36.63c.22-1.22.33-2.43.33-3.65v-18.15h20.03c.77,0,1.77.11,3.04.22,1.33.17,2.71.55,4.21,1.16s2.93,1.6,4.37,2.93c.83.83,1.55,1.66,2.1,2.49,1.71,2.6,2.54,5.42,2.54,8.41v6.58Z"/>
+    <path fill="#cbd222" d="M725.34,491.95c-.61,0-1.66,0-3.1-.06h-2.93c-.94,0-1.6,0-1.99.06h-5.98c-4.87,0-9.35,1.16-13.33,3.54-4.04,2.38-7.19,5.59-9.63,9.63-2.38,3.98-3.54,8.46-3.54,13.33s1.16,9.29,3.54,13.33c2.43,3.98,5.59,7.19,9.63,9.57,3.98,2.38,8.46,3.6,13.33,3.6h38.51v-60.31c-3.1,1.83-6.7,3.49-10.84,4.92-4.09,1.49-8.69,2.27-13.67,2.38ZM731.7,527.03h-20.58c-2.38,0-4.37-.83-6.09-2.49-1.66-1.72-2.49-3.71-2.49-6.09s.83-4.43,2.49-6.09c1.71-1.66,3.71-2.54,6.09-2.54h20.58v17.21Z"/>
+    <polygon fill="#cbd222" points="793.39 472.86 782.65 462.07 771.87 472.86 782.65 483.59 793.39 472.86"/>
+    <path fill="#cbd222" d="M784.92,486.75c-4.98,0-9.52,1.22-13.61,3.65-4.09,2.43-7.36,5.7-9.79,9.79-2.43,4.09-3.65,8.63-3.65,13.61v31.15h17.98v-27.72c0-3.49,1.22-6.42,3.65-8.85,2.43-2.43,5.42-3.71,8.85-3.71h14.5v-17.93h-17.93Z"/>
+  </g><g>
+    <path fill="#cbd222" d="M443.32,544.95h-91.69c-20.07,0-36.34-16.27-36.34-36.34h0c0-20.07,16.27-36.34,36.34-36.34h91.69v72.69Z"/>
+    <path fill="#cbd222" d="M277.15,544.95h91.69c20.07,0,36.34,16.27,36.34,36.34h0c0,20.07-16.27,36.34-36.34,36.34h-91.69s0-72.69,0-72.69Z"/>
+  </g><g>
+    <path fill="#e8e8e8" d="M377.64,509.71h-39.19c-8.71,23.26,19.59,36.48,19.59,36.48,0,0,28.3-13.22,19.59-36.48Z"/>
+    <path fill="#eff1ba" d="M377.64,582.66h-39.19c-8.71-23.26,19.59-36.48,19.59-36.48,0,0,28.3,13.22,19.59,36.48Z"/>
+    <path fill="#eff1ba" d="M369.83,524.25h-23.57c-5.24,13.99,11.78,21.94,11.78,21.94,0,0,17.02-7.95,11.78-21.94Z"/>
+    <path fill="#e8e8e8" d="M369.83,568.13h-23.57c-5.24-13.99,11.78-21.94,11.78-21.94,0,0,17.02,7.95,11.78,21.94Z"/>
+  </g><g>
+    <path fill="#cbd222" d="M438.32,565.03h-22.05c-.2,0-.3.1-.3.3v2.01c0,.2.1.3.3.3.87,0,1.66.07,2.37.22.71.15,1.31.4,1.79.75.48.35.86.81,1.12,1.38.26.57.39,1.28.39,2.13v37.57c0,1.19-.14,2.14-.41,2.84-.27.7-.66,1.23-1.16,1.6-.5.37-1.1.62-1.81.73-.71.11-1.5.17-2.37.17-.12,0-.21.04-.24.11-.04.07-.06.14-.06.19v2.01c0,.05.02.11.06.19.04.07.12.11.24.11h22.05c.15,0,.24-.03.26-.09.02-.06.04-.13.04-.21v-2.01c0-.2-.1-.3-.3-.3-.87,0-1.66-.07-2.37-.22-.71-.15-1.31-.4-1.79-.75-.48-.35-.86-.81-1.12-1.38-.26-.57-.39-1.28-.39-2.13v-37.57c0-1.19.14-2.14.41-2.84.27-.7.66-1.23,1.16-1.6.5-.37,1.1-.62,1.81-.73.71-.11,1.5-.17,2.37-.17.12,0,.21-.04.24-.11.04-.07.06-.14.06-.19v-2.01s-.02-.11-.06-.19c-.04-.07-.12-.11-.24-.11Z"/>
+    <path fill="#cbd222" d="M771.7,597.23h22.01c.32,0,.55-.21.69-.62.14-.41.21-.79.21-1.14,0-1.07-.22-2.18-.67-3.34-.45-1.16-1-2.24-1.64-3.26-.65-1.02-1.34-1.92-2.07-2.69-.73-.77-1.39-1.31-1.96-1.6-.5-.3-.99-.58-1.47-.84-.48-.26-1.01-.49-1.57-.67-.56-.19-1.18-.34-1.85-.45s-1.43-.17-2.28-.17c-2.84,0-5.37.5-7.59,1.49-2.23,1-4.11,2.39-5.65,4.18s-2.72,3.91-3.54,6.36c-.82,2.45-1.23,5.13-1.23,8.04,0,1.99.35,3.95,1.06,5.88.71,1.93,1.75,3.65,3.11,5.17,1.37,1.52,3.05,2.74,5.04,3.67s4.27,1.4,6.83,1.4c1.27,0,2.61-.22,4.03-.67,1.42-.45,2.8-1.04,4.16-1.77,1.36-.73,2.63-1.57,3.82-2.5,1.19-.93,2.2-1.88,3.02-2.85.1-.1.15-.19.15-.26s-.04-.15-.11-.22c-.12-.17-.3-.39-.52-.65s-.45-.49-.67-.69c-.12-.12-.22-.19-.3-.19-.05,0-.15.02-.3.07-.65.52-1.33,1.05-2.05,1.57-.72.52-1.49,1-2.31,1.42-.82.42-1.68.76-2.57,1.03-.9.26-1.83.39-2.8.39-1.54,0-3.01-.3-4.4-.91-1.39-.61-2.63-1.5-3.69-2.69-1.07-1.18-1.92-2.62-2.56-4.33-.63-1.7-.95-3.65-.95-5.84,0-.65.04-1.19.13-1.64.09-.45.25-.67.5-.67ZM772.57,591.22c.31-.77.78-1.52,1.4-2.24.62-.72,1.38-1.34,2.28-1.85.9-.51,1.94-.76,3.13-.76.99,0,1.9.19,2.7.56.81.37,1.5.89,2.07,1.55.57.66,1.01,1.42,1.32,2.28s.47,1.77.47,2.74c0,.57-.32.86-.97.86h-12.2c-.2,0-.36-.09-.49-.26-.12-.17-.19-.47-.19-.9,0-.55.15-1.21.47-1.98Z"/>
+  </g></g>
 </svg>
 
-<!-- SPLASH -->
 <div id="splash" aria-hidden="true">
-  <!-- SVG cloned from template by JS so we only define it once -->
   <svg class="sp-logo" id="splash-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="270 455 540 187"></svg>
   <div class="sp-line"></div>
   <p class="sp-tag"><b>SIR 2026</b> Analysis</p>
@@ -341,7 +172,6 @@ tr:hover td{background:rgba(255,255,255,.02)}
   <div class="sp-bar"></div>
 </div>
 
-<!-- TOP NAV -->
 <nav class="topnav">
   <div class="nav-left">
     <svg class="nav-logo" id="nav-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="270 455 540 187"></svg>
@@ -352,24 +182,18 @@ tr:hover td{background:rgba(255,255,255,.02)}
 </nav>
 
 <script>
-// Clone the logo SVG content into both splash and nav targets
 (function(){
-  var tpl = document.getElementById('logo-tpl');
-  var inner = tpl.innerHTML;
-  document.getElementById('splash-logo-svg').innerHTML = inner;
-  document.getElementById('nav-logo-svg').innerHTML = inner;
+  var inner=document.getElementById('logo-tpl').innerHTML;
+  document.getElementById('splash-logo-svg').innerHTML=inner;
+  document.getElementById('nav-logo-svg').innerHTML=inner;
 })();
-</script>
-
-<script>
 (function(){
   var MIN=2400,start=Date.now();
   function go(){
     var wait=Math.max(0,MIN-(Date.now()-start));
     setTimeout(function(){
       var el=document.getElementById('splash');
-      if(!el)return;
-      el.classList.add('out');
+      if(!el)return;el.classList.add('out');
       setTimeout(function(){if(el.parentNode)el.parentNode.removeChild(el);},600);
     },wait);
   }
@@ -378,7 +202,6 @@ tr:hover td{background:rgba(255,255,255,.02)}
 })();
 </script>
 
-<!-- ASSEMBLY HEADER -->
 <div class="ac-header">
   <div class="ac-badge" id="ac-badge">AC · —</div>
   <h1 class="ac-title" id="ac-title">Loading…</h1>
@@ -386,27 +209,24 @@ tr:hover td{background:rgba(255,255,255,.02)}
   <div class="header-stat-row" id="header-stats"></div>
 </div>
 
-<!-- MAIN -->
 <main>
 
-<!-- SECTION: SUMMARY -->
+<!-- SECTION 01: SUMMARY -->
 <section>
   <div class="sec-lbl">Section 01</div>
   <h2>Assembly Summary</h2>
-
   <div class="stats-row" id="summary-cards"></div>
-
-  <div class="muslim-pop-card" id="muslim-pop-card">
+  <div class="muslim-pop-card">
     <div class="label">Muslim Population (Census Estimate)</div>
     <div class="muslim-pop-row">
       <div class="muslim-pct" id="muslim-pct">—</div>
-      <div class="muslim-sub">% of total assembly population.<br><span style="color:#60a5fa">Source: Census / local estimate. Hardcoded at deployment.</span></div>
+      <div class="muslim-sub" id="muslim-sub-txt">% of total assembly population.</div>
     </div>
   </div>
-
+  <!-- Gender ratio — horizontal bar — deletions only -->
   <div class="ratio-group">
-    <div class="ratio-title">Gender Ratio — Inclusions &amp; Deletions Combined</div>
-    <div class="ratio-bar-wrap" id="gender-bar">
+    <div class="ratio-title">Gender Ratio — Deletions Only</div>
+    <div class="ratio-bar-wrap">
       <div class="ratio-bar-seg" id="gb-male" style="background:#3b82f6;width:50%">M</div>
       <div class="ratio-bar-seg" id="gb-female" style="background:#ec4899;width:50%">F</div>
     </div>
@@ -415,37 +235,28 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <span class="ratio-lbl"><span class="ratio-dot" style="background:#ec4899"></span>Female <b id="gb-female-pct">—</b></span>
     </div>
   </div>
-
-  <div class="ratio-group">
-    <div class="ratio-title">Religion Ratio — Inclusions &amp; Deletions Combined</div>
-    <div class="ratio-bar-wrap" id="rel-bar">
-      <div class="ratio-bar-seg" id="rb-muslim" style="background:#60a5fa;width:40%">Muslim</div>
-      <div class="ratio-bar-seg" id="rb-nonmuslim" style="background:#34d399;width:60%">Non-Muslim</div>
+  <!-- Religion ratio — pie chart — deletions only -->
+  <div class="pie-group">
+    <div class="pie-title">Religion Ratio Among Deletions</div>
+    <div class="pie-wrap">
+      <svg id="pie-svg" width="130" height="130" viewBox="0 0 130 130">
+        <circle cx="65" cy="65" r="55" fill="var(--s2)"/>
+        <text x="65" y="70" text-anchor="middle" font-family="Courier New" font-size="11" fill="#888">Loading…</text>
+      </svg>
     </div>
-    <div class="ratio-legend">
-      <span class="ratio-lbl"><span class="ratio-dot" style="background:#60a5fa"></span>Muslim <b id="rb-muslim-pct">—</b></span>
-      <span class="ratio-lbl"><span class="ratio-dot" style="background:#34d399"></span>Non-Muslim <b id="rb-nonmuslim-pct">—</b></span>
-    </div>
-  </div>
-
-  <h2 style="font-size:16px;margin-bottom:12px;color:var(--muted)">Part-wise Cumulative Counts <span style="font-size:12px;font-weight:400">(across all phases)</span></h2>
-  <div class="part-table-wrap" id="part-table-wrap">
-    <div class="loading-spinner"><div class="spin"></div><span>Aggregating data…</span></div>
+    <div class="pie-legend" id="pie-legend"></div>
   </div>
 </section>
 
 <div class="hr"></div>
 
-<!-- SECTION: DATA VIEWER -->
+<!-- SECTION 02: SUPPLEMENTARY LIST VIEWER -->
 <section>
   <div class="sec-lbl">Section 02</div>
-  <h2>Phase-wise Data Viewer</h2>
-
+  <h2>Supplementary List Viewer</h2>
   <div class="controls-bar">
-    <span class="ctrl-label">Phase</span>
-    <select class="phase-select" id="phase-select">
-      <option value="">Select phase…</option>
-    </select>
+    <span class="ctrl-label">List</span>
+    <select class="phase-select" id="phase-select"></select>
     <div class="tab-group">
       <button class="tab-btn inc active" id="tab-inc" onclick="switchTab('inc')">▲ Inclusions</button>
       <div class="tab-divider"></div>
@@ -455,12 +266,20 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <span class="search-icon">🔍</span>
       <input class="search-input" id="search-input" type="text" placeholder="Search EPIC / Name…" oninput="filterTable()">
     </div>
+    <button class="dl-btn" onclick="downloadCSV()">⬇ Download CSV</button>
   </div>
-
   <div class="row-count" id="row-count"></div>
-  <div id="data-table-container">
-    <div class="empty-state">Select a phase above to view inclusion or deletion data.</div>
-  </div>
+  <div id="data-table-container"><div class="empty-state">Select a supplementary list above.</div></div>
+</section>
+
+<div class="hr"></div>
+
+<!-- SECTION 03: PART-WISE COUNTS -->
+<section>
+  <div class="sec-lbl">Section 03</div>
+  <h2 style="margin-bottom:6px">Part-wise Cumulative Counts</h2>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:20px">Aggregated across all supplementary lists.</p>
+  <div id="part-table-wrap"><div class="loading-spinner"><div class="spin"></div><span>Aggregating…</span></div></div>
 </section>
 
 </main>
@@ -472,61 +291,103 @@ const BASE=`AC/${AC_FOLDER}`;
 let meta={};
 let currentTab='inc';
 let currentRows=[];
+let filteredRows=[];
+let currentPage=1;
+const ROWS_PER_PAGE=20;
 let allPhaseData={inc:{},del:{}};
+let partRows=[];
+let partPage=1;
+const PART_PER_PAGE=20;
 
-const fi=n=>(n!=null?Math.round(n).toLocaleString():0);
+const fi=n=>n!=null?Math.round(n).toLocaleString():'0';
 const pct=(a,t)=>t?((a/t)*100).toFixed(1)+'%':'—';
+const pctNum=(a,t)=>t?(a/t)*100:0;
+const listLabel=ph=>`Supplementary List ${ph}`;
 
 async function fetchCSV(url){
-  try{
-    const r=await fetch(url);
-    if(!r.ok)return null;
-    const txt=await r.text();
-    return Papa.parse(txt,{header:true,skipEmptyLines:true}).data;
-  }catch(e){return null;}
+  try{const r=await fetch(url);if(!r.ok)return null;const txt=await r.text();return Papa.parse(txt,{header:true,skipEmptyLines:true}).data;}
+  catch(e){return null;}
+}
+
+// Pie chart (SVG donut)
+function drawPie(muslimCount,nonmuslimCount){
+  const svgEl=document.getElementById('pie-svg');
+  const legendEl=document.getElementById('pie-legend');
+  const total=muslimCount+nonmuslimCount;
+  if(!total){
+    svgEl.innerHTML=`<circle cx="65" cy="65" r="55" fill="var(--s2)"/><text x="65" y="70" text-anchor="middle" font-family="Courier New" font-size="11" fill="#888">No data</text>`;
+    legendEl.innerHTML='';return;
+  }
+  const musPct=(muslimCount/total)*100;
+  function arc(cx,cy,r,s,e){
+    const toR=d=>(d-90)*Math.PI/180;
+    const x1=cx+r*Math.cos(toR(s)),y1=cy+r*Math.sin(toR(s));
+    const x2=cx+r*Math.cos(toR(e)),y2=cy+r*Math.sin(toR(e));
+    return`M${cx} ${cy}L${x1} ${y1}A${r} ${r} 0 ${e-s>180?1:0} 1 ${x2} ${y2}Z`;
+  }
+  const musEnd=musPct*3.6;
+  let paths='';
+  if(musPct>0&&musPct<100){
+    paths=`<path d="${arc(65,65,55,0,musEnd)}" fill="#60a5fa" opacity=".88"/>
+           <path d="${arc(65,65,55,musEnd,360)}" fill="#34d399" opacity=".88"/>`;
+  } else if(musPct===0){
+    paths=`<circle cx="65" cy="65" r="55" fill="#34d399" opacity=".88"/>`;
+  } else {
+    paths=`<circle cx="65" cy="65" r="55" fill="#60a5fa" opacity=".88"/>`;
+  }
+  paths+=`<circle cx="65" cy="65" r="32" fill="var(--s1)"/>`;
+  const bigPct=musPct.toFixed(1);
+  paths+=`<text x="65" y="61" text-anchor="middle" font-family="Courier New" font-size="12" font-weight="700" fill="#93c5fd">${bigPct}%</text>
+          <text x="65" y="75" text-anchor="middle" font-family="Courier New" font-size="9" fill="#888">Muslim</text>`;
+  svgEl.innerHTML=paths;
+  legendEl.innerHTML=`
+    <div class="pie-legend-item"><div class="pie-legend-dot" style="background:#60a5fa"></div>
+    <div class="pie-legend-label"><span>Muslim Deleted</span><b>${fi(muslimCount)}</b><span>${pct(muslimCount,total)} of deletions</span></div></div>
+    <div class="pie-legend-item"><div class="pie-legend-dot" style="background:#34d399"></div>
+    <div class="pie-legend-label"><span>Non-Muslim Deleted</span><b>${fi(nonmuslimCount)}</b><span>${pct(nonmuslimCount,total)} of deletions</span></div></div>`;
 }
 
 async function init(){
-  if(!AC_FOLDER){
-    document.getElementById('ac-title').textContent='Assembly not specified.';
-    return;
-  }
-  try{
-    const mr=await fetch(`${BASE}/meta.json`);
-    meta=await mr.json();
-  }catch(e){
-    meta={ac_no:'—',ac_name:AC_FOLDER,district:'',phases:[],muslim_population_pct:null};
-  }
+  if(!AC_FOLDER){document.getElementById('ac-title').textContent='Assembly not specified.';return;}
+  try{const mr=await fetch(`${BASE}/meta.json`);meta=await mr.json();}
+  catch(e){meta={ac_no:'—',ac_name:AC_FOLDER,district:'',phases:[],muslim_population_pct:null};}
 
   document.title=`${meta.ac_name} — SIR Data | Sabar Institute`;
   document.getElementById('nav-tag').textContent=`AC · ${meta.ac_no}`;
   document.getElementById('ac-badge').textContent=`AC · ${meta.ac_no} · ${meta.district||''}`;
   document.getElementById('ac-title').textContent=meta.ac_name||AC_FOLDER;
-  document.getElementById('ac-subtitle').textContent=`${meta.district||''} · SIR 2025–26 · ${(meta.phases||[]).length} phase${(meta.phases||[]).length===1?'':'s'} available`;
+  document.getElementById('ac-subtitle').textContent=
+    `${meta.district||''} · SIR 2025–26 · ${(meta.phases||[]).length} Supplementary List${(meta.phases||[]).length===1?'':'s'} available`;
 
   if(meta.muslim_population_pct!=null){
     document.getElementById('muslim-pct').textContent=meta.muslim_population_pct+'%';
   } else {
     document.getElementById('muslim-pct').textContent='—';
-    document.querySelector('#muslim-pop-card .muslim-sub').innerHTML='Not yet configured. Set <code>muslim_population_pct</code> in <code>meta.json</code>.';
+    document.getElementById('muslim-sub-txt').innerHTML='Not yet configured. Set <code>muslim_population_pct</code> in <code>meta.json</code>.';
   }
 
+  // Build dropdown — "Supplementary List N"
   const sel=document.getElementById('phase-select');
   (meta.phases||[]).forEach(ph=>{
     const o=document.createElement('option');
-    o.value=ph;o.textContent=`Phase ${ph}`;
+    o.value=ph;o.textContent=listLabel(ph);
     sel.appendChild(o);
   });
-  sel.addEventListener('change',()=>loadPhase(sel.value));
+  sel.addEventListener('change',()=>{currentPage=1;loadPhase(sel.value);});
 
   await buildSummary();
+
+  // Auto-select first list
+  const phases=meta.phases||[];
+  if(phases.length){sel.value=phases[0];loadPhase(phases[0]);}
 }
 
 async function buildSummary(){
   const phases=meta.phases||[];
-  const agg={inc:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}},
-             del:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}}};
-
+  const agg={
+    inc:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}},
+    del:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}}
+  };
   await Promise.all(phases.flatMap(ph=>['inc','del'].map(async type=>{
     const dir=type==='inc'?'inclusion':'deletion';
     const data=await fetchCSV(`${BASE}/${dir}/phase_${ph}.csv`);
@@ -537,115 +398,83 @@ async function buildSummary(){
       const g=(row.gender||'').trim().toLowerCase();
       const rel=(row.religion||'').trim().toLowerCase();
       const part=String(row.part_no||row['part_no']||'').trim();
-      if(g==='male')agg[type].male++;
-      else if(g==='female')agg[type].female++;
-      if(rel==='muslim')agg[type].muslim++;
-      else if(rel.includes('non'))agg[type].nonmuslim++;
+      if(g==='male')agg[type].male++;else if(g==='female')agg[type].female++;
+      if(rel==='muslim')agg[type].muslim++;else if(rel.includes('non'))agg[type].nonmuslim++;
       if(part){
         if(!agg[type].parts[part])agg[type].parts[part]={total:0,male:0,female:0,muslim:0,nonmuslim:0};
         agg[type].parts[part].total++;
-        if(g==='male')agg[type].parts[part].male++;
-        else if(g==='female')agg[type].parts[part].female++;
-        if(rel==='muslim')agg[type].parts[part].muslim++;
-        else if(rel.includes('non'))agg[type].parts[part].nonmuslim++;
+        if(g==='male')agg[type].parts[part].male++;else if(g==='female')agg[type].parts[part].female++;
+        if(rel==='muslim')agg[type].parts[part].muslim++;else if(rel.includes('non'))agg[type].parts[part].nonmuslim++;
       }
     });
   })));
 
-  const total=agg.inc.total+agg.del.total;
-  const totalM=agg.inc.male+agg.del.male;
-  const totalF=agg.inc.female+agg.del.female;
-  const totalMus=agg.inc.muslim+agg.del.muslim;
-  const totalNon=agg.inc.nonmuslim+agg.del.nonmuslim;
-
+  const d=agg.del;
   document.getElementById('summary-cards').innerHTML=`
-    <div class="stat-card inc"><div class="stat-lbl">Total Inclusions</div><div class="stat-val" style="color:#4ade80">${fi(agg.inc.total)}</div><div class="stat-sub">${phases.length} phases</div></div>
-    <div class="stat-card del"><div class="stat-lbl">Total Deletions</div><div class="stat-val" style="color:#ff6b6b">${fi(agg.del.total)}</div><div class="stat-sub">${phases.length} phases</div></div>
-    <div class="stat-card neu"><div class="stat-lbl">Net Change</div><div class="stat-val" style="color:${agg.inc.total>=agg.del.total?'#4ade80':'#ff6b6b'}">${agg.inc.total>=agg.del.total?'+':''}${fi(agg.inc.total-agg.del.total)}</div><div class="stat-sub">Inclusions − Deletions</div></div>
-    <div class="stat-card inf"><div class="stat-lbl">Muslim SIR Entries</div><div class="stat-val" style="color:#93c5fd">${fi(totalMus)}</div><div class="stat-sub">${pct(totalMus,total)} of total</div></div>
+    <div class="stat-card inc"><div class="stat-lbl">Total Inclusions</div><div class="stat-val" style="color:#4ade80">${fi(agg.inc.total)}</div><div class="stat-sub">${phases.length} supplementary lists</div></div>
+    <div class="stat-card del"><div class="stat-lbl">Total Deletions</div><div class="stat-val" style="color:#ff6b6b">${fi(d.total)}</div><div class="stat-sub">${phases.length} supplementary lists</div></div>
+    <div class="stat-card neu"><div class="stat-lbl">Net Change</div><div class="stat-val" style="color:${agg.inc.total>=d.total?'#4ade80':'#ff6b6b'}">${agg.inc.total>=d.total?'+':''}${fi(agg.inc.total-d.total)}</div><div class="stat-sub">Inclusions − Deletions</div></div>
+    <div class="stat-card del"><div class="stat-lbl">Muslims Deleted</div><div class="stat-val" style="color:#ff6b6b">${fi(d.muslim)}</div><div class="stat-sub">${pct(d.muslim,d.total)} of all deletions</div></div>
   `;
-
   document.getElementById('header-stats').innerHTML=`
     <div class="hstat"><div class="hstat-val" style="color:#4ade80">${fi(agg.inc.total)}</div><div class="hstat-lbl">Inclusions</div></div>
-    <div class="hstat"><div class="hstat-val" style="color:#ff6b6b">${fi(agg.del.total)}</div><div class="hstat-lbl">Deletions</div></div>
-    <div class="hstat"><div class="hstat-val" style="color:var(--accent)">${phases.length}</div><div class="hstat-lbl">Phases</div></div>
+    <div class="hstat"><div class="hstat-val" style="color:#ff6b6b">${fi(d.total)}</div><div class="hstat-lbl">Deletions</div></div>
+    <div class="hstat"><div class="hstat-val" style="color:var(--accent)">${phases.length}</div><div class="hstat-lbl">Suppl. Lists</div></div>
   `;
 
-  const mPct=(totalM/Math.max(total,1)*100);
-  const fPct=(totalF/Math.max(total,1)*100);
-  document.getElementById('gb-male').style.width=mPct+'%';
-  document.getElementById('gb-female').style.width=fPct+'%';
-  document.getElementById('gb-male').textContent=totalM?'M':'';
-  document.getElementById('gb-female').textContent=totalF?'F':'';
-  document.getElementById('gb-male-pct').textContent=pct(totalM,total);
-  document.getElementById('gb-female-pct').textContent=pct(totalF,total);
+  // Gender bar — deletions only
+  const mP=pctNum(d.male,d.total),fP=pctNum(d.female,d.total);
+  document.getElementById('gb-male').style.width=mP+'%';
+  document.getElementById('gb-female').style.width=fP+'%';
+  document.getElementById('gb-male').textContent=d.male?'M':'';
+  document.getElementById('gb-female').textContent=d.female?'F':'';
+  document.getElementById('gb-male-pct').textContent=pct(d.male,d.total);
+  document.getElementById('gb-female-pct').textContent=pct(d.female,d.total);
 
-  const musPct=(totalMus/Math.max(totalMus+totalNon,1)*100);
-  const nonPct=(totalNon/Math.max(totalMus+totalNon,1)*100);
-  document.getElementById('rb-muslim').style.width=musPct+'%';
-  document.getElementById('rb-nonmuslim').style.width=nonPct+'%';
-  document.getElementById('rb-muslim').textContent=totalMus?'Muslim':'';
-  document.getElementById('rb-nonmuslim').textContent=totalNon?'Non-Muslim':'';
-  document.getElementById('rb-muslim-pct').textContent=pct(totalMus,totalMus+totalNon);
-  document.getElementById('rb-nonmuslim-pct').textContent=pct(totalNon,totalMus+totalNon);
+  // Pie — deletions only
+  drawPie(d.muslim,d.nonmuslim);
 
+  // Part table
   const allParts=new Set([...Object.keys(agg.inc.parts),...Object.keys(agg.del.parts)]);
-  const sortedParts=[...allParts].sort((a,b)=>+a-+b||a.localeCompare(b));
-
-  if(!sortedParts.length){
-    document.getElementById('part-table-wrap').innerHTML='<div class="empty-state">No data loaded yet.</div>';
-    return;
-  }
-
-  document.getElementById('part-table-wrap').innerHTML=`
-    <table>
-      <thead><tr>
-        <th>Part No.</th>
-        <th>Inc. Total</th><th>Inc. Male</th><th>Inc. Female</th><th>Inc. Muslim</th>
-        <th>Del. Total</th><th>Del. Male</th><th>Del. Female</th><th>Del. Muslim</th>
-        <th>Net</th>
-      </tr></thead>
-      <tbody>
-        ${sortedParts.map(p=>{
-          const i=agg.inc.parts[p]||{total:0,male:0,female:0,muslim:0};
-          const d=agg.del.parts[p]||{total:0,male:0,female:0,muslim:0};
-          const net=i.total-d.total;
-          return`<tr>
-            <td>${p}</td>
-            <td class="td-inc">${i.total}</td>
-            <td class="td-m">${i.male}</td><td class="td-f">${i.female}</td>
-            <td style="color:#93c5fd">${i.muslim}</td>
-            <td class="td-del">${d.total}</td>
-            <td class="td-m">${d.male}</td><td class="td-f">${d.female}</td>
-            <td style="color:#93c5fd">${d.muslim}</td>
-            <td style="color:${net>=0?'#4ade80':'#ff6b6b'};font-weight:700">${net>=0?'+':''}${net}</td>
-          </tr>`;
-        }).join('')}
-        <tr style="border-top:1px solid var(--bdr);background:var(--s2)">
-          <td style="font-weight:700;color:var(--txt)">TOTAL</td>
-          <td class="td-inc" style="font-weight:700">${fi(agg.inc.total)}</td>
-          <td class="td-m" style="font-weight:700">${fi(agg.inc.male)}</td>
-          <td class="td-f" style="font-weight:700">${fi(agg.inc.female)}</td>
-          <td style="color:#93c5fd;font-weight:700">${fi(agg.inc.muslim)}</td>
-          <td class="td-del" style="font-weight:700">${fi(agg.del.total)}</td>
-          <td class="td-m" style="font-weight:700">${fi(agg.del.male)}</td>
-          <td class="td-f" style="font-weight:700">${fi(agg.del.female)}</td>
-          <td style="color:#93c5fd;font-weight:700">${fi(agg.del.muslim)}</td>
-          <td style="font-weight:700;color:${agg.inc.total>=agg.del.total?'#4ade80':'#ff6b6b'}">${agg.inc.total>=agg.del.total?'+':''}${fi(agg.inc.total-agg.del.total)}</td>
-        </tr>
-      </tbody>
-    </table>
-  `;
+  partRows=[...allParts].sort((a,b)=>+a-+b||a.localeCompare(b)).map(p=>({
+    part:p,
+    i:agg.inc.parts[p]||{total:0,male:0,female:0,muslim:0},
+    d:agg.del.parts[p]||{total:0,male:0,female:0,muslim:0}
+  }));
+  partPage=1;
+  if(!partRows.length){document.getElementById('part-table-wrap').innerHTML='<div class="empty-state">No data yet.</div>';return;}
+  renderPartTable();
 }
 
-async function loadPhase(phase){
-  if(!phase){
-    document.getElementById('data-table-container').innerHTML='<div class="empty-state">Select a phase above.</div>';
-    document.getElementById('row-count').textContent='';
-    return;
-  }
-  document.getElementById('data-table-container').innerHTML='<div class="loading-spinner"><div class="spin"></div><span>Loading phase data…</span></div>';
+function renderPartTable(){
+  const total=partRows.length;
+  const totalPages=Math.max(1,Math.ceil(total/PART_PER_PAGE));
+  partPage=Math.max(1,Math.min(totalPages,partPage));
+  const slice=partRows.slice((partPage-1)*PART_PER_PAGE,partPage*PART_PER_PAGE);
+  const tot=partRows.reduce((a,r)=>{a.iT+=r.i.total;a.iM+=r.i.male;a.iF+=r.i.female;a.iMus+=r.i.muslim;a.dT+=r.d.total;a.dM+=r.d.male;a.dF+=r.d.female;a.dMus+=r.d.muslim;return a;},{iT:0,iM:0,iF:0,iMus:0,dT:0,dM:0,dF:0,dMus:0});
+  const rows=slice.map(({part,i,d})=>{const net=i.total-d.total;return`<tr><td>${part}</td><td class="td-inc">${i.total}</td><td class="td-m">${i.male}</td><td class="td-f">${i.female}</td><td style="color:#93c5fd">${i.muslim}</td><td class="td-del">${d.total}</td><td class="td-m">${d.male}</td><td class="td-f">${d.female}</td><td style="color:#93c5fd">${d.muslim}</td><td style="color:${net>=0?'#4ade80':'#ff6b6b'};font-weight:700">${net>=0?'+':''}${net}</td></tr>`;}).join('');
+  const foot=`<tr style="border-top:1px solid var(--bdr);background:var(--s2)"><td style="font-weight:700;color:var(--txt)">TOTAL</td><td class="td-inc" style="font-weight:700">${fi(tot.iT)}</td><td class="td-m" style="font-weight:700">${fi(tot.iM)}</td><td class="td-f" style="font-weight:700">${fi(tot.iF)}</td><td style="color:#93c5fd;font-weight:700">${fi(tot.iMus)}</td><td class="td-del" style="font-weight:700">${fi(tot.dT)}</td><td class="td-m" style="font-weight:700">${fi(tot.dM)}</td><td class="td-f" style="font-weight:700">${fi(tot.dF)}</td><td style="color:#93c5fd;font-weight:700">${fi(tot.dMus)}</td><td style="font-weight:700;color:${tot.iT>=tot.dT?'#4ade80':'#ff6b6b'}">${tot.iT>=tot.dT?'+':''}${fi(tot.iT-tot.dT)}</td></tr>`;
+  document.getElementById('part-table-wrap').innerHTML=`
+    <div style="overflow-x:auto;border-radius:8px;border:1px solid var(--bdr)">
+      <table><thead><tr><th>Part No.</th><th>Inc. Total</th><th>Inc. Male</th><th>Inc. Female</th><th>Inc. Muslim</th><th>Del. Total</th><th>Del. Male</th><th>Del. Female</th><th>Del. Muslim</th><th>Net</th></tr></thead>
+      <tbody>${rows}${foot}</tbody></table>
+    </div>
+    <div class="pagination">
+      <button class="pg-btn" onclick="goPartPage(1)" ${partPage===1?'disabled':''}>«</button>
+      <button class="pg-btn" onclick="goPartPage(${partPage-1})" ${partPage===1?'disabled':''}>‹</button>
+      <span class="pg-info">Page ${partPage} of ${totalPages} · ${total} parts</span>
+      <span class="pg-spacer"></span>
+      <button class="pg-btn" onclick="goPartPage(${partPage+1})" ${partPage===totalPages?'disabled':''}>›</button>
+      <button class="pg-btn" onclick="goPartPage(${totalPages})" ${partPage===totalPages?'disabled':''}>»</button>
+    </div>`;
+}
+
+function goPartPage(p){partPage=p;renderPartTable();}
+
+function loadPhase(phase){
+  if(!phase)return;
   document.getElementById('search-input').value='';
+  currentPage=1;
   renderTable(phase,currentTab);
 }
 
@@ -654,79 +483,70 @@ function switchTab(tab){
   document.getElementById('tab-inc').className='tab-btn inc'+(tab==='inc'?' active':'');
   document.getElementById('tab-del').className='tab-btn del'+(tab==='del'?' active':'');
   document.getElementById('search-input').value='';
+  currentPage=1;
   const phase=document.getElementById('phase-select').value;
   if(phase)renderTable(phase,tab);
 }
 
 function renderTable(phase,type){
   let rows=allPhaseData[type][phase];
-  if(!rows){
-    document.getElementById('data-table-container').innerHTML='<div class="empty-state">Data for this phase is not available.</div>';
-    document.getElementById('row-count').textContent='';
-    currentRows=[];
-    return;
-  }
-  if(rows.length===0){
-    document.getElementById('data-table-container').innerHTML='<div class="empty-state">No entries in this phase (blank CSV).</div>';
-    document.getElementById('row-count').textContent='0 entries';
-    currentRows=[];
-    return;
-  }
-  rows=[...rows].sort((a,b)=>{
-    const pa=+(a.part_no||a['part_no']||0);
-    const pb=+(b.part_no||b['part_no']||0);
-    return pa-pb;
-  });
-  currentRows=rows;
-  displayRows(rows);
-}
-
-function displayRows(rows){
-  const q=(document.getElementById('search-input').value||'').toLowerCase();
-  const filtered=q?rows.filter(r=>{
-    const epic=(r.epic||r['epic']||'').toLowerCase();
-    const name=(r.name||r['name']||'').toLowerCase();
-    return epic.includes(q)||name.includes(q);
-  }):rows;
-
-  document.getElementById('row-count').textContent=`${filtered.length.toLocaleString()} entries${q?' (filtered)':''}`;
-
-  if(!filtered.length){
-    document.getElementById('data-table-container').innerHTML='<div class="empty-state">No results for your search.</div>';
-    return;
-  }
-
-  document.getElementById('data-table-container').innerHTML=`
-    <div class="data-table-wrap">
-      <table>
-        <thead><tr>
-          <th style="text-align:left">Part No.</th>
-          <th style="text-align:left">EPIC Number</th>
-          <th style="text-align:left">Name</th>
-          <th>Gender</th>
-        </tr></thead>
-        <tbody>
-          ${filtered.map(r=>{
-            const part=String(r.part_no||r['part_no']||'').trim();
-            const epic=(r.epic||r['epic']||'').trim();
-            const name=(r.name||r['name']||'').trim();
-            const g=(r.gender||r['gender']||'').trim();
-            const gClass=g.toLowerCase()==='male'?'td-m':'td-f';
-            return`<tr>
-              <td style="text-align:left">${part||'—'}</td>
-              <td style="text-align:left;font-size:11px;color:var(--accent)">${epic||'—'}</td>
-              <td style="text-align:left">${name||'—'}</td>
-              <td class="${gClass}">${g||'—'}</td>
-            </tr>`;
-          }).join('')}
-        </tbody>
-      </table>
-    </div>
-  `;
+  if(!rows){document.getElementById('data-table-container').innerHTML='<div class="empty-state">Data for this supplementary list is not available.</div>';document.getElementById('row-count').textContent='';currentRows=[];filteredRows=[];return;}
+  if(!rows.length){document.getElementById('data-table-container').innerHTML='<div class="empty-state">No entries in this supplementary list.</div>';document.getElementById('row-count').textContent='0 entries';currentRows=[];filteredRows=[];return;}
+  currentRows=[...rows].sort((a,b)=>+(a.part_no||0)- +(b.part_no||0));
+  filteredRows=currentRows;
+  currentPage=1;
+  displayRows();
 }
 
 function filterTable(){
-  if(currentRows.length)displayRows(currentRows);
+  const q=(document.getElementById('search-input').value||'').toLowerCase();
+  filteredRows=q?currentRows.filter(r=>(r.epic||'').toLowerCase().includes(q)||(r.name||'').toLowerCase().includes(q)):currentRows;
+  currentPage=1;
+  displayRows();
+}
+
+function displayRows(){
+  const total=filteredRows.length;
+  const totalPages=Math.max(1,Math.ceil(total/ROWS_PER_PAGE));
+  currentPage=Math.max(1,Math.min(totalPages,currentPage));
+  const slice=filteredRows.slice((currentPage-1)*ROWS_PER_PAGE,currentPage*ROWS_PER_PAGE);
+  const q=(document.getElementById('search-input').value||'').toLowerCase();
+  document.getElementById('row-count').textContent=`${total.toLocaleString()} entries${q?' (filtered)':''}`;
+  if(!total){document.getElementById('data-table-container').innerHTML='<div class="empty-state">No results for your search.</div>';return;}
+  const tableRows=slice.map(r=>{
+    const part=String(r.part_no||'').trim();
+    const epic=(r.epic||'').trim();
+    const name=(r.name||'').trim();
+    const g=(r.gender||'').trim();
+    return`<tr><td style="text-align:left">${part||'—'}</td><td style="text-align:left;font-size:11px;color:var(--accent)">${epic||'—'}</td><td style="text-align:left">${name||'—'}</td><td class="${g.toLowerCase()==='male'?'td-m':'td-f'}">${g||'—'}</td></tr>`;
+  }).join('');
+  const pg=totalPages>1?`<div class="pagination">
+    <button class="pg-btn" onclick="goPage(1)" ${currentPage===1?'disabled':''}>«</button>
+    <button class="pg-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?'disabled':''}>‹</button>
+    <span class="pg-info">Page ${currentPage} of ${totalPages}</span>
+    <span class="pg-spacer"></span>
+    <button class="pg-btn" onclick="goPage(${currentPage+1})" ${currentPage===totalPages?'disabled':''}>›</button>
+    <button class="pg-btn" onclick="goPage(${totalPages})" ${currentPage===totalPages?'disabled':''}>»</button>
+  </div>`:'';
+  document.getElementById('data-table-container').innerHTML=`
+    <div class="data-table-wrap"><table>
+      <thead><tr><th style="text-align:left">Part No.</th><th style="text-align:left">EPIC Number</th><th style="text-align:left">Name</th><th>Gender</th></tr></thead>
+      <tbody>${tableRows}</tbody>
+    </table></div>${pg}`;
+}
+
+function goPage(p){currentPage=p;displayRows();}
+
+function downloadCSV(){
+  const phase=document.getElementById('phase-select').value;
+  if(!phase||!currentRows.length){alert('No data loaded to download.');return;}
+  const typeLabel=currentTab==='inc'?'Inclusions':'Deletions';
+  const filename=`${meta.ac_name||AC_FOLDER}_${listLabel(phase).replace(/ /g,'_')}_${typeLabel}.csv`;
+  const header='part_no,epic,name,gender,religion';
+  const body=currentRows.map(r=>`${r.part_no||''},${r.epic||''},"${(r.name||'').replace(/"/g,'""')}",${r.gender||''},${r.religion||''}`);
+  const blob=new Blob(['\uFEFF'+[header,...body].join('\n')],{type:'text/csv;charset=utf-8;'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
 }
 
 init();
