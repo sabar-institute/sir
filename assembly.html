@@ -35,17 +35,20 @@
   white-space: nowrap;
 
   width: 0;
-  opacity: 1; /* no flicker */
+  opacity: 1;
 
-  position: relative;
-
-  animation: tagType .8s steps(20,end) .85s forwards;
+  animation: tagType .8s steps(17,end) .85s forwards;
 }
 
 /* typing */
 @keyframes tagType {
   from { width: 0; }
-  to   { width: max-content; }
+  to   { width: 19ch; } /* slightly bigger than text */
+}
+
+.sp-tag b {
+  color: #B9BF1F;
+  font-weight: inherit;
 }
 
 /* recreate "line grow" safely */
