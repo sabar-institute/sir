@@ -1,0 +1,11 @@
+[
+  {
+    "id": "210_Nandigram",
+    "ac_no": 210,
+    "ac_name": "Nandigram",
+    "district": "Purba Medinipur",
+    "phases": ["1", "2", "3","4", "4a", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "total_inclusions": 6636,
+    "total_deletions": 2902
+  }
+]
