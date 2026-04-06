@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SIR Adjudicated Data Repository | Sabar Institute</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ── SPLASH ────────────────────────────────────────────────────────────── */
+#splash{
+  position:fixed;inset:0;z-index:9999;
+  background:#0d0d0d;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  overflow:hidden;
+}
+#splash::before{
+  content:'';position:absolute;
+  width:700px;height:700px;border-radius:50%;
+  background:radial-gradient(circle,rgba(185,191,31,.07) 0%,transparent 65%);
+  pointer-events:none;
+}
+#splash.out{animation:splashOut .6s ease forwards}
+@keyframes splashOut{to{opacity:0;visibility:hidden}}
+.sp-logo{
+  width:clamp(280px,48vw,460px);height:auto;
+  opacity:0;transform:translateY(-12px);
+  animation:logoIn .75s cubic-bezier(.22,1,.36,1) .1s forwards;
+}
+@keyframes logoIn{to{opacity:1;transform:translateY(0)}}
+.sp-line{
+  width:0;height:1.5px;
+  background:linear-gradient(90deg,transparent,#B9BF1F,transparent);
+  margin:22px 0 20px;border-radius:2px;
+  animation:lineGrow .55s ease .65s forwards;
+}
+@keyframes lineGrow{to{width:clamp(180px,32vw,300px)}}
+.sp-tag{
+  font-family:'Barlow',sans-serif;font-weight:700;
+  font-size:clamp(26px,4.5vw,40px);
+  letter-spacing:-1px;line-height:1.18;color:#e8e8e8;
+  overflow:hidden;white-space:nowrap;width:0;opacity:0;
+  animation:tagShow .01s .9s forwards,tagType .7s steps(12,end) .9s forwards;
+}
+.sp-tag b{color:#B9BF1F;font-weight:inherit}
+@keyframes tagShow{to{opacity:1}}
+@keyframes tagType{to{width:14ch}}
+.sp-sub{
+  font-family:'Barlow',sans-serif;font-size:11px;
+  letter-spacing:.2em;text-transform:uppercase;color:#888;
+  opacity:0;margin-top:14px;
+  animation:subIn .5s ease 1.55s forwards;
+}
+@keyframes subIn{to{opacity:1}}
+.sp-bar{
+  position:absolute;bottom:0;left:0;height:2px;
+  background:linear-gradient(90deg,#B9BF1F,#e8f020,#B9BF1F);
+  background-size:200% 100%;width:0%;
+  animation:barGrow 2s cubic-bezier(.4,0,.2,1) .2s forwards,
+            barShimmer 1.4s linear .5s infinite;
+}
+@keyframes barGrow{to{width:100%}}
+@keyframes barShimmer{to{background-position:200% 0}}
+
+/* ── BASE ──────────────────────────────────────────────────────────────── */
+:root{
+  --bg:#0d0d0d;--s1:#161616;--s2:#1e1e1e;--bdr:#2a2a2a;
+  --txt:#e8e8e8;--muted:#888;--accent:#f0c040;--accent2:#B9BF1F;
+  --inc:#1a9e5c;--del:#cc2929;
+  --font-sans:'Barlow',Arial,sans-serif;
+  --font-serif:'EB Garamond',Georgia,serif;
+  --font-mono:'Courier New',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--txt);font-size:13px;line-height:1.6;min-height:100vh}
+
+/* ── HEADER ────────────────────────────────────────────────────────────── */
+header{
+  background:var(--s1);border-bottom:1px solid var(--bdr);
+  padding:0 40px;
+  display:flex;align-items:center;justify-content:space-between;
+  height:64px;position:sticky;top:0;z-index:100;
+}
+.logo-wrap{display:flex;align-items:center;gap:14px}
+.logo-wrap img{height:32px}
+.logo-divider{width:1px;height:24px;background:var(--bdr)}
+.site-title{font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+.header-tag{
+  font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  background:rgba(240,192,64,.12);border:1px solid rgba(240,192,64,.25);
+  color:var(--accent);padding:4px 12px;border-radius:20px;
+}
+
+/* ── HERO ──────────────────────────────────────────────────────────────── */
+.hero{
+  padding:64px 40px 48px;
+  background:linear-gradient(135deg,#0d0d0d 0%,#141410 100%);
+  border-bottom:1px solid var(--bdr);
+  position:relative;overflow:hidden;
+}
+.hero::after{
+  content:'';position:absolute;right:-100px;top:-100px;
+  width:500px;height:500px;border-radius:50%;
+  background:radial-gradient(circle,rgba(185,191,31,.04) 0%,transparent 60%);
+  pointer-events:none;
+}
+.hero-badge{
+  display:inline-block;font-size:10px;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--accent);
+  border-bottom:1px solid rgba(240,192,64,.3);
+  padding-bottom:4px;margin-bottom:16px;
+}
+.hero h1{
+  font-family:var(--font-serif);
+  font-size:clamp(28px,4vw,52px);font-weight:600;
+  line-height:1.08;color:#fff;margin-bottom:12px;
+}
+.hero h1 em{color:var(--accent2);font-style:normal}
+.hero p{color:var(--muted);font-size:13px;max-width:560px;line-height:1.8}
+.hero-stats{
+  display:flex;gap:32px;margin-top:32px;flex-wrap:wrap;
+}
+.h-stat{border-left:2px solid var(--bdr);padding-left:16px}
+.h-stat-val{font-family:var(--font-mono);font-size:22px;font-weight:700;color:var(--accent)}
+.h-stat-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+/* ── MAIN ──────────────────────────────────────────────────────────────── */
+main{max-width:1280px;margin:0 auto;padding:40px}
+
+.section-header{
+  display:flex;align-items:baseline;justify-content:space-between;
+  margin-bottom:24px;flex-wrap:wrap;gap:12px;
+}
+.section-title{
+  font-family:var(--font-serif);font-size:20px;font-weight:600;color:#fff;
+}
+.section-sub{font-size:11px;color:var(--muted)}
+
+/* ── ASSEMBLY CARDS ─────────────────────────────────────────────────────── */
+.cards-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:16px;
+}
+.ac-card{
+  background:var(--s1);border:1px solid var(--bdr);border-radius:10px;
+  padding:24px;cursor:pointer;transition:all .2s;
+  text-decoration:none;color:inherit;display:block;
+  position:relative;overflow:hidden;
+}
+.ac-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--accent2),transparent);
+  opacity:0;transition:opacity .2s;
+}
+.ac-card:hover{border-color:rgba(185,191,31,.3);transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,.4)}
+.ac-card:hover::before{opacity:1}
+
+.ac-no{
+  font-family:var(--font-mono);font-size:10px;font-weight:700;
+  letter-spacing:.15em;color:var(--accent);
+  background:rgba(240,192,64,.08);border:1px solid rgba(240,192,64,.15);
+  display:inline-block;padding:2px 8px;border-radius:4px;margin-bottom:10px;
+}
+.ac-name{
+  font-family:var(--font-serif);font-size:22px;font-weight:600;
+  color:#fff;line-height:1.1;margin-bottom:4px;
+}
+.ac-district{font-size:11px;color:var(--muted);margin-bottom:16px}
+
+.ac-meta{
+  display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;
+}
+.ac-pill{
+  font-size:10px;font-weight:600;letter-spacing:.05em;
+  padding:3px 9px;border-radius:12px;
+}
+.pill-inc{background:rgba(26,158,92,.12);border:1px solid rgba(26,158,92,.25);color:#4ade80}
+.pill-del{background:rgba(204,41,41,.12);border:1px solid rgba(204,41,41,.25);color:#ff6b6b}
+.pill-ph{background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.2);color:var(--accent)}
+
+.ac-footer{
+  display:flex;align-items:center;justify-content:space-between;
+  border-top:1px solid var(--bdr);padding-top:14px;margin-top:4px;
+}
+.ac-footer-stat{text-align:center}
+.ac-footer-val{font-family:var(--font-mono);font-size:14px;font-weight:700}
+.ac-footer-lbl{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:1px}
+.ac-arrow{
+  width:28px;height:28px;border-radius:50%;
+  background:rgba(255,255,255,.04);border:1px solid var(--bdr);
+  display:flex;align-items:center;justify-content:center;
+  font-size:13px;color:var(--muted);transition:all .2s;
+}
+.ac-card:hover .ac-arrow{background:var(--accent2);border-color:var(--accent2);color:#000}
+
+/* ── EMPTY / LOADING ────────────────────────────────────────────────────── */
+.empty{
+  grid-column:1/-1;
+  padding:48px;text-align:center;
+  background:var(--s1);border:1px dashed var(--bdr);border-radius:10px;
+  color:var(--muted);font-size:13px;
+}
+.loading-dots{display:inline-flex;gap:4px;align-items:center}
+.loading-dots span{
+  width:6px;height:6px;border-radius:50%;background:var(--accent);
+  animation:dot-bounce .9s ease infinite;
+}
+.loading-dots span:nth-child(2){animation-delay:.15s}
+.loading-dots span:nth-child(3){animation-delay:.3s}
+@keyframes dot-bounce{0%,80%,100%{transform:scale(0.6);opacity:.4}40%{transform:scale(1);opacity:1}}
+
+/* ── FOOTER ────────────────────────────────────────────────────────────── */
+footer{
+  border-top:1px solid var(--bdr);padding:24px 40px;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:12px;
+}
+footer p{font-size:11px;color:var(--muted)}
+footer a{color:var(--accent);text-decoration:none}
+
+@media(max-width:640px){
+  header,footer{padding-left:20px;padding-right:20px}
+  .hero{padding:40px 20px 32px}
+  main{padding:24px 20px}
+}
+</style>
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash" aria-hidden="true">
+  <img class="sp-logo" src="assets/logo.svg" alt="Sabar Institute">
+  <div class="sp-line"></div>
+  <p class="sp-tag"><b>SIR </b>Data Repository</p>
+  <p class="sp-sub">Adjudicated Electoral Rolls · West Bengal</p>
+  <div class="sp-bar"></div>
+</div>
+<script>
+(function(){
+  var MIN=3200,start=Date.now();
+  function go(){
+    var wait=Math.max(0,MIN-(Date.now()-start));
+    setTimeout(function(){
+      var el=document.getElementById('splash');
+      if(!el)return;
+      el.classList.add('out');
+      setTimeout(function(){if(el.parentNode)el.parentNode.removeChild(el);},700);
+    },wait);
+  }
+  if(document.readyState==='complete')go();
+  else window.addEventListener('load',go);
+})();
+</script>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-wrap">
+    <img src="assets/logo.svg" alt="Sabar Institute">
+    <div class="logo-divider"></div>
+    <span class="site-title">SIR Data Repository</span>
+  </div>
+  <span class="header-tag">Under Adjudication</span>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">Summary Revision · West Bengal · 2025–26</div>
+  <h1>SIR <em>Adjudicated</em><br>Data Repository</h1>
+  <p>Booth-level inclusion and deletion data from the Special Intensive Revision process, assembly-wise. Each entry has been parsed, OCR-verified, and structured for analysis.</p>
+  <div class="hero-stats" id="hero-stats">
+    <div class="h-stat"><div class="h-stat-val" id="stat-ac">—</div><div class="h-stat-lbl">Assemblies</div></div>
+    <div class="h-stat"><div class="h-stat-val" id="stat-phases">—</div><div class="h-stat-lbl">Total Phases</div></div>
+    <div class="h-stat"><div class="h-stat-val" id="stat-inc" style="color:#4ade80">—</div><div class="h-stat-lbl">Inclusions</div></div>
+    <div class="h-stat"><div class="h-stat-val" id="stat-del" style="color:#ff6b6b">—</div><div class="h-stat-lbl">Deletions</div></div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main>
+  <div class="section-header">
+    <h2 class="section-title">Available Assemblies</h2>
+    <span class="section-sub" id="ac-count">Loading…</span>
+  </div>
+  <div class="cards-grid" id="cards-grid">
+    <div class="empty"><div class="loading-dots"><span></span><span></span><span></span></div><p style="margin-top:12px">Loading assembly data…</p></div>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 <a href="https://sabarinstitute.org" target="_blank">Sabar Institute</a> · Data for Better Lives</p>
+  <p>SIR 2025–26 · West Bengal Legislative Assembly</p>
+</footer>
+
+<script>
+async function loadAssemblies(){
+  let assemblies=[];
+  try{
+    const r=await fetch('data/assemblies.json');
+    assemblies=await r.json();
+  }catch(e){
+    document.getElementById('cards-grid').innerHTML='<div class="empty"><p>Could not load assembly registry. Ensure <code>data/assemblies.json</code> exists.</p></div>';
+    return;
+  }
+
+  // Update hero stats
+  document.getElementById('stat-ac').textContent=assemblies.length;
+  const totalPhases=assemblies.reduce((a,b)=>a+(b.phases||[]).length,0);
+  document.getElementById('stat-phases').textContent=totalPhases;
+  document.getElementById('stat-inc').textContent=assemblies.reduce((a,b)=>a+(b.total_inclusions||0),0).toLocaleString()||'—';
+  document.getElementById('stat-del').textContent=assemblies.reduce((a,b)=>a+(b.total_deletions||0),0).toLocaleString()||'—';
+  document.getElementById('ac-count').textContent=`${assemblies.length} assembl${assemblies.length===1?'y':'ies'} available`;
+
+  if(!assemblies.length){
+    document.getElementById('cards-grid').innerHTML='<div class="empty"><p>No assemblies found in registry.</p></div>';
+    return;
+  }
+
+  document.getElementById('cards-grid').innerHTML=assemblies.map(ac=>{
+    const phases=(ac.phases||[]);
+    const folder=`${ac.ac_no}_${ac.ac_name.replace(/ /g,'_')}`;
+    return`<a class="ac-card" href="assembly.html?ac=${encodeURIComponent(folder)}">
+      <div class="ac-no">AC · ${ac.ac_no}</div>
+      <div class="ac-name">${ac.ac_name}</div>
+      <div class="ac-district">${ac.district||''}</div>
+      <div class="ac-meta">
+        <span class="ac-pill pill-ph">${phases.length} Phase${phases.length!==1?'s':''}</span>
+        ${ac.total_inclusions!=null?`<span class="ac-pill pill-inc">+${(ac.total_inclusions||0).toLocaleString()} Inclusions</span>`:''}
+        ${ac.total_deletions!=null?`<span class="ac-pill pill-del">−${(ac.total_deletions||0).toLocaleString()} Deletions</span>`:''}
+      </div>
+      <div class="ac-footer">
+        <div class="ac-footer-stat">
+          <div class="ac-footer-val" style="color:#4ade80">${(ac.total_inclusions||0).toLocaleString()||'—'}</div>
+          <div class="ac-footer-lbl">Inclusions</div>
+        </div>
+        <div class="ac-footer-stat">
+          <div class="ac-footer-val" style="color:#ff6b6b">${(ac.total_deletions||0).toLocaleString()||'—'}</div>
+          <div class="ac-footer-lbl">Deletions</div>
+        </div>
+        <div class="ac-footer-stat">
+          <div class="ac-footer-val" style="color:var(--accent)">${phases.length}</div>
+          <div class="ac-footer-lbl">Phases</div>
+        </div>
+        <div class="ac-arrow">→</div>
+      </div>
+    </a>`;
+  }).join('');
+}
+
+loadAssemblies();
+</script>
+</body>
+</html>
