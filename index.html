@@ -290,6 +290,24 @@ footer a{color:var(--accent);text-decoration:none}
   .donate-inner{gap:24px}
   .donate-qr{width:130px;height:130px}
 }
+
+.hero-scroll-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  margin-top:28px;
+  background:rgba(185,191,31,.1);border:1px solid rgba(185,191,31,.35);
+  color:var(--accent2);font-size:12px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;padding:10px 22px;border-radius:8px;
+  text-decoration:none;transition:all .2s;
+}
+.hero-scroll-btn:hover{background:rgba(185,191,31,.2);border-color:var(--accent2)}
+
+.ac-view-btn{
+  font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  background:rgba(185,191,31,.1);border:1px solid rgba(185,191,31,.3);
+  color:var(--accent2);padding:6px 14px;border-radius:6px;
+  transition:all .2s;white-space:nowrap;
+}
+.ac-card:hover .ac-view-btn{background:var(--accent2);border-color:var(--accent2);color:#000}
 </style>
 </head>
 <body>
@@ -394,6 +412,9 @@ footer a{color:var(--accent);text-decoration:none}
     <div class="h-stat"><div class="h-stat-val" id="stat-inc" style="color:#4ade80">—</div><div class="h-stat-lbl">Inclusions</div></div>
     <div class="h-stat"><div class="h-stat-val" id="stat-del" style="color:#ff6b6b">—</div><div class="h-stat-lbl">Deletions</div></div>
   </div>
+    <a href="#assemblies" class="hero-scroll-btn" onclick="document.getElementById('assemblies').scrollIntoView({behavior:'smooth'});return false;">
+    View Assembly-wise Data ↓
+  </a>
 </div>
 
 <!-- CHANGE 2 & 3: Donation section with embedded QR code -->
@@ -420,7 +441,7 @@ footer a{color:var(--accent);text-decoration:none}
 </div>
 
 <!-- MAIN -->
-<main>
+<main id="assemblies">
   <div class="section-header">
     <h2 class="section-title">Available Assemblies</h2>
     <span class="section-sub" id="ac-count">Loading…</span>
@@ -483,7 +504,7 @@ async function loadAssemblies(){
           <div class="ac-footer-val" style="color:var(--accent)">${phases.length}</div>
           <div class="ac-footer-lbl">Phases</div>
         </div>
-        <div class="ac-arrow">→</div>
+        <div class="ac-view-btn">View Data →</div>
       </div>
     </a>`;
   }).join('');
