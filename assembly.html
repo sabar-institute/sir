@@ -549,7 +549,7 @@ function downloadCSV(){
   const typeLabel=currentTab==='inc'?'Inclusions':'Deletions';
   const filename=`${meta.ac_name||AC_FOLDER}_${listLabel(phase).replace(/ /g,'_')}_${typeLabel}.csv`;
   const header='part_no,epic,name,gender,religion';
-  const body=currentRows.map(r=>`${r.part_no||''},${r.epic||''},"${(r.name||'').replace(/"/g,'""')}",${r.gender||''},${r.religion||''}`);
+  const body=currentRows.map(r=>`${r.part_no||''},${r.epic||''},"${(r.name||'').replace(/"/g,'""')}",${r.gender||''}`);
   const blob=new Blob(['\uFEFF'+[header,...body].join('\n')],{type:'text/csv;charset=utf-8;'});
   const url=URL.createObjectURL(blob);
   const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
