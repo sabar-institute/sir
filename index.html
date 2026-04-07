@@ -413,7 +413,7 @@ footer a{color:var(--accent);text-decoration:none}
 <!-- HERO -->
 <div class="hero">
   <div class="hero-badge">Special Intensive Revision · West Bengal · 2025–26</div>
-  <h1>SIR <em>Adjudicated</em><br>Data Repository</h1>
+  <h1>SIR <em>Adjudication</em>& Deleted<br>Data Repository</h1>
   <p>Booth-level inclusion and deletion data from the Special Intensive Revision process, assembly-wise. Each entry has been parsed, OCR-extracted, and structured for analysis. Text extracted via OCR may contain errors; please verify with original source.</p>
   <div class="hero-stats" id="hero-stats">
     <div class="h-stat"><div class="h-stat-val" id="stat-ac">—</div><div class="h-stat-lbl">Assemblies</div></div>
@@ -496,7 +496,7 @@ async function loadAssemblies(){
       <div class="ac-name">${ac.ac_name}</div>
       <div class="ac-district">${ac.district||''}</div>
       <div class="ac-meta">
-        <span class="ac-pill pill-ph">${phases.length} Suppl. Lists${phases.length!==1?'s':''}</span>
+        <span class="ac-pill pill-ph">${phases.length} Phase${phases.length!==1?'s':''}</span>
         ${ac.total_inclusions!=null?`<span class="ac-pill pill-inc">+${(ac.total_inclusions||0).toLocaleString()} Inclusions</span>`:''}
         ${ac.total_deletions!=null?`<span class="ac-pill pill-del">−${(ac.total_deletions||0).toLocaleString()} Deletions</span>`:''}
       </div>
