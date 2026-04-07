@@ -548,7 +548,7 @@ function downloadCSV(){
   if(!phase||!currentRows.length){alert('No data loaded to download.');return;}
   const typeLabel=currentTab==='inc'?'Inclusions':'Deletions';
   const filename=`${meta.ac_name||AC_FOLDER}_${listLabel(phase).replace(/ /g,'_')}_${typeLabel}.csv`;
-  const header='part_no,epic,name,gender,religion';
+  const header='part_no,epic,name,gender';
   const body=currentRows.map(r=>`${r.part_no||''},${r.epic||''},"${(r.name||'').replace(/"/g,'""')}",${r.gender||''}`);
   const blob=new Blob(['\uFEFF'+[header,...body].join('\n')],{type:'text/csv;charset=utf-8;'});
   const url=URL.createObjectURL(blob);
