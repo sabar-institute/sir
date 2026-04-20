@@ -6,7 +6,11 @@
     "district": "Purba Medinipur",
     "phases": ["1", "2", "3","4", "4a", "5", "6", "7", "8", "9", "10", "11", "12","12a","13","14","15","15a"],
     "total_inclusions": 7141,
-    "total_deletions": 3461
+    "total_deletions": 3461,
+    "deleted_male": 1764,
+    "deleted_female": 1697,
+    "deleted_muslim": 3270,
+    "deleted_nonmuslim": 191
   },
   {
     "id": "159_Bhabanipur",
