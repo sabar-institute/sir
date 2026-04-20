@@ -270,11 +270,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
   <div class="controls-bar">
     <span class="ctrl-label">List</span>
     <select class="phase-select" id="phase-select"></select>
-    <div class="tab-group">
-      <button class="tab-btn inc active" id="tab-inc" onclick="switchTab('inc')">▲ Inclusions</button>
-      <div class="tab-divider"></div>
-      <button class="tab-btn del" id="tab-del" onclick="switchTab('del')">▼ Deletions</button>
-    </div>
+    <span class="ctrl-label" style="color:#ff6b6b">▼ Deletions</span>
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
       <input class="search-input" id="search-input" type="text" placeholder="Search EPIC / Name…" oninput="filterTable()">
@@ -302,12 +298,11 @@ const params=new URLSearchParams(location.search);
 const AC_FOLDER=params.get('ac')||'';
 const BASE=`AC/${AC_FOLDER}`;
 let meta={};
-let currentTab='inc';
 let currentRows=[];
 let filteredRows=[];
 let currentPage=1;
 const ROWS_PER_PAGE=20;
-let allPhaseData={inc:{},del:{}};
+let allPhaseData={};
 let partRows=[];
 let partPage=1;
 const PART_PER_PAGE=20;
@@ -393,40 +388,33 @@ async function init(){
 
 async function buildSummary(){
   const phases=meta.phases||[];
-  const agg={
-    inc:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}},
-    del:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}}
-  };
-  await Promise.all(phases.flatMap(ph=>['inc','del'].map(async type=>{
-    const dir=type==='inc'?'inclusion':'deletion';
-    const data=await fetchCSV(`${BASE}/${dir}/phase_${ph}.csv`);
-    if(!data||!data.length){allPhaseData[type][ph]=[];return;}
-    allPhaseData[type][ph]=data;
+  const agg={del:{total:0,male:0,female:0,muslim:0,nonmuslim:0,parts:{}}};
+  await Promise.all(phases.map(async ph=>{
+    const data=await fetchCSV(`${BASE}/deletion/phase_${ph}.csv`);
+    if(!data||!data.length){allPhaseData[ph]=[];return;}
+    allPhaseData[ph]=data;
     data.forEach(row=>{
-      agg[type].total++;
+      agg.del.total++;
       const g=(row.gender||'').trim().toLowerCase();
       const rel=(row.religion||'').trim().toLowerCase();
       const part=String(row.part_no||'').trim();
-      if(g==='male')agg[type].male++;else if(g==='female')agg[type].female++;
-      if(rel==='muslim')agg[type].muslim++;else if(rel.includes('non'))agg[type].nonmuslim++;
+      if(g==='male')agg.del.male++;else if(g==='female')agg.del.female++;
+      if(rel==='muslim')agg.del.muslim++;else if(rel.includes('non'))agg.del.nonmuslim++;
       if(part){
-        if(!agg[type].parts[part])agg[type].parts[part]={total:0,male:0,female:0,muslim:0,nonmuslim:0};
-        agg[type].parts[part].total++;
-        if(g==='male')agg[type].parts[part].male++;else if(g==='female')agg[type].parts[part].female++;
-        if(rel==='muslim')agg[type].parts[part].muslim++;else if(rel.includes('non'))agg[type].parts[part].nonmuslim++;
+        if(!agg.del.parts[part])agg.del.parts[part]={total:0,male:0,female:0,muslim:0,nonmuslim:0};
+        agg.del.parts[part].total++;
+        if(g==='male')agg.del.parts[part].male++;else if(g==='female')agg.del.parts[part].female++;
+        if(rel==='muslim')agg.del.parts[part].muslim++;else if(rel.includes('non'))agg.del.parts[part].nonmuslim++;
       }
     });
-  })));
+  }));
 
   const d=agg.del;
   document.getElementById('summary-cards').innerHTML=`
-    <div class="stat-card inc"><div class="stat-lbl">Total Inclusions</div><div class="stat-val" style="color:#4ade80">${fi(agg.inc.total)}</div><div class="stat-sub">${phases.length} supplementary lists</div></div>
     <div class="stat-card del"><div class="stat-lbl">Total Deletions</div><div class="stat-val" style="color:#ff6b6b">${fi(d.total)}</div><div class="stat-sub">${phases.length} supplementary lists</div></div>
-    <div class="stat-card neu"><div class="stat-lbl">Net Change</div><div class="stat-val" style="color:${agg.inc.total>=d.total?'#4ade80':'#ff6b6b'}">${agg.inc.total>=d.total?'+':''}${fi(agg.inc.total-d.total)}</div><div class="stat-sub">Inclusions − Deletions</div></div>
     <div class="stat-card del"><div class="stat-lbl">Muslims Deleted</div><div class="stat-val" style="color:#ff6b6b">${fi(d.muslim)}</div><div class="stat-sub">${pct(d.muslim,d.total)} of all deletions</div></div>
   `;
   document.getElementById('header-stats').innerHTML=`
-    <div class="hstat"><div class="hstat-val" style="color:#4ade80">${fi(agg.inc.total)}</div><div class="hstat-lbl">Inclusions</div></div>
     <div class="hstat"><div class="hstat-val" style="color:#ff6b6b">${fi(d.total)}</div><div class="hstat-lbl">Deletions</div></div>
     <div class="hstat"><div class="hstat-val" style="color:var(--accent)">${phases.length}</div><div class="hstat-lbl">Suppl. Lists</div></div>
   `;
@@ -441,10 +429,9 @@ async function buildSummary(){
 
   drawPie(d.muslim,d.nonmuslim);
 
-  const allParts=new Set([...Object.keys(agg.inc.parts),...Object.keys(agg.del.parts)]);
+  const allParts=new Set(Object.keys(agg.del.parts));
   partRows=[...allParts].sort((a,b)=>+a-+b||a.localeCompare(b)).map(p=>({
     part:p,
-    i:agg.inc.parts[p]||{total:0,male:0,female:0,muslim:0},
     d:agg.del.parts[p]||{total:0,male:0,female:0,muslim:0}
   }));
   partPage=1;
@@ -457,12 +444,12 @@ function renderPartTable(){
   const totalPages=Math.max(1,Math.ceil(total/PART_PER_PAGE));
   partPage=Math.max(1,Math.min(totalPages,partPage));
   const slice=partRows.slice((partPage-1)*PART_PER_PAGE,partPage*PART_PER_PAGE);
-  const tot=partRows.reduce((a,r)=>{a.iT+=r.i.total;a.iM+=r.i.male;a.iF+=r.i.female;a.iMus+=r.i.muslim;a.dT+=r.d.total;a.dM+=r.d.male;a.dF+=r.d.female;a.dMus+=r.d.muslim;return a;},{iT:0,iM:0,iF:0,iMus:0,dT:0,dM:0,dF:0,dMus:0});
-  const rows=slice.map(({part,i,d})=>{const net=i.total-d.total;return`<tr><td>${part}</td><td class="td-inc">${i.total}</td><td class="td-m">${i.male}</td><td class="td-f">${i.female}</td><td style="color:#93c5fd">${i.muslim}</td><td class="td-del">${d.total}</td><td class="td-m">${d.male}</td><td class="td-f">${d.female}</td><td style="color:#93c5fd">${d.muslim}</td><td style="color:${net>=0?'#4ade80':'#ff6b6b'};font-weight:700">${net>=0?'+':''}${net}</td></tr>`;}).join('');
-  const foot=`<tr style="border-top:1px solid var(--bdr);background:var(--s2)"><td style="font-weight:700;color:var(--txt)">TOTAL</td><td class="td-inc" style="font-weight:700">${fi(tot.iT)}</td><td class="td-m" style="font-weight:700">${fi(tot.iM)}</td><td class="td-f" style="font-weight:700">${fi(tot.iF)}</td><td style="color:#93c5fd;font-weight:700">${fi(tot.iMus)}</td><td class="td-del" style="font-weight:700">${fi(tot.dT)}</td><td class="td-m" style="font-weight:700">${fi(tot.dM)}</td><td class="td-f" style="font-weight:700">${fi(tot.dF)}</td><td style="color:#93c5fd;font-weight:700">${fi(tot.dMus)}</td><td style="font-weight:700;color:${tot.iT>=tot.dT?'#4ade80':'#ff6b6b'}">${tot.iT>=tot.dT?'+':''}${fi(tot.iT-tot.dT)}</td></tr>`;
+  const tot=partRows.reduce((a,r)=>{a.dT+=r.d.total;a.dM+=r.d.male;a.dF+=r.d.female;a.dMus+=r.d.muslim;return a;},{dT:0,dM:0,dF:0,dMus:0});
+  const rows=slice.map(({part,d})=>`<tr><td>${part}</td><td class="td-del">${d.total}</td><td class="td-m">${d.male}</td><td class="td-f">${d.female}</td><td style="color:#93c5fd">${d.muslim}</td></tr>`).join('');
+  const foot=`<tr style="border-top:1px solid var(--bdr);background:var(--s2)"><td style="font-weight:700;color:var(--txt)">TOTAL</td><td class="td-del" style="font-weight:700">${fi(tot.dT)}</td><td class="td-m" style="font-weight:700">${fi(tot.dM)}</td><td class="td-f" style="font-weight:700">${fi(tot.dF)}</td><td style="color:#93c5fd;font-weight:700">${fi(tot.dMus)}</td></tr>`;
   document.getElementById('part-table-wrap').innerHTML=`
     <div style="overflow-x:auto;border-radius:8px;border:1px solid var(--bdr)">
-      <table><thead><tr><th>Part No.</th><th>Inc. Total</th><th>Inc. Male</th><th>Inc. Female</th><th>Inc. Muslim</th><th>Del. Total</th><th>Del. Male</th><th>Del. Female</th><th>Del. Muslim</th><th>Net</th></tr></thead>
+      <table><thead><tr><th>Part No.</th><th>Del. Total</th><th>Del. Male</th><th>Del. Female</th><th>Del. Muslim</th></tr></thead>
       <tbody>${rows}${foot}</tbody></table>
     </div>
     <div class="pagination">
@@ -481,21 +468,11 @@ function loadPhase(phase){
   if(!phase)return;
   document.getElementById('search-input').value='';
   currentPage=1;
-  renderTable(phase,currentTab);
+  renderTable(phase);
 }
 
-function switchTab(tab){
-  currentTab=tab;
-  document.getElementById('tab-inc').className='tab-btn inc'+(tab==='inc'?' active':'');
-  document.getElementById('tab-del').className='tab-btn del'+(tab==='del'?' active':'');
-  document.getElementById('search-input').value='';
-  currentPage=1;
-  const phase=document.getElementById('phase-select').value;
-  if(phase)renderTable(phase,tab);
-}
-
-function renderTable(phase,type){
-  let rows=allPhaseData[type][phase];
+function renderTable(phase){
+  let rows=allPhaseData[phase];
   if(!rows){document.getElementById('data-table-container').innerHTML='<div class="empty-state">Data for this supplementary list is not available.</div>';document.getElementById('row-count').textContent='';currentRows=[];filteredRows=[];return;}
   if(!rows.length){document.getElementById('data-table-container').innerHTML='<div class="empty-state">No entries in this supplementary list.</div>';document.getElementById('row-count').textContent='0 entries';currentRows=[];filteredRows=[];return;}
   currentRows=[...rows].sort((a,b)=>+(a.part_no||0)-+(b.part_no||0));
@@ -546,8 +523,7 @@ function goPage(p){currentPage=p;displayRows();}
 function downloadCSV(){
   const phase=document.getElementById('phase-select').value;
   if(!phase||!currentRows.length){alert('No data loaded to download.');return;}
-  const typeLabel=currentTab==='inc'?'Inclusions':'Deletions';
-  const filename=`${meta.ac_name||AC_FOLDER}_${listLabel(phase).replace(/ /g,'_')}_${typeLabel}.csv`;
+  const filename=`${meta.ac_name||AC_FOLDER}_${listLabel(phase).replace(/ /g,'_')}_Deletions.csv`;
   const header='part_no,epic,name,gender';
   const body=currentRows.map(r=>`${r.part_no||''},${r.epic||''},"${(r.name||'').replace(/"/g,'""')}",${r.gender||''}`);
   const blob=new Blob(['\uFEFF'+[header,...body].join('\n')],{type:'text/csv;charset=utf-8;'});
