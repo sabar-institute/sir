@@ -122,5 +122,36 @@
     "deleted_female": 5462,
     "deleted_muslim": 1012,
     "deleted_nonmuslim": 9546
+  },
+  {
+    "id": "97_Gaighata_(SC)",
+    "ac_no": 97,
+    "ac_name": "Gaighata (SC)",
+    "district": "North 24 Parganas",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 19618,
+    "deleted_male": 9839,
+    "deleted_female": 9779,
+    "deleted_muslim": 613,
+    "deleted_nonmuslim": 19005
   }
 ]
