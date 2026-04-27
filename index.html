@@ -334,6 +334,152 @@ footer a{color:var(--accent);text-decoration:none}
   transition:all .2s;white-space:nowrap;
 }
 .ac-card:hover .ac-view-btn{background:var(--accent2);border-color:var(--accent2);color:#000}
+
+/* ── TRIBUNAL DATA REPOSITORY ─────────────────────────────────────────────── */
+.tribunal-section{
+  max-width:1280px;margin:0 auto;padding:40px 40px 0;
+}
+.tribunal-section .section-title em{
+  color:var(--accent);font-style:normal;
+  font-family:var(--font-mono);font-size:.55em;letter-spacing:.18em;
+  text-transform:uppercase;margin-left:10px;vertical-align:middle;
+  border:1px solid rgba(240,192,64,.3);padding:2px 8px;border-radius:4px;
+  background:rgba(240,192,64,.06);
+}
+.tribunal-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:16px;
+}
+.tribunal-card{
+  background:linear-gradient(135deg,var(--s1) 0%,#1a1a14 100%);
+  border:1px solid var(--bdr);border-radius:10px;
+  padding:22px;cursor:pointer;transition:all .2s;
+  text-align:left;color:inherit;font-family:inherit;width:100%;
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;gap:12px;
+}
+.tribunal-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--accent),transparent);
+  opacity:0;transition:opacity .2s;
+}
+.tribunal-card:hover{border-color:rgba(240,192,64,.35);transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,.4)}
+.tribunal-card:hover::before{opacity:1}
+.tribunal-tag{
+  font-family:var(--font-mono);font-size:10px;font-weight:700;
+  letter-spacing:.15em;color:var(--accent);
+  background:rgba(240,192,64,.08);border:1px solid rgba(240,192,64,.18);
+  display:inline-block;padding:2px 8px;border-radius:4px;align-self:flex-start;
+}
+.tribunal-name{
+  font-family:var(--font-serif);font-size:18px;font-weight:600;
+  color:#fff;line-height:1.22;text-wrap:balance;
+  word-break:normal;overflow-wrap:break-word;hyphens:none;
+}
+.tribunal-date{
+  font-size:12px;color:var(--muted);font-family:var(--font-mono);
+  letter-spacing:.04em;
+}
+.tribunal-date b{color:#e8e8e8;font-weight:600}
+.tribunal-meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:4px}
+.tribunal-card .ac-footer{margin-top:auto}
+
+/* ── TRIBUNAL MODAL ───────────────────────────────────────────────────────── */
+.tm-overlay{
+  position:fixed;inset:0;z-index:1000;
+  background:rgba(0,0,0,.78);backdrop-filter:blur(4px);
+  -webkit-backdrop-filter:blur(4px);
+  display:none;align-items:flex-start;justify-content:center;
+  padding:40px 20px;overflow-y:auto;
+}
+.tm-overlay.show{display:flex;animation:tmFade .25s ease}
+@keyframes tmFade{from{opacity:0}to{opacity:1}}
+.tm-panel{
+  background:var(--s1);border:1px solid var(--bdr);border-radius:14px;
+  width:100%;max-width:1100px;
+  display:flex;flex-direction:column;
+  box-shadow:0 24px 80px rgba(0,0,0,.6);
+  animation:tmRise .3s cubic-bezier(.22,1,.36,1);
+}
+@keyframes tmRise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.tm-header{
+  padding:24px 28px 20px;border-bottom:1px solid var(--bdr);
+  display:flex;align-items:flex-start;justify-content:space-between;gap:20px;
+}
+.tm-tag{
+  font-family:var(--font-mono);font-size:10px;font-weight:700;
+  letter-spacing:.18em;color:var(--accent);margin-bottom:8px;
+}
+.tm-title{
+  font-family:var(--font-serif);font-size:26px;font-weight:600;
+  color:#fff;line-height:1.15;margin-bottom:6px;
+}
+.tm-title em{color:var(--accent2);font-style:normal;font-size:.7em;font-family:var(--font-mono);letter-spacing:.05em}
+.tm-sub{font-size:12px;color:var(--muted);max-width:640px;line-height:1.6}
+.tm-close{
+  width:34px;height:34px;border-radius:50%;flex-shrink:0;
+  background:rgba(255,255,255,.04);border:1px solid var(--bdr);
+  color:var(--muted);font-size:20px;line-height:1;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:all .2s;font-family:inherit;
+}
+.tm-close:hover{background:rgba(204,41,41,.15);border-color:#cc2929;color:#ff6b6b}
+.tm-controls{
+  padding:16px 28px;border-bottom:1px solid var(--bdr);
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+}
+#tm-search{
+  flex:1;min-width:200px;
+  background:var(--s2);border:1px solid var(--bdr);border-radius:6px;
+  color:var(--txt);font-family:inherit;font-size:13px;
+  padding:9px 12px;outline:none;transition:border-color .15s;
+}
+#tm-search:focus{border-color:var(--accent2)}
+.tm-count{
+  font-family:var(--font-mono);font-size:11px;color:var(--muted);
+  letter-spacing:.05em;
+}
+.tm-table-wrap{overflow:auto;max-height:60vh}
+.tm-table{width:100%;border-collapse:collapse;font-size:12px}
+.tm-table thead{position:sticky;top:0;background:var(--s2);z-index:1}
+.tm-table th{
+  text-align:left;padding:12px 14px;
+  font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);border-bottom:1px solid var(--bdr);white-space:nowrap;
+}
+.tm-table td{
+  padding:12px 14px;border-bottom:1px solid rgba(42,42,42,.6);
+  vertical-align:top;
+}
+.tm-table tbody tr:hover{background:rgba(255,255,255,.02)}
+.tm-ac{font-family:var(--font-mono);color:var(--accent);font-weight:700}
+.tm-name-bn{font-family:var(--font-serif);font-size:14px;color:#fff;line-height:1.3}
+.tm-epic{font-family:var(--font-mono);color:#cdd427;font-size:11px}
+.tm-pill-m{display:inline-block;background:rgba(59,130,246,.12);color:#60a5fa;border:1px solid rgba(59,130,246,.25);padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600;white-space:nowrap}
+.tm-pill-f{display:inline-block;background:rgba(236,72,153,.12);color:#f472b6;border:1px solid rgba(236,72,153,.25);padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600;white-space:nowrap}
+.tm-warn{
+  display:inline-block;margin-left:6px;font-size:9px;font-weight:700;letter-spacing:.05em;
+  padding:1px 6px;border-radius:3px;
+  background:rgba(240,192,64,.12);border:1px solid rgba(240,192,64,.3);color:var(--accent);
+}
+.tm-pdf{
+  font-family:var(--font-mono);font-size:10px;color:var(--muted);
+  word-break:break-all;max-width:280px;display:block;line-height:1.4;
+}
+.tm-empty{padding:60px 20px;text-align:center;color:var(--muted);font-size:13px}
+body.tm-locked{overflow:hidden}
+
+@media(max-width:640px){
+  .tribunal-section{padding:24px 20px 0}
+  .tm-overlay{padding:0}
+  .tm-panel{border-radius:0;min-height:100vh}
+  .tm-header{padding:20px;flex-wrap:nowrap}
+  .tm-title{font-size:20px}
+  .tm-controls{padding:14px 20px}
+  .tm-table th,.tm-table td{padding:10px 12px}
+  .tm-pdf{max-width:160px}
+}
 </style>
 </head>
 <body>
@@ -465,6 +611,50 @@ footer a{color:var(--accent);text-decoration:none}
   </div>
 </div>
 
+<!-- TRIBUNAL DATA REPOSITORY -->
+<section class="tribunal-section" id="tribunal">
+  <div class="section-header">
+    <h2 class="section-title">Tribunal Data Repository <em>New</em></h2>
+    <span class="section-sub" id="tribunal-count">—</span>
+  </div>
+  <div class="cards-grid tribunal-grid" id="tribunal-grid"></div>
+</section>
+
+<!-- TRIBUNAL DATA MODAL -->
+<div class="tm-overlay" id="tribunal-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="tm-title">
+  <div class="tm-panel" role="document">
+    <div class="tm-header">
+      <div>
+        <div class="tm-tag" id="tm-tag">TRIBUNAL · LIST 01</div>
+        <h2 class="tm-title" id="tm-title">Deleted List 1 <em>· 22.04.26</em></h2>
+        <p class="tm-sub" id="tm-desc">—</p>
+      </div>
+      <button class="tm-close" id="tm-close" aria-label="Close">×</button>
+    </div>
+    <div class="tm-controls">
+      <input type="text" id="tm-search" placeholder="Search name, EPIC, district, AC…" autocomplete="off">
+      <span class="tm-count" id="tm-count">— records</span>
+    </div>
+    <div class="tm-table-wrap">
+      <table class="tm-table" id="tm-table">
+        <thead>
+          <tr>
+            <th>AC #</th>
+            <th>Assembly</th>
+            <th>District</th>
+            <th>Part</th>
+            <th>EPIC</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Source PDF</th>
+          </tr>
+        </thead>
+        <tbody id="tm-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 <!-- MAIN -->
 <main id="assemblies">
   <div class="section-header">
@@ -585,6 +775,141 @@ async function loadAssemblies(){
     </a>`;
   }).join('');
 }
+
+// ── TRIBUNAL DATA REPOSITORY ────────────────────────────────────────────
+// To add a new list later, push another object onto this array.
+const tribunalLists = [
+  {
+    id: "list1",
+    listNo: "01",
+    title: "Appellate Tribunal Deleted list 1",
+    dateShort: "22.04.26",
+    dateLong: "22 April 2026",
+    description: "Voters declared not eligible — adjudicated supplementary deletion list (S25).",
+    rows: [
+      {ac_no:55,  ac_name:"Farakka",          district:"MURSHIDABAD",       pdf_file:"2026-SUPPLEMENTGEN-S25-55-16-Jo-not_eligible-BEN-7-WI.pdf",    part_no:7,   page_no:1, box_no:1, epic:"WRI1590637", name:"আয়েসা খাতুন",                  gender:"Female", warning:""},
+      {ac_no:55,  ac_name:"Farakka",          district:"MURSHIDABAD",       pdf_file:"2026-SUPPLEMENTGEN-S25-55-16-Jo-not_eligible-BEN-8-WI.pdf",    part_no:8,   page_no:1, box_no:1, epic:"WRI1348739", name:"রাহুল সেখ",                     gender:"Male",   warning:""},
+      {ac_no:279, ac_name:"Jamuria",          district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-279-16-Jo-not_eligible-BEN-36-WI.pdf",  part_no:36,  page_no:1, box_no:1, epic:"NAZ1723907", name:"শহিন নাজ",                      gender:"Female", warning:""},
+      {ac_no:277, ac_name:"Durgapur Paschim", district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-277-16-Jo-not_eligible-BEN-188-WI.pdf", part_no:188, page_no:1, box_no:1, epic:"WEP2984532", name:"জিয়া পরবিন",                  gender:"Female", warning:""},
+      {ac_no:281, ac_name:"Asansol Uttar",    district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-281-16-Jo-not_eligible-BEN-101-WI.pdf", part_no:101, page_no:1, box_no:1, epic:"MXS0054376", name:"হাসিনা বেগম",                  gender:"Female", warning:"GENDER_BLANK"},
+      {ac_no:277, ac_name:"Durgapur Paschim", district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-277-16-Jo-not_eligible-BEN-244-WI.pdf", part_no:244, page_no:1, box_no:1, epic:"LJK2386266", name:"মহঃ ওয়াহিদ হুসেন আনসারী",   gender:"Male",   warning:""},
+      {ac_no:283, ac_name:"Barabani",         district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-283-16-Jo-not_eligible-BEN-207-WI.pdf", part_no:207, page_no:1, box_no:1, epic:"NRW1745561", name:"লছমী সরেন",                    gender:"Female", warning:""},
+      {ac_no:207, ac_name:"Nandakumar",       district:"PURBA MEDINIPUR",   pdf_file:"2026-SUPPLEMENTGEN-S25-207-16-Jo-not_eligible-BEN-214-WI.pdf", part_no:214, page_no:1, box_no:1, epic:"AKQ1658129", name:"ফিরোজা বিবি",                  gender:"Female", warning:""}
+    ]
+  }
+  // Future lists — add them here in the same shape:
+  // { id:"list2", listNo:"02", title:"Deleted List 2", dateShort:"...", dateLong:"...", description:"...", rows:[...] }
+];
+
+function escHtml(s){
+  return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderTribunalCards(){
+  const grid=document.getElementById('tribunal-grid');
+  const countEl=document.getElementById('tribunal-count');
+  if(!grid)return;
+  grid.innerHTML=tribunalLists.map(L=>{
+    const males=L.rows.filter(r=>String(r.gender||'').toLowerCase()==='male').length;
+    const females=L.rows.filter(r=>String(r.gender||'').toLowerCase()==='female').length;
+    const gTot=males+females;
+    const mPct=gTot?Math.round((males/gTot)*100):0;
+    const fPct=gTot?Math.round((females/gTot)*100):0;
+    return `<button class="tribunal-card" data-list-id="${escHtml(L.id)}" type="button">
+      <div class="tribunal-tag">${escHtml(L.dateShort)}</div>
+      <div class="tribunal-name">${escHtml(L.title)}</div>
+      <div class="tribunal-meta">
+        <span class="ac-pill pill-del">${L.rows.length} entries</span>
+        ${gTot?`<span class="tm-pill-m">♂ ${mPct}%</span><span class="tm-pill-f">♀ ${fPct}%</span>`:''}
+      </div>
+      <div class="ac-footer">
+        <div class="ac-footer-stat">
+          <div class="ac-footer-val" style="color:#ff6b6b">${L.rows.length}</div>
+          <div class="ac-footer-lbl">Records</div>
+        </div>
+        <div class="ac-view-btn">View Data →</div>
+      </div>
+    </button>`;
+  }).join('');
+  countEl.textContent=`${tribunalLists.length} list${tribunalLists.length!==1?'s':''} available`;
+
+  grid.querySelectorAll('.tribunal-card').forEach(btn=>{
+    btn.addEventListener('click',()=>openTribunal(btn.dataset.listId));
+  });
+}
+
+function renderTribunalRows(rows){
+  const tbody=document.getElementById('tm-tbody');
+  if(!rows.length){
+    tbody.innerHTML=`<tr><td colspan="8" class="tm-empty">No records match your search.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML=rows.map(r=>{
+    const g=String(r.gender||'').toLowerCase();
+    const gPill=g==='male'?`<span class="tm-pill-m">♂ Male</span>`
+              :g==='female'?`<span class="tm-pill-f">♀ Female</span>`
+              :`<span style="color:var(--muted)">—</span>`;
+    return `<tr>
+      <td><span class="tm-ac">${escHtml(r.ac_no)}</span></td>
+      <td>${escHtml(r.ac_name)}</td>
+      <td>${escHtml(r.district)}</td>
+      <td>${escHtml(r.part_no)}</td>
+      <td><span class="tm-epic">${escHtml(r.epic)}</span></td>
+      <td><span class="tm-name-bn">${escHtml(r.name)}</span></td>
+      <td>${gPill}</td>
+      <td><span class="tm-pdf" title="${escHtml(r.pdf_file)}">${escHtml(r.pdf_file)}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+let _activeTribunalList=null;
+function openTribunal(id){
+  const L=tribunalLists.find(x=>x.id===id);
+  if(!L)return;
+  _activeTribunalList=L;
+  document.getElementById('tm-tag').textContent=`TRIBUNAL · LIST ${L.listNo}`;
+  document.getElementById('tm-title').innerHTML=`${escHtml(L.title)} <em>· ${escHtml(L.dateShort)}</em>`;
+  document.getElementById('tm-desc').textContent=L.description||'';
+  document.getElementById('tm-search').value='';
+  document.getElementById('tm-count').textContent=`${L.rows.length} record${L.rows.length!==1?'s':''}`;
+  renderTribunalRows(L.rows);
+  const overlay=document.getElementById('tribunal-modal');
+  overlay.classList.add('show');
+  overlay.setAttribute('aria-hidden','false');
+  document.body.classList.add('tm-locked');
+}
+function closeTribunal(){
+  const overlay=document.getElementById('tribunal-modal');
+  overlay.classList.remove('show');
+  overlay.setAttribute('aria-hidden','true');
+  document.body.classList.remove('tm-locked');
+  _activeTribunalList=null;
+}
+
+document.getElementById('tm-close').addEventListener('click',closeTribunal);
+document.getElementById('tribunal-modal').addEventListener('click',e=>{
+  if(e.target.id==='tribunal-modal')closeTribunal();
+});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&document.getElementById('tribunal-modal').classList.contains('show'))closeTribunal();
+});
+document.getElementById('tm-search').addEventListener('input',e=>{
+  if(!_activeTribunalList)return;
+  const q=e.target.value.trim().toLowerCase();
+  if(!q){
+    renderTribunalRows(_activeTribunalList.rows);
+    document.getElementById('tm-count').textContent=`${_activeTribunalList.rows.length} records`;
+    return;
+  }
+  const filtered=_activeTribunalList.rows.filter(r=>{
+    return [r.ac_no,r.ac_name,r.district,r.epic,r.name,r.gender,r.part_no,r.pdf_file]
+      .some(v=>String(v||'').toLowerCase().includes(q));
+  });
+  renderTribunalRows(filtered);
+  document.getElementById('tm-count').textContent=`${filtered.length} of ${_activeTribunalList.rows.length} records`;
+});
+
+renderTribunalCards();
 
 loadAssemblies();
 </script>
