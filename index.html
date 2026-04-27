@@ -143,6 +143,7 @@ header{
 .h-stat{border-left:2px solid var(--bdr);padding-left:16px}
 .h-stat-val{font-family:var(--font-mono);font-size:22px;font-weight:700;color:var(--accent)}
 .h-stat-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.h-stat-sub{font-family:var(--font-mono);font-size:10px;color:var(--muted);margin-top:3px;opacity:.8}
 
 /* ── DONATE SECTION ─────────────────────────────────────────────────────── */
 .donate-section{
@@ -585,8 +586,13 @@ body.tm-locked{overflow:hidden}
   <p>Booth-level deletion data from the Special Intensive Revision process, assembly-wise. Each entry has been parsed, OCR-extracted, and structured for analysis. Text extracted via OCR may contain errors; please verify with original source.</p>
   <div class="hero-stats" id="hero-stats">
     <div class="h-stat"><div class="h-stat-val" id="stat-ac">—</div><div class="h-stat-lbl">Assemblies</div></div>
-    <div class="h-stat"><div class="h-stat-val" id="stat-phases">—</div><div class="h-stat-lbl">Total Suppl. Lists</div></div>
-    <div class="h-stat"><div class="h-stat-val" id="stat-del" style="color:#ff6b6b">—</div><div class="h-stat-lbl">Deletions</div></div>
+    <div class="h-stat"><div class="h-stat-val">18</div><div class="h-stat-lbl">Suppl. Lists</div></div>
+    <div class="h-stat"><div class="h-stat-val" id="stat-tribunal">—</div><div class="h-stat-lbl">Appellate Tribunal Lists</div></div>
+    <div class="h-stat">
+      <div class="h-stat-val" id="stat-del" style="color:#ff6b6b">—</div>
+      <div class="h-stat-lbl">Deletions in Repository</div>
+      <div class="h-stat-sub" id="stat-del-sub">— / 27,16,393 · —%</div>
+    </div>
   </div>
     <a href="#assemblies" class="hero-scroll-btn" onclick="document.getElementById('assemblies').scrollIntoView({behavior:'smooth'});return false;">
     View Assembly-wise Data ↓
@@ -714,9 +720,11 @@ async function loadAssemblies(){
   }
 
   document.getElementById('stat-ac').textContent=assemblies.length;
-  const totalPhases=assemblies.reduce((a,b)=>a+(b.phases||[]).length,0);
-  document.getElementById('stat-phases').textContent=totalPhases;
-  document.getElementById('stat-del').textContent=assemblies.reduce((a,b)=>a+(b.total_deletions||0),0).toLocaleString()||'—';
+  const totalDel=assemblies.reduce((a,b)=>a+(b.total_deletions||0),0);
+  const stateTotal=2716393;
+  const pct=stateTotal>0?(totalDel/stateTotal*100).toFixed(1):'—';
+  document.getElementById('stat-del').textContent=totalDel.toLocaleString('en-IN')||'—';
+  document.getElementById('stat-del-sub').textContent=totalDel.toLocaleString('en-IN')+' / '+stateTotal.toLocaleString('en-IN')+' · '+pct+'%';
   document.getElementById('ac-count').textContent=`${assemblies.length} assembl${assemblies.length===1?'y':'ies'} available`;
 
   if(!assemblies.length){
@@ -782,29 +790,20 @@ async function loadAssemblies(){
 }
 
 // ── TRIBUNAL DATA REPOSITORY ────────────────────────────────────────────
-// To add a new list later, push another object onto this array.
-const tribunalLists = [
-  {
-    id: "list1",
-    listNo: "01",
-    title: "Appellate Tribunal Deleted list 1",
-    dateShort: "22.04.26",
-    dateLong: "22 April 2026",
-    description: "Voters declared not eligible — adjudicated supplementary deletion list (S25).",
-    rows: [
-      {ac_no:55,  ac_name:"Farakka",          district:"MURSHIDABAD",       pdf_file:"2026-SUPPLEMENTGEN-S25-55-16-Jo-not_eligible-BEN-7-WI.pdf",    part_no:7,   page_no:1, box_no:1, epic:"WRI1590637", name:"আয়েসা খাতুন",                  gender:"Female", warning:""},
-      {ac_no:55,  ac_name:"Farakka",          district:"MURSHIDABAD",       pdf_file:"2026-SUPPLEMENTGEN-S25-55-16-Jo-not_eligible-BEN-8-WI.pdf",    part_no:8,   page_no:1, box_no:1, epic:"WRI1348739", name:"রাহুল সেখ",                     gender:"Male",   warning:""},
-      {ac_no:279, ac_name:"Jamuria",          district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-279-16-Jo-not_eligible-BEN-36-WI.pdf",  part_no:36,  page_no:1, box_no:1, epic:"NAZ1723907", name:"শহিন নাজ",                      gender:"Female", warning:""},
-      {ac_no:277, ac_name:"Durgapur Paschim", district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-277-16-Jo-not_eligible-BEN-188-WI.pdf", part_no:188, page_no:1, box_no:1, epic:"WEP2984532", name:"জিয়া পরবিন",                  gender:"Female", warning:""},
-      {ac_no:281, ac_name:"Asansol Uttar",    district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-281-16-Jo-not_eligible-BEN-101-WI.pdf", part_no:101, page_no:1, box_no:1, epic:"MXS0054376", name:"হাসিনা বেগম",                  gender:"Female", warning:"GENDER_BLANK"},
-      {ac_no:277, ac_name:"Durgapur Paschim", district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-277-16-Jo-not_eligible-BEN-244-WI.pdf", part_no:244, page_no:1, box_no:1, epic:"LJK2386266", name:"মহঃ ওয়াহিদ হুসেন আনসারী",   gender:"Male",   warning:""},
-      {ac_no:283, ac_name:"Barabani",         district:"PASCHIM BARDHAMAN", pdf_file:"2026-SUPPLEMENTGEN-S25-283-16-Jo-not_eligible-BEN-207-WI.pdf", part_no:207, page_no:1, box_no:1, epic:"NRW1745561", name:"লছমী সরেন",                    gender:"Female", warning:""},
-      {ac_no:207, ac_name:"Nandakumar",       district:"PURBA MEDINIPUR",   pdf_file:"2026-SUPPLEMENTGEN-S25-207-16-Jo-not_eligible-BEN-214-WI.pdf", part_no:214, page_no:1, box_no:1, epic:"AKQ1658129", name:"ফিরোজা বিবি",                  gender:"Female", warning:""}
-    ]
+let tribunalLists = [];
+
+async function loadTribunal(){
+  try{
+    const r=await fetch('data/tribunal.json');
+    tribunalLists=await r.json();
+  }catch(e){
+    document.getElementById('tribunal-grid').innerHTML='<div class="empty"><p>Could not load tribunal data. Ensure <code>data/tribunal.json</code> exists.</p></div>';
+    return;
   }
-  // Future lists — add them here in the same shape:
-  // { id:"list2", listNo:"02", title:"Deleted List 2", dateShort:"...", dateLong:"...", description:"...", rows:[...] }
-];
+  const statEl=document.getElementById('stat-tribunal');
+  if(statEl)statEl.textContent=tribunalLists.length;
+  renderTribunalCards();
+}
 
 function escHtml(s){
   return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -914,7 +913,7 @@ document.getElementById('tm-search').addEventListener('input',e=>{
   document.getElementById('tm-count').textContent=`${filtered.length} of ${_activeTribunalList.rows.length} records`;
 });
 
-renderTribunalCards();
+loadTribunal();
 
 loadAssemblies();
 </script>
