@@ -1,0 +1,20 @@
+[
+  {
+    "id": "list1",
+    "listNo": "01",
+    "title": "Appellate Tribunal Deleted list 1",
+    "dateShort": "22.04.26",
+    "dateLong": "22 April 2026",
+    "description": "Voters declared not eligible — adjudicated supplementary deletion list (S25).",
+    "rows": [
+      {"ac_no":55,  "ac_name":"Farakka",          "district":"MURSHIDABAD",       "pdf_file":"2026-SUPPLEMENTGEN-S25-55-16-Jo-not_eligible-BEN-7-WI.pdf",    "part_no":7,   "page_no":1, "box_no":1, "epic":"WRI1590637", "name":"আয়েসা খাতুন",               "gender":"Female", "ocr_pass":1, "warning":null,          "repeat":null},
+      {"ac_no":55,  "ac_name":"Farakka",          "district":"MURSHIDABAD",       "pdf_file":"2026-SUPPLEMENTGEN-S25-55-16-Jo-not_eligible-BEN-8-WI.pdf",    "part_no":8,   "page_no":1, "box_no":1, "epic":"WRI1348739", "name":"রাহুল সেখ",                  "gender":"Male",   "ocr_pass":1, "warning":null,          "repeat":null},
+      {"ac_no":279, "ac_name":"Jamuria",          "district":"PASCHIM BARDHAMAN", "pdf_file":"2026-SUPPLEMENTGEN-S25-279-16-Jo-not_eligible-BEN-36-WI.pdf",  "part_no":36,  "page_no":1, "box_no":1, "epic":"NAZ1723907", "name":"শহিন নাজ",                   "gender":"Female", "ocr_pass":1, "warning":null,          "repeat":null},
+      {"ac_no":277, "ac_name":"Durgapur Paschim", "district":"PASCHIM BARDHAMAN", "pdf_file":"2026-SUPPLEMENTGEN-S25-277-16-Jo-not_eligible-BEN-188-WI.pdf", "part_no":188, "page_no":1, "box_no":1, "epic":"WEP2984532", "name":"জিয়া পরবিন",               "gender":"Female", "ocr_pass":1, "warning":null,          "repeat":null},
+      {"ac_no":281, "ac_name":"Asansol Uttar",    "district":"PASCHIM BARDHAMAN", "pdf_file":"2026-SUPPLEMENTGEN-S25-281-16-Jo-not_eligible-BEN-101-WI.pdf", "part_no":101, "page_no":1, "box_no":1, "epic":"MXS0054376", "name":"হাসিনা বেগম",               "gender":"Female", "ocr_pass":1, "warning":"GENDER_BLANK", "repeat":null},
+      {"ac_no":277, "ac_name":"Durgapur Paschim", "district":"PASCHIM BARDHAMAN", "pdf_file":"2026-SUPPLEMENTGEN-S25-277-16-Jo-not_eligible-BEN-244-WI.pdf", "part_no":244, "page_no":1, "box_no":1, "epic":"LJK2386266", "name":"মহঃ ওয়াহিদ হুসেন আনসারী","gender":"Male",   "ocr_pass":1, "warning":null,          "repeat":null},
+      {"ac_no":283, "ac_name":"Barabani",         "district":"PASCHIM BARDHAMAN", "pdf_file":"2026-SUPPLEMENTGEN-S25-283-16-Jo-not_eligible-BEN-207-WI.pdf", "part_no":207, "page_no":1, "box_no":1, "epic":"NRW1745561", "name":"লছমী সরেন",                 "gender":"Female", "ocr_pass":1, "warning":null,          "repeat":null},
+      {"ac_no":207, "ac_name":"Nandakumar",       "district":"PURBA MEDINIPUR",   "pdf_file":"2026-SUPPLEMENTGEN-S25-207-16-Jo-not_eligible-BEN-214-WI.pdf", "part_no":214, "page_no":1, "box_no":1, "epic":"AKQ1658129", "name":"ফিরোজা বিবি",               "gender":"Female", "ocr_pass":1, "warning":null,          "repeat":null}
+    ]
+  }
+]
