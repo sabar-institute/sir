@@ -184,5 +184,36 @@
     "deleted_female": 5369,
     "deleted_muslim": 4993,
     "deleted_nonmuslim": 3760
+  },
+  {
+    "id": "99_Baduria",
+    "ac_no": 99,
+    "ac_name": "Baduria",
+    "district": "North 24 Parganas",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 8423,
+    "deleted_male": 3500,
+    "deleted_female": 4923,
+    "deleted_muslim": 5291,
+    "deleted_nonmuslim": 3132
   }
 ]
