@@ -215,5 +215,36 @@
     "deleted_female": 4923,
     "deleted_muslim": 5291,
     "deleted_nonmuslim": 3132
+  },
+  {
+    "id": "100_Habra",
+    "ac_no": 100,
+    "ac_name": "Habra",
+    "district": "North 24 Parganas",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 18791,
+    "deleted_male": 9889,
+    "deleted_female": 8902,
+    "deleted_muslim": 598,
+    "deleted_nonmuslim": 18193
   }
 ]
