@@ -722,9 +722,9 @@ async function loadAssemblies(){
   document.getElementById('stat-ac').textContent=assemblies.length;
   const totalDel=assemblies.reduce((a,b)=>a+(b.total_deletions||0),0);
   const stateTotal=2716393;
-  const pct=stateTotal>0?(totalDel/stateTotal*100).toFixed(1):'—';
+  const delPct=stateTotal>0?(totalDel/stateTotal*100).toFixed(1):'—';
   document.getElementById('stat-del').textContent=totalDel.toLocaleString('en-IN')||'—';
-  document.getElementById('stat-del-sub').textContent=totalDel.toLocaleString('en-IN')+' / '+stateTotal.toLocaleString('en-IN')+' · '+pct+'%';
+  document.getElementById('stat-del-sub').textContent=totalDel.toLocaleString('en-IN')+' / '+stateTotal.toLocaleString('en-IN')+' · '+delPct+'%';
   document.getElementById('ac-count').textContent=`${assemblies.length} assembl${assemblies.length===1?'y':'ies'} available`;
 
   if(!assemblies.length){
