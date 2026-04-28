@@ -813,7 +813,11 @@ function renderTribunalCards(){
   const grid=document.getElementById('tribunal-grid');
   const countEl=document.getElementById('tribunal-count');
   if(!grid)return;
-  grid.innerHTML=tribunalLists.map(L=>{
+  const sorted=[...tribunalLists].sort((a,b)=>{
+    const p=s=>{const[d,m,y]=s.split('.');return new Date(2000+parseInt(y),parseInt(m)-1,parseInt(d));};
+    return p(b.dateShort)-p(a.dateShort);
+  });
+  grid.innerHTML=sorted.map(L=>{
     const males=L.rows.filter(r=>String(r.gender||'').toLowerCase()==='male').length;
     const females=L.rows.filter(r=>String(r.gender||'').toLowerCase()==='female').length;
     const gTot=males+females;
