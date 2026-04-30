@@ -414,5 +414,37 @@
     "deleted_muslim": 1771,
     "deleted_nonmuslim": 19025,
     "deleted_other": 2
+    },
+    {
+    "id": "90_Ranaghat_Dakshin_(SC)",
+    "ac_no": 90,
+    "ac_name": "Ranaghat Dakshin (SC)",
+    "district": " Nadia",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",   
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 17411,
+    "deleted_male":8373,
+    "deleted_female": 9038,
+    "deleted_muslim": 2103,
+    "deleted_nonmuslim": 15308,
+    "deleted_other": null
     }
 ]
