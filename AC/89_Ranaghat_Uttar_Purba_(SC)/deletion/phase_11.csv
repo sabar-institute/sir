@@ -808,7 +808,7 @@ pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,religio
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-65-WI.pdf,65,3,13,XZD1726603,হিমাংশু বিশ্বাস,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-69-WI.pdf,69,3,7,RHC1279942,শ্যামল বিশ্বাস,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-76-WI.pdf,76,2,11,RHC2715746,সুহাগ বিশ্বাস,Male,1,,,Non-Muslim
-2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-78-WI.pdf,78,1,21,RHO2523967,রাছুল মল্লিক,Male,1,,,Muslim
+2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-78-WI.pdf,78,1,21,RHO2523967,রাছুল মল্লিক,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-77-WI.pdf,77,1,21,RHC2070266,দিপালী বিশ্বাস,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-73-WI.pdf,73,3,6,RHO2673424,মনিকা রায়,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-74-WI.pdf,74,3,4,RHC2571297,উৎপল বিশ্বাস,Male,1,,,Non-Muslim
@@ -1584,7 +1584,7 @@ pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,religio
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-93-WI.pdf,93,1,5,RHC2671552,সুবর্ণ বিশ্বাস,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-88-WI.pdf,88,2,12,RHC1519230,শুকদেব সরকার,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-91-WI.pdf,91,1,16,RHC1290857,আজিজ মণ্ডল,Male,1,,,Muslim
-2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-87-WI.pdf,87,2,21,RHC1406230,মোমেনা সরকার,Female,1,,,Non-Muslim
+2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-87-WI.pdf,87,2,21,RHC1406230,মোমেনা সরকার,Female,1,,,Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-89-WI.pdf,89,2,11,RHC2823896,অজিত বিশ্বাস,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-77-WI.pdf,77,6,20,RHC1755404,লিপি বিশ্বাস,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-11-Jo-not_eligible-BEN-92-WI.pdf,92,1,6,RHC2312106,সরিফা মন্ডল,Female,1,,,Non-Muslim
