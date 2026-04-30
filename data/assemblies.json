@@ -28,7 +28,8 @@
     "deleted_male": 1764,
     "deleted_female": 1697,
     "deleted_muslim": 3270,
-    "deleted_nonmuslim": 191
+    "deleted_nonmuslim": 191,
+    "deleted_other": null
   },
   {
     "id": "159_Bhabanipur",
@@ -59,7 +60,8 @@
     "deleted_male": 1991,
     "deleted_female": 1907,
     "deleted_muslim": 1562,
-    "deleted_nonmuslim": 2336
+    "deleted_nonmuslim": 2336,
+    "deleted_other": null
   },
   {
     "id": "95_Bangaon_Uttar_(SC)",
@@ -90,7 +92,8 @@
     "deleted_male": 3969,
     "deleted_female": 4311,
     "deleted_muslim": 1351,
-    "deleted_nonmuslim": 6929
+    "deleted_nonmuslim": 6929,
+    "deleted_other": null
   },
   {
     "id": "96_Bangaon_Dakshin_(SC)",
@@ -121,7 +124,8 @@
     "deleted_male": 5096,
     "deleted_female": 5462,
     "deleted_muslim": 1012,
-    "deleted_nonmuslim": 9546
+    "deleted_nonmuslim": 9546,
+    "deleted_other": null
   },
   {
     "id": "97_Gaighata_(SC)",
@@ -152,7 +156,8 @@
     "deleted_male": 9839,
     "deleted_female": 9779,
     "deleted_muslim": 613,
-    "deleted_nonmuslim": 19005
+    "deleted_nonmuslim": 19005,
+    "deleted_other": null
   },
   {
     "id": "98_Swarupnagar_(SC)",
@@ -183,7 +188,8 @@
     "deleted_male": 3384,
     "deleted_female": 5369,
     "deleted_muslim": 4993,
-    "deleted_nonmuslim": 3760
+    "deleted_nonmuslim": 3760,
+    "deleted_other": null
   },
   {
     "id": "99_Baduria",
@@ -214,7 +220,8 @@
     "deleted_male": 3500,
     "deleted_female": 4923,
     "deleted_muslim": 5291,
-    "deleted_nonmuslim": 3132
+    "deleted_nonmuslim": 3132,
+    "deleted_other": null
   },
   {
     "id": "100_Habra",
@@ -245,9 +252,10 @@
     "deleted_male": 9889,
     "deleted_female": 8902,
     "deleted_muslim": 598,
-    "deleted_nonmuslim": 18193
+    "deleted_nonmuslim": 18193,
+    "deleted_other": null
   },
-    {
+  {
     "id": "85_Krishnanagar_Dakshin",
     "ac_no": 85,
     "ac_name": "Krishnanagar Dakshin",
@@ -276,7 +284,8 @@
     "deleted_male": 6093,
     "deleted_female": 5896,
     "deleted_muslim": 5438,
-    "deleted_nonmuslim": 6551
+    "deleted_nonmuslim": 6551,
+    "deleted_other": null
   },
   {
     "id": "86_Santipur",
@@ -307,6 +316,39 @@
     "deleted_male": 5478,
     "deleted_female": 5521,
     "deleted_muslim": 2947,
-    "deleted_nonmuslim": 8052
+    "deleted_nonmuslim": 8052,
+    "deleted_other": null
+  },
+  {
+    "id": "87_Ranaghat_Uttar_Paschim",
+    "ac_no": 87,
+    "ac_name": "Ranaghat Uttar Paschim",
+    "district": " Nadia",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 14029,
+    "deleted_male": 6815,
+    "deleted_female": 7209,
+    "deleted_muslim": 531,
+    "deleted_nonmuslim": 13498,
+    "deleted_other": 5
   }
 ]
