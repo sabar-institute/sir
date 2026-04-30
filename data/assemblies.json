@@ -350,5 +350,37 @@
     "deleted_muslim": 531,
     "deleted_nonmuslim": 13498,
     "deleted_other": 5
+  },
+  {
+    "id": "88_Krishnaganj_(SC)",
+    "ac_no": 88,
+    "ac_name": "Krishnaganj (SC)",
+    "district": " Nadia",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 15552,
+    "deleted_male": 7571,
+    "deleted_female": 7979,
+    "deleted_muslim": 1277,
+    "deleted_nonmuslim": 14275,
+    "deleted_other": 2
   }
 ]

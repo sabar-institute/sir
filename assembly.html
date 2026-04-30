@@ -238,6 +238,13 @@ tr:hover td{background:rgba(255,255,255,.02)}
       <div class="muslim-sub" id="muslim-sub-txt">% of total assembly population.</div>
     </div>
   </div>
+  <div id="other-gender-card" style="display:none;background:var(--s1);border:1px solid rgba(168,85,247,.35);border-left:3px solid #a855f7;border-radius:8px;padding:14px 20px;margin-bottom:16px;">
+    <div style="font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#a855f7;margin-bottom:6px">Other Gender — Deleted</div>
+    <div style="display:flex;align-items:baseline;gap:12px">
+      <span id="gb-other-count" style="font-family:var(--font-mono);font-size:28px;font-weight:700;color:#c084fc">—</span>
+      <span style="font-size:11px;color:var(--muted)">voters deleted whose gender is recorded as neither Male nor Female</span>
+    </div>
+  </div>
   <div class="ratio-group">
     <div class="ratio-title">Gender Ratio — Deletions Only</div>
     <div class="ratio-bar-wrap">
@@ -431,8 +438,10 @@ async function buildSummary(){
   document.getElementById('gb-male-pct').textContent=pct(d.male,d.total);
   document.getElementById('gb-female-pct').textContent=pct(d.female,d.total);
   if(d.other>0){
+    document.getElementById('other-gender-card').style.display='';
+    document.getElementById('gb-other-count').textContent=fi(d.other);
     document.getElementById('gb-other-legend').style.display='';
-    document.getElementById('gb-other-pct').textContent=pct(d.other,d.total)+' ('+fi(d.other)+')';
+    document.getElementById('gb-other-pct').textContent=fi(d.other);
   }
 
   drawPie(d.muslim,d.nonmuslim);
