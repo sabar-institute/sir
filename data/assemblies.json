@@ -446,5 +446,37 @@
     "deleted_muslim": 2099,
     "deleted_nonmuslim": 15312,
     "deleted_other": null
+    },
+    {
+    "id": "92_Kalyani_(SC)",
+    "ac_no": 92,
+    "ac_name": "Kalyani (SC)",
+    "district": " Nadia",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",   
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 9331,
+    "deleted_male": 4292,
+    "deleted_female": 5038,
+    "deleted_muslim": 931,
+    "deleted_nonmuslim": 8400,
+    "deleted_other": null
     }
 ]
