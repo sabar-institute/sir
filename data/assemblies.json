@@ -504,11 +504,43 @@
       "15",
       "15a"
     ],
-    "total_deletions": 2721,
+    "total_deletions": 2722,
     "deleted_male": 1029,
-    "deleted_female": 1692,
-    "deleted_muslim": 1909,
+    "deleted_female": 1693,
+    "deleted_muslim": 1910,
     "deleted_nonmuslim": 812,
     "deleted_other": null
-    }
+    },
+    {
+    "id": "78_Tehatta",
+    "ac_no": 78,
+    "ac_name": "Tehatta",
+    "district": " Nadia",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",   
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 1209,
+    "deleted_male": 432,
+    "deleted_female": 777,
+    "deleted_muslim": 498,
+    "deleted_nonmuslim": 711,
+    "deleted_other": null
+  }
 ]
