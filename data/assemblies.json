@@ -478,5 +478,37 @@
     "deleted_muslim": 931,
     "deleted_nonmuslim": 8400,
     "deleted_other": null
+    },
+    {
+    "id": "77_Karimpur",
+    "ac_no": 77,
+    "ac_name": "Karimpur",
+    "district": " Nadia",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",   
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 2721,
+    "deleted_male": 1029,
+    "deleted_female": 1692,
+    "deleted_muslim": 1909,
+    "deleted_nonmuslim": 812,
+    "deleted_other": null
     }
 ]
