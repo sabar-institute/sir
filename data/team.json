@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sabir-ahamed",
+    "name": "Sabir Ahamed",
+    "role": "Lead & Advisor",
+    "role_tag": "Founder",
+    "description": "National Research Coordinator at Pratichi Institute, Pratichi (India) Trust, and the founder of the 'Know Your Neighbour' initiative at Sabar Institute.",
+    "photo": "assets/team/sabir-ahamed.png",
+    "links": {
+      "website": "https://sabarinstitute.org/sabir-ahamed-2/",
+      "linkedin": "https://www.linkedin.com/in/sabir-ahamed-52a95860/",
+      "twitter": "https://x.com/sabirahamedgd",
+      "email": "sabirahamed@gmail.com"
+    }
+  },
+  {
+    "id": "souptik-halder",
+    "name": "Souptik Halder",
+    "role": "Lead Technical Research",
+    "role_tag": "Engineering",
+    "description": "Researcher at ISI Kolkata with a strong background in data science and machine learning, specializing in computaional methods in social data analysis.",
+    "photo": "assets/team/souptik-halder.jpg",
+    "links": {
+      "website": "https://souptikh.github.io/site",
+      "linkedin": "https://www.linkedin.com/in/souptik-h-322b95b3",
+      "twitter": "https://x.com/Souptik_H",
+      "email": "haldersouptik@gmail.com"
+    }
+  },
+  {
+    "id": "ashin-chakraborty",
+    "name": "Ashin Chakraborty",
+    "role": "Lead Research",
+    "role_tag": "Research",
+    "description": "Researcher in Economics with a strong passion for leveraging data-driven insights to drive real-world change",
+    "photo": "assets/team/ashin-chakraborty.png",
+    "links": {
+      "website": "https://sabarinstitute.org/ashin-chakraborty-2/",
+      "linkedin": "https://www.linkedin.com/in/ashin-chakraborty/",
+      "twitter": "https://x.com/Ashin_econ",
+      "email": "chakra.ashin@gmail.com"
+    }
+  }
+]

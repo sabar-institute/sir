@@ -284,6 +284,87 @@ main{max-width:1280px;margin:0 auto;padding:40px}
 }
 .ac-card:hover .ac-arrow{background:var(--accent2);border-color:var(--accent2);color:#000}
 
+/* ── DISTRICT TILES ─────────────────────────────────────────────────────── */
+.district-card{
+  background:linear-gradient(135deg,var(--s1) 0%,#15170c 100%);
+  border:1px solid var(--bdr);border-radius:12px;
+  padding:24px;cursor:pointer;transition:all .2s;
+  text-align:left;color:inherit;font-family:inherit;width:100%;
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;gap:14px;
+}
+.district-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--accent2),transparent);
+  opacity:0;transition:opacity .2s;
+}
+.district-card:hover{border-color:rgba(185,191,31,.35);transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,.4)}
+.district-card:hover::before{opacity:1}
+.district-tag{
+  font-family:var(--font-mono);font-size:10px;font-weight:700;
+  letter-spacing:.18em;color:var(--accent2);
+  background:rgba(185,191,31,.08);border:1px solid rgba(185,191,31,.2);
+  display:inline-block;padding:2px 8px;border-radius:4px;align-self:flex-start;
+  text-transform:uppercase;
+}
+.district-name{
+  font-family:var(--font-serif);font-size:24px;font-weight:600;
+  color:#fff;line-height:1.15;
+}
+.district-ac-count{font-size:12px;color:var(--muted);margin-top:-6px}
+.district-ac-count b{color:var(--accent);font-family:var(--font-mono);font-weight:700}
+.district-stats{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:10px;
+  padding:12px;border-radius:8px;
+  background:rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.03);
+}
+.district-stat-lbl{
+  font-size:9px;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:3px;
+}
+.district-stat-val{font-family:var(--font-mono);font-size:13px;font-weight:700;color:#fff;line-height:1.3}
+.district-stat-val .sub{font-size:10px;color:var(--muted);font-weight:400;display:block}
+.district-footer{
+  display:flex;align-items:center;justify-content:space-between;
+  border-top:1px solid var(--bdr);padding-top:14px;margin-top:auto;
+}
+.district-del{
+  font-family:var(--font-mono);font-size:20px;font-weight:700;color:#ff6b6b;line-height:1;
+}
+.district-del-lbl{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.district-card:hover .ac-arrow{background:var(--accent2);border-color:var(--accent2);color:#000}
+
+/* ── TILE TRANSITIONS ───────────────────────────────────────────────────── */
+@keyframes tileIn{
+  from{opacity:0;transform:translateY(14px) scale(.98)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+@keyframes tileOut{
+  from{opacity:1;transform:translateY(0) scale(1)}
+  to{opacity:0;transform:translateY(-10px) scale(.98)}
+}
+.cards-grid.is-leaving > *{animation:tileOut .22s cubic-bezier(.4,0,.6,1) both}
+.cards-grid.is-entering > *{
+  animation:tileIn .42s cubic-bezier(.22,1,.36,1) both;
+  animation-delay:calc(var(--i,0) * 35ms);
+}
+.section-title.title-flip{animation:titleFlip .35s ease both}
+@keyframes titleFlip{
+  0%{opacity:0;transform:translateY(-6px)}
+  100%{opacity:1;transform:translateY(0)}
+}
+.back-btn.fade-in{animation:tileIn .3s ease both}
+
+/* ── BACK BUTTON ────────────────────────────────────────────────────────── */
+.back-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(185,191,31,.08);border:1px solid rgba(185,191,31,.25);
+  color:var(--accent2);font-size:11px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;padding:7px 14px;border-radius:6px;cursor:pointer;
+  font-family:inherit;transition:all .2s;
+}
+.back-btn:hover{background:rgba(185,191,31,.18);border-color:var(--accent2);color:#fff}
+
 /* ── EMPTY / LOADING ────────────────────────────────────────────────────── */
 .empty{
   grid-column:1/-1;
@@ -299,6 +380,103 @@ main{max-width:1280px;margin:0 auto;padding:40px}
 .loading-dots span:nth-child(2){animation-delay:.15s}
 .loading-dots span:nth-child(3){animation-delay:.3s}
 @keyframes dot-bounce{0%,80%,100%{transform:scale(0.6);opacity:.4}40%{transform:scale(1);opacity:1}}
+
+/* ── TEAM SECTION ───────────────────────────────────────────────────────── */
+.team-section{
+  max-width:1280px;margin:0 auto;padding:48px 40px 16px;
+  position:relative;
+}
+.team-section::before{
+  content:'';position:absolute;left:40px;right:40px;top:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--bdr),transparent);
+}
+.team-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.team-eyebrow{
+  font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--accent2);border-bottom:1px solid rgba(185,191,31,.3);
+  padding-bottom:3px;display:inline-block;margin-bottom:8px;
+}
+.team-section h2{
+  font-family:var(--font-serif);font-size:clamp(22px,2.6vw,30px);
+  font-weight:600;color:#fff;line-height:1.2;
+}
+.team-section h2 em{color:var(--accent2);font-style:normal}
+.team-sub{font-size:11px;color:var(--muted);max-width:420px;line-height:1.7;margin-top:6px}
+.team-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:24px;
+}
+.team-card{
+  position:relative;display:flex;flex-direction:column;align-items:center;
+  background:transparent;border:none;padding:8px 4px 0;text-align:center;
+  transition:transform .25s ease;
+}
+.team-card:hover{transform:translateY(-4px)}
+.team-photo{
+  position:relative;width:160px;height:160px;border-radius:50%;
+  overflow:hidden;flex-shrink:0;
+  background:linear-gradient(135deg,#15170c 0%,#1e2010 60%,#0f0f0a 100%);
+  border:1px solid var(--bdr);
+  display:flex;align-items:center;justify-content:center;
+  filter:grayscale(.15) contrast(1.02);
+  transition:filter .3s,border-color .25s,box-shadow .3s;
+  box-shadow:0 0 0 4px rgba(185,191,31,.04);
+}
+.team-card:hover .team-photo{
+  filter:grayscale(0) contrast(1);
+  border-color:rgba(185,191,31,.45);
+  box-shadow:0 0 0 6px rgba(185,191,31,.1);
+}
+.team-silhouette{
+  width:64%;height:64%;color:rgba(185,191,31,.32);
+  display:block;
+}
+.team-photo img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;display:block;border-radius:50%;
+}
+.team-info{padding:22px 4px 0;max-width:280px}
+.team-name{
+  font-family:var(--font-serif);font-size:19px;font-weight:600;
+  color:#fff;line-height:1.2;margin-bottom:4px;
+}
+.team-role-sub{
+  font-size:11px;color:var(--accent);letter-spacing:.04em;
+  margin-bottom:12px;font-style:italic;font-family:var(--font-serif);
+}
+.team-desc{
+  font-size:12px;color:var(--muted);line-height:1.65;
+}
+.team-links{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;justify-content:center}
+.team-links a,.team-links button{
+  width:30px;height:30px;border-radius:50%;
+  display:inline-flex;align-items:center;justify-content:center;
+  color:var(--muted);text-decoration:none;cursor:pointer;
+  background:rgba(255,255,255,.02);border:1px solid var(--bdr);
+  transition:all .18s;font-family:inherit;padding:0;position:relative;
+}
+.team-links a:hover,.team-links button:hover{
+  color:#0d0d0d;background:var(--accent2);border-color:var(--accent2);
+  transform:translateY(-2px);
+}
+.team-links svg{width:14px;height:14px;display:block}
+.team-links button.copied{background:#1a9e5c;border-color:#1a9e5c;color:#fff}
+.team-links button.copied::after{
+  content:'Copied';position:absolute;bottom:-22px;left:50%;
+  transform:translateX(-50%);
+  font-family:var(--font-mono);font-size:9px;letter-spacing:.1em;
+  color:#4ade80;text-transform:uppercase;white-space:nowrap;
+  pointer-events:none;
+}
+
+@media(max-width:640px){
+  .team-section{padding:32px 20px 8px}
+  .team-section::before{left:20px;right:20px}
+  .team-grid{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:20px}
+  .team-photo{width:130px;height:130px}
+  .team-name{font-size:16px}
+}
 
 /* ── FOOTER ────────────────────────────────────────────────────────────── */
 footer{
@@ -669,13 +847,29 @@ body.tm-locked{overflow:hidden}
 <!-- MAIN -->
 <main id="assemblies">
   <div class="section-header">
-    <h2 class="section-title">Available Assemblies</h2>
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+      <button type="button" class="back-btn" id="back-btn" style="display:none">← All Districts</button>
+      <h2 class="section-title" id="section-title">Available Districts</h2>
+    </div>
     <span class="section-sub" id="ac-count">Loading…</span>
   </div>
   <div class="cards-grid" id="cards-grid">
     <div class="empty"><div class="loading-dots"><span></span><span></span><span></span></div><p style="margin-top:12px">Loading assembly data…</p></div>
   </div>
 </main>
+
+<section class="team-section" id="team">
+  <div class="team-head">
+    <div>
+      <span class="team-eyebrow">Behind The Repository</span>
+      <h2>Our <em>Team</em></h2>
+      <p class="team-sub">Researchers, engineers, and advisors building open data infrastructure for democratic accountability.</p>
+    </div>
+  </div>
+  <div class="team-grid" id="team-grid">
+    <div class="empty"><div class="loading-dots"><span></span><span></span><span></span></div><p style="margin-top:12px">Loading team…</p></div>
+  </div>
+</section>
 
 <footer>
   <p>© 2025 <a href="https://sabarinstitute.org" target="_blank">Sabar Institute</a> · Data for Better Lives</p>
@@ -709,6 +903,160 @@ function makePie(a,b,colorA,colorB){
 
 function pct(n,t){return t?Math.round((n/t)*100)+'%':'—';}
 
+let allAssemblies=[];
+let districtGroups=[];
+
+function renderAcCard(ac){
+  const phases=(ac.phases||[]);
+  const folder=`${ac.ac_no}_${ac.ac_name.replace(/ /g,'_')}`;
+
+  const gM=+ac.deleted_male||0, gF=+ac.deleted_female||0, gT=gM+gF;
+  const genderPie=gT
+    ? `${makePie(gM,gF,'#3b82f6','#ec4899')}
+       <div class="ac-chart-info">
+         <div class="ac-chart-lbl">Gender Ratio</div>
+         <div class="ac-chart-val">
+           <span style="color:#60a5fa">♂ ${pct(gM,gT)}</span>
+           <span style="color:#f472b6">♀ ${pct(gF,gT)}</span>
+         </div>
+       </div>`
+    : `${makePie(0,0)}<div class="ac-chart-info"><div class="ac-chart-lbl">Gender · Deleted</div><div class="ac-chart-empty">No data</div></div>`;
+
+  const rMu=+ac.deleted_muslim||0, rNm=+ac.deleted_nonmuslim||0, rT=rMu+rNm;
+  const religionPie=rT
+    ? `${makePie(rMu,rNm,'#60a5fa','#34d399')}
+       <div class="ac-chart-info">
+         <div class="ac-chart-lbl">Religious Distribution</div>
+         <div class="ac-chart-val">
+           <span style="color:#93c5fd">Muslim ${pct(rMu,rT)}</span>
+           <span style="color:#6ee7b7">Other ${pct(rNm,rT)}</span>
+         </div>
+       </div>`
+    : `${makePie(0,0)}<div class="ac-chart-info"><div class="ac-chart-lbl">Religion · Deleted</div><div class="ac-chart-empty">No data</div></div>`;
+
+  return`<a class="ac-card" href="assembly.html?ac=${encodeURIComponent(folder)}">
+    <div class="ac-no">AC · ${ac.ac_no}</div>
+    <div class="ac-name">${ac.ac_name}</div>
+    <div class="ac-district">${ac.district||''}</div>
+    <div class="ac-meta">
+      <span class="ac-pill pill-ph">${phases.length} Phase${phases.length!==1?'s':''}</span>
+      ${ac.total_deletions!=null?`<span class="ac-pill pill-del">−${(ac.total_deletions||0).toLocaleString()} Deletions</span>`:''}
+    </div>
+    <div class="ac-charts">
+      <div class="ac-chart">${genderPie}</div>
+      <div class="ac-chart">${religionPie}</div>
+    </div>
+    <div class="ac-footer">
+      <div class="ac-footer-stat">
+        <div class="ac-footer-val" style="color:#ff6b6b">${(ac.total_deletions||0).toLocaleString()||'—'}</div>
+        <div class="ac-footer-lbl">Deletions</div>
+      </div>
+      <div class="ac-footer-stat">
+        <div class="ac-footer-val" style="color:var(--accent)">${phases.length}</div>
+        <div class="ac-footer-lbl">Suppl. Lists</div>
+      </div>
+      <div class="ac-view-btn">View Data →</div>
+    </div>
+  </a>`;
+}
+
+function renderDistrictCard(g){
+  const acN=g.assemblies.length;
+  const tDel=g.totals.del;
+  const gT=g.totals.male+g.totals.female;
+  const rT=g.totals.muslim+g.totals.nonmuslim;
+  const malePct=gT?Math.round(g.totals.male/gT*100)+'%':'—';
+  const femalePct=gT?Math.round(g.totals.female/gT*100)+'%':'—';
+  const muPct=rT?Math.round(g.totals.muslim/rT*100)+'%':'—';
+  const nmPct=rT?Math.round(g.totals.nonmuslim/rT*100)+'%':'—';
+  return`<button type="button" class="district-card" data-district="${escHtml(g.name)}">
+    <span class="district-tag">District</span>
+    <div class="district-name">${escHtml(g.name)}</div>
+    <div class="district-ac-count"><b>${acN}</b> assembl${acN===1?'y':'ies'} available</div>
+    <div class="district-stats">
+      <div>
+        <div class="district-stat-lbl">Gender</div>
+        <div class="district-stat-val">
+          <span style="color:#60a5fa">♂ ${malePct}</span> · <span style="color:#f472b6">♀ ${femalePct}</span>
+          <span class="sub">${g.totals.male.toLocaleString('en-IN')} / ${g.totals.female.toLocaleString('en-IN')}</span>
+        </div>
+      </div>
+      <div>
+        <div class="district-stat-lbl">Religion</div>
+        <div class="district-stat-val">
+          <div><span style="color:#93c5fd">Muslim ${muPct}</span></div>
+          <div><span style="color:#6ee7b7">Non-Muslim ${nmPct}</span></div>
+          <span class="sub">${g.totals.muslim.toLocaleString('en-IN')} / ${g.totals.nonmuslim.toLocaleString('en-IN')}</span>
+        </div>
+      </div>
+    </div>
+    <div class="district-footer">
+      <div>
+        <div class="district-del">${tDel.toLocaleString('en-IN')}</div>
+        <div class="district-del-lbl">Total Deletions</div>
+      </div>
+      <div class="ac-arrow">→</div>
+    </div>
+  </button>`;
+}
+
+function _swapGrid(htmlBuilder,afterMount){
+  const grid=document.getElementById('cards-grid');
+  const hasContent=grid.children.length>0 && !grid.querySelector('.empty');
+  const finish=()=>{
+    grid.classList.remove('is-leaving');
+    grid.innerHTML=htmlBuilder();
+    Array.from(grid.children).forEach((el,i)=>{
+      el.style.setProperty('--i', Math.min(i,16));
+    });
+    grid.classList.add('is-entering');
+    if(afterMount)afterMount(grid);
+    setTimeout(()=>grid.classList.remove('is-entering'),900);
+  };
+  if(hasContent){
+    grid.classList.remove('is-entering');
+    grid.classList.add('is-leaving');
+    setTimeout(finish,200);
+  }else{
+    finish();
+  }
+}
+
+function _animateTitle(text){
+  const t=document.getElementById('section-title');
+  t.classList.remove('title-flip');
+  void t.offsetWidth;
+  t.textContent=text;
+  t.classList.add('title-flip');
+}
+
+function showDistricts(){
+  const back=document.getElementById('back-btn');
+  back.style.display='none';
+  _animateTitle('Available Districts');
+  document.getElementById('ac-count').textContent=`${districtGroups.length} district${districtGroups.length===1?'':'s'} · ${allAssemblies.length} assembl${allAssemblies.length===1?'y':'ies'}`;
+  _swapGrid(
+    ()=>districtGroups.map(renderDistrictCard).join(''),
+    grid=>grid.querySelectorAll('.district-card').forEach(el=>{
+      el.addEventListener('click',()=>showDistrict(el.dataset.district));
+    })
+  );
+}
+
+function showDistrict(name){
+  const g=districtGroups.find(x=>x.name===name);
+  if(!g)return;
+  const back=document.getElementById('back-btn');
+  back.style.display='inline-flex';
+  back.classList.remove('fade-in');
+  void back.offsetWidth;
+  back.classList.add('fade-in');
+  _animateTitle(name);
+  document.getElementById('ac-count').textContent=`${g.assemblies.length} assembl${g.assemblies.length===1?'y':'ies'} available`;
+  _swapGrid(()=>g.assemblies.map(renderAcCard).join(''));
+  window.scrollTo({top:document.getElementById('assemblies').offsetTop-20,behavior:'smooth'});
+}
+
 async function loadAssemblies(){
   let assemblies=[];
   try{
@@ -719,74 +1067,43 @@ async function loadAssemblies(){
     return;
   }
 
+  // Normalize district (trim whitespace)
+  assemblies.forEach(a=>{a.district=(a.district||'').trim()||'Unknown';});
+  allAssemblies=assemblies;
+
   document.getElementById('stat-ac').textContent=assemblies.length;
   const totalDel=assemblies.reduce((a,b)=>a+(b.total_deletions||0),0);
   const stateTotal=2716393;
   const delPct=stateTotal>0?(totalDel/stateTotal*100).toFixed(1):'—';
   document.getElementById('stat-del').textContent=totalDel.toLocaleString('en-IN')||'—';
   document.getElementById('stat-del-sub').textContent=totalDel.toLocaleString('en-IN')+' / '+stateTotal.toLocaleString('en-IN')+' · '+delPct+'%';
-  document.getElementById('ac-count').textContent=`${assemblies.length} assembl${assemblies.length===1?'y':'ies'} available`;
 
   if(!assemblies.length){
+    document.getElementById('ac-count').textContent='0 assemblies';
     document.getElementById('cards-grid').innerHTML='<div class="empty"><p>No assemblies found in registry.</p></div>';
     return;
   }
 
-  document.getElementById('cards-grid').innerHTML=assemblies.map(ac=>{
-    const phases=(ac.phases||[]);
-    const folder=`${ac.ac_no}_${ac.ac_name.replace(/ /g,'_')}`;
+  // Group by district + cumulative totals
+  const map=new Map();
+  for(const a of assemblies){
+    if(!map.has(a.district)){
+      map.set(a.district,{name:a.district,assemblies:[],totals:{del:0,male:0,female:0,muslim:0,nonmuslim:0}});
+    }
+    const g=map.get(a.district);
+    g.assemblies.push(a);
+    g.totals.del+=+a.total_deletions||0;
+    g.totals.male+=+a.deleted_male||0;
+    g.totals.female+=+a.deleted_female||0;
+    g.totals.muslim+=+a.deleted_muslim||0;
+    g.totals.nonmuslim+=+a.deleted_nonmuslim||0;
+  }
+  districtGroups=[...map.values()].sort((a,b)=>b.totals.del-a.totals.del);
+  // Sort assemblies inside each group by ac_no
+  districtGroups.forEach(g=>g.assemblies.sort((a,b)=>a.ac_no-b.ac_no));
 
-    // Gender pie: male vs female (deletions)
-    const gM=+ac.deleted_male||0, gF=+ac.deleted_female||0, gT=gM+gF;
-    const genderPie=gT
-      ? `${makePie(gM,gF,'#3b82f6','#ec4899')}
-         <div class="ac-chart-info">
-           <div class="ac-chart-lbl">Gender Ratio</div>
-           <div class="ac-chart-val">
-             <span style="color:#60a5fa">♂ ${pct(gM,gT)}</span>
-             <span style="color:#f472b6">♀ ${pct(gF,gT)}</span>
-           </div>
-         </div>`
-      : `${makePie(0,0)}<div class="ac-chart-info"><div class="ac-chart-lbl">Gender · Deleted</div><div class="ac-chart-empty">No data</div></div>`;
-
-    // Religion pie: muslim vs non-muslim (deletions)
-    const rMu=+ac.deleted_muslim||0, rNm=+ac.deleted_nonmuslim||0, rT=rMu+rNm;
-    const religionPie=rT
-      ? `${makePie(rMu,rNm,'#60a5fa','#34d399')}
-         <div class="ac-chart-info">
-           <div class="ac-chart-lbl">Religious Distribution</div>
-           <div class="ac-chart-val">
-             <span style="color:#93c5fd">Muslim ${pct(rMu,rT)}</span>
-             <span style="color:#6ee7b7">Other ${pct(rNm,rT)}</span>
-           </div>
-         </div>`
-      : `${makePie(0,0)}<div class="ac-chart-info"><div class="ac-chart-lbl">Religion · Deleted</div><div class="ac-chart-empty">No data</div></div>`;
-
-    return`<a class="ac-card" href="assembly.html?ac=${encodeURIComponent(folder)}">
-      <div class="ac-no">AC · ${ac.ac_no}</div>
-      <div class="ac-name">${ac.ac_name}</div>
-      <div class="ac-district">${ac.district||''}</div>
-      <div class="ac-meta">
-        <span class="ac-pill pill-ph">${phases.length} Phase${phases.length!==1?'s':''}</span>
-        ${ac.total_deletions!=null?`<span class="ac-pill pill-del">−${(ac.total_deletions||0).toLocaleString()} Deletions</span>`:''}
-      </div>
-      <div class="ac-charts">
-        <div class="ac-chart">${genderPie}</div>
-        <div class="ac-chart">${religionPie}</div>
-      </div>
-      <div class="ac-footer">
-        <div class="ac-footer-stat">
-          <div class="ac-footer-val" style="color:#ff6b6b">${(ac.total_deletions||0).toLocaleString()||'—'}</div>
-          <div class="ac-footer-lbl">Deletions</div>
-        </div>
-        <div class="ac-footer-stat">
-          <div class="ac-footer-val" style="color:var(--accent)">${phases.length}</div>
-          <div class="ac-footer-lbl">Suppl. Lists</div>
-        </div>
-        <div class="ac-view-btn">View Data →</div>
-      </div>
-    </a>`;
-  }).join('');
+  document.getElementById('back-btn').addEventListener('click',showDistricts);
+  showDistricts();
 }
 
 // ── TRIBUNAL DATA REPOSITORY ────────────────────────────────────────────
@@ -920,6 +1237,79 @@ document.getElementById('tm-search').addEventListener('input',e=>{
 loadTribunal();
 
 loadAssemblies();
+
+// ── TEAM ─────────────────────────────────────────────────────────────────
+const TEAM_SILHOUETTE=`<svg class="team-silhouette" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="32" cy="22" r="11" fill="currentColor"/>
+  <path d="M10 58c0-12 9.9-20 22-20s22 8 22 20" fill="currentColor"/>
+</svg>`;
+
+const TEAM_ICONS={
+  website:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+  linkedin:`<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>`,
+  twitter:`<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
+  email:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>`
+};
+
+async function loadTeam(){
+  const grid=document.getElementById('team-grid');
+  if(!grid)return;
+  let team=[];
+  try{
+    const r=await fetch('data/team.json');
+    team=await r.json();
+  }catch(e){
+    grid.innerHTML='<div class="empty"><p>Could not load team data.</p></div>';
+    return;
+  }
+  if(!team.length){
+    grid.innerHTML='<div class="empty"><p>No team members listed.</p></div>';
+    return;
+  }
+  grid.innerHTML=team.map(m=>{
+    const photo=m.photo
+      ? `${TEAM_SILHOUETTE}<img src="${escHtml(m.photo)}" alt="${escHtml(m.name)}" onerror="this.remove()">`
+      : TEAM_SILHOUETTE;
+    const links=[];
+    if(m.links){
+      if(m.links.website)  links.push(`<a href="${escHtml(m.links.website)}" target="_blank" rel="noopener" aria-label="Website" title="Website">${TEAM_ICONS.website}</a>`);
+      if(m.links.linkedin) links.push(`<a href="${escHtml(m.links.linkedin)}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">${TEAM_ICONS.linkedin}</a>`);
+      if(m.links.twitter)  links.push(`<a href="${escHtml(m.links.twitter)}" target="_blank" rel="noopener" aria-label="X / Twitter" title="X / Twitter">${TEAM_ICONS.twitter}</a>`);
+      if(m.links.email)    links.push(`<button type="button" data-email="${escHtml(m.links.email)}" aria-label="Copy email: ${escHtml(m.links.email)}" title="${escHtml(m.links.email)} — click to copy">${TEAM_ICONS.email}</button>`);
+    }
+    return`<article class="team-card">
+      <div class="team-photo">${photo}</div>
+      <div class="team-info">
+        <div class="team-name">${escHtml(m.name)}</div>
+        <div class="team-role-sub">${escHtml(m.role||'')}</div>
+        <div class="team-desc">${escHtml(m.description||'')}</div>
+        ${links.length?`<div class="team-links">${links.join('')}</div>`:''}
+      </div>
+    </article>`;
+  }).join('');
+
+  grid.querySelectorAll('button[data-email]').forEach(btn=>{
+    btn.addEventListener('click',async()=>{
+      const email=btn.dataset.email;
+      try{
+        if(navigator.clipboard&&window.isSecureContext){
+          await navigator.clipboard.writeText(email);
+        }else{
+          const ta=document.createElement('textarea');
+          ta.value=email;ta.style.position='fixed';ta.style.opacity='0';
+          document.body.appendChild(ta);ta.select();
+          document.execCommand('copy');document.body.removeChild(ta);
+        }
+        btn.classList.add('copied');
+        setTimeout(()=>btn.classList.remove('copied'),1500);
+      }catch(e){
+        window.location.href='mailto:'+email;
+      }
+    });
+  });
+}
+
+loadTeam();
 </script>
 </body>
 </html>
