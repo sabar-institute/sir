@@ -411,8 +411,8 @@
     "total_deletions": 20796,
     "deleted_male": 10879,
     "deleted_female": 9915,
-    "deleted_muslim": 1768,
-    "deleted_nonmuslim": 19028,
+    "deleted_muslim": 1761,
+    "deleted_nonmuslim": 19035,
     "deleted_other": 2
     },
     {
@@ -443,8 +443,8 @@
     "total_deletions": 17411,
     "deleted_male":8373,
     "deleted_female": 9038,
-    "deleted_muslim": 2103,
-    "deleted_nonmuslim": 15308,
+    "deleted_muslim": 2099,
+    "deleted_nonmuslim": 15312,
     "deleted_other": null
     }
 ]

@@ -600,8 +600,8 @@ pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,religio
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-50-WI.pdf,50,1,19,RHC2546216,তৃপ্তি বিশ্বাস,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-194-WI.pdf,194,4,17,RHC1334598,আতশী বিশ্বাস,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-202-WI.pdf,202,3,18,RHC1550441,আশিষ কুমার বিশ্বাস,Male,1,,,Non-Muslim
-2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-197-WI.pdf,197,4,16,RHC1469782,মলিনা হাজরা,Female,1,,,Muslim
-2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-205-WI.pdf,205,3,7,RHG2830446,সামিম মন্ডল,Male,1,,,Non-Muslim
+2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-197-WI.pdf,197,4,16,RHC1469782,মলিনা হাজরা,Female,1,,,Non-Muslim
+2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-205-WI.pdf,205,3,7,RHG2830446,সামিম মন্ডল,Male,1,,,Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-50-WI.pdf,50,1,20,RHC2546281,সুজন বিশ্বাস,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-194-WI.pdf,194,4,18,RHC1931617,সিমা বিশ্বাস,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-202-WI.pdf,202,3,19,LUE1491893,মধুসুদন রায়,Male,1,,,Non-Muslim
@@ -829,7 +829,7 @@ pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,religio
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-50-WI.pdf,50,4,23,RHC2548113,সাধন সরকার,Male,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-194-WI.pdf,194,7,18,WB/12/080/162484,ঝর্ণা সিকদার,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-50-WI.pdf,50,4,24,RHG2548097,সমির সরকার,Male,1,,,Non-Muslim
-2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-194-WI.pdf,194,7,19,RHC2126332,বিনতা হাজরা,Female,1,,,Muslim
+2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-194-WI.pdf,194,7,19,RHC2126332,বিনতা হাজরা,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-194-WI.pdf,194,7,20,RHC2235745,ডলি হালদার,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-50-WI.pdf,50,5,1,XZD2065209,গৌরি রানী বিশ্বাস,Female,1,,,Non-Muslim
 2026-SUPPLEMENTGEN-S25-89-4-A-Jo-not_eligible-BEN-194-WI.pdf,194,7,21,RHG2193035,সুবল হালদার,Male,1,,,Non-Muslim
