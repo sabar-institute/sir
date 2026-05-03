@@ -542,5 +542,37 @@
     "deleted_muslim": 498,
     "deleted_nonmuslim": 711,
     "deleted_other": null
+  },
+  {
+    "id": "91_Chakdaha",
+    "ac_no": 91,
+    "ac_name": "Chakdaha",
+    "district": " Nadia",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",   
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 10751,
+    "deleted_male": 5210,
+    "deleted_female": 5541,
+    "deleted_muslim": 870,
+    "deleted_nonmuslim": 9881,
+    "deleted_other": null
   }
 ]
