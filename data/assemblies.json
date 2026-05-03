@@ -606,5 +606,37 @@
     "deleted_muslim": 1753,
     "deleted_nonmuslim": 9936,
     "deleted_other": null
+  },
+  {
+    "id": "94_Bagda_(SC)",
+    "ac_no": 94,
+    "ac_name": "Bagda (SC)",
+    "district": "North 24 Parganas",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 10015,
+    "deleted_male": 4802,
+    "deleted_female": 5212,
+    "deleted_muslim": 917,
+    "deleted_nonmuslim": 9098,
+    "deleted_other": 1
   }
 ]
