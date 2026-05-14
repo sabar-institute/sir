@@ -638,5 +638,37 @@
     "deleted_muslim": 917,
     "deleted_nonmuslim": 9098,
     "deleted_other": 1
+  },
+  {
+    "id": "1_Mekhliganj_(SC)",
+    "ac_no": 1,
+    "ac_name": "Mekhliganj (SC)",
+    "district": "Cooch Behar",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 9200,
+    "deleted_male": 4152,
+    "deleted_female": 5048,
+    "deleted_muslim": 5845,
+    "deleted_nonmuslim": 3355,
+    "deleted_other": null
   }
 ]
