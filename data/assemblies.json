@@ -767,7 +767,7 @@
     "deleted_nonmuslim": 674,
     "deleted_other": null
   },
-      {
+  {
     "id": "142_Magrahat_Paschim",
     "ac_no": 142,
     "ac_name": "Magrahat Paschim",
@@ -797,6 +797,38 @@
     "deleted_female": 6693,
     "deleted_muslim": 11245,
     "deleted_nonmuslim": 1629,
+    "deleted_other": null
+  },
+  {
+    "id": "122_Minakhan_(SC)",
+    "ac_no": 122,
+    "ac_name": "Minakhan (SC)",
+    "district": "North 24 Parganas",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 16680,
+    "deleted_male": 6137,
+    "deleted_female": 10543,
+    "deleted_muslim": 15407,
+    "deleted_nonmuslim": 1273,
     "deleted_other": null
   }
 
