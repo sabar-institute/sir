@@ -1150,7 +1150,39 @@
     "deleted_muslim": 34,
     "deleted_nonmuslim": 214,
     "deleted_other": null
+  },
+  
+  {
+    "id": "60_Sagardighi",
+    "ac_no": 60,
+    "ac_name": "Sagardighi",
+    "district": "Murshidabad",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 21472,
+    "deleted_male": 9951,
+    "deleted_female": 11521,
+    "deleted_muslim": 20222,
+    "deleted_nonmuslim": 1250,
+    "deleted_other": null
   }
-
 
 ]
