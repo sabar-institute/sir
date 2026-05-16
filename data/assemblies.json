@@ -830,6 +830,38 @@
     "deleted_muslim": 19455,
     "deleted_nonmuslim": 4445,
     "deleted_other": null
+  },
+  {
+    "id": "231_Ghatal_(SC)",
+    "ac_no": 231,
+    "ac_name": "Ghatal (SC)",
+    "district": "Paschim Medinipur",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 2377,
+    "deleted_male": 1232,
+    "deleted_female": 1143,
+    "deleted_muslim": 1613,
+    "deleted_nonmuslim": 764,
+    "deleted_other": 2
   }
 
 ]
