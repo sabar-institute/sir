@@ -798,6 +798,38 @@
     "deleted_muslim": 15407,
     "deleted_nonmuslim": 1273,
     "deleted_other": null
+  },
+    {
+    "id": "125_Basirhat_Uttar",
+    "ac_no": 125,
+    "ac_name": "Basirhat Uttar",
+    "district": "North 24 Parganas",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 23900,
+    "deleted_male": 12640,
+    "deleted_female": 11260,
+    "deleted_muslim": 19455,
+    "deleted_nonmuslim": 4445,
+    "deleted_other": null
   }
 
 ]
