@@ -926,6 +926,38 @@
     "deleted_muslim": 4062,
     "deleted_nonmuslim": 429,
     "deleted_other": null
+  },
+  {
+    "id": "63_Raninagar",
+    "ac_no": 63,
+    "ac_name": "Raninagar",
+    "district": "Murshidabad",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 17140,
+    "deleted_male": 8414,
+    "deleted_female": 8724,
+    "deleted_muslim": 16107,
+    "deleted_nonmuslim": 1033,
+    "deleted_other": 2
   }
 
 ]
