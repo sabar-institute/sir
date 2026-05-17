@@ -1376,6 +1376,38 @@
     "deleted_muslim": 966,
     "deleted_nonmuslim": 651,
     "deleted_other": null
+  },
+  {
+    "id": "43_Habibpur_(ST)",
+    "ac_no": 43,
+    "ac_name": "Habibpur (ST)",
+    "district": "Malda",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 5178,
+    "deleted_male": 2745,
+    "deleted_female": 2433,
+    "deleted_muslim": 2494,
+    "deleted_nonmuslim": 2684,
+    "deleted_other": null
   }
 
 
