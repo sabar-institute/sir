@@ -432,6 +432,19 @@
     "deleted_other": null
   },
   {
+    "id": "214_Bhagabanpur",
+    "ac_no": 214,
+    "ac_name": "Bhagabanpur",
+    "district": "Purba Medinipur",
+    "muslim_population_pct": 7.5,
+    "total_deletions": 680,
+    "deleted_male": 291,
+    "deleted_female": 389,
+    "deleted_other": null,
+    "deleted_muslim": 435,
+    "deleted_nonmuslim": 245
+  },
+  {
     "id": "231_Ghatal_(SC)",
     "ac_no": 231,
     "ac_name": "Ghatal (SC)",
