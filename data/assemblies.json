@@ -36,6 +36,19 @@
     "deleted_other": null
   },
   {
+    "id": "48_Ratua",
+    "ac_no": 48,
+    "ac_name": "Ratua",
+    "district": "Malda",
+    "muslim_population_pct": null,
+    "total_deletions": 35571,
+    "deleted_male": 18047,
+    "deleted_female": 17522,
+    "deleted_other": 2,
+    "deleted_muslim": 35268,
+    "deleted_nonmuslim": 303
+  },
+  {
     "id": "52_Mothabari",
     "ac_no": 52,
     "ac_name": "Mothabari",
