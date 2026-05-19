@@ -372,6 +372,19 @@
     "deleted_other": null
   },
   {
+    "id": "192_Pandua",
+    "ac_no": 192,
+    "ac_name": "Pandua",
+    "district": "Hooghly",
+    "muslim_population_pct": 22.5,
+    "total_deletions": 11485,
+    "deleted_male": 5765,
+    "deleted_female": 5715,
+    "deleted_other": 5,
+    "deleted_muslim": 7602,
+    "deleted_nonmuslim": 3883
+  },
+  {
     "id": "199_Pursurah",
     "ac_no": 199,
     "ac_name": "Pursurah",
@@ -457,11 +470,24 @@
     "deleted_other": 2
   },
   {
+    "id": "233_Garbeta",
+    "ac_no": 233,
+    "ac_name": "Garbeta",
+    "district": "Paschim Medinipur",
+    "muslim_population_pct": 17.5,
+    "total_deletions": 2120,
+    "deleted_male": 428,
+    "deleted_female": 1692,
+    "deleted_other": null,
+    "deleted_muslim": 1501,
+    "deleted_nonmuslim": 619
+  },
+  {
     "id": "235_Keshpur_(SC)",
     "ac_no": 235,
     "ac_name": "Keshpur (SC)",
     "district": "Paschim Medinipur",
-    "muslim_population_pct": null,
+    "muslim_population_pct": 27.5,
     "total_deletions": 804,
     "deleted_male": 386,
     "deleted_female": 418,
