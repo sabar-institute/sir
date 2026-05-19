@@ -222,6 +222,7 @@ tr:hover td{background:rgba(255,255,255,.02)}
   <h1 class="ac-title" id="ac-title">Loading…</h1>
   <p class="ac-subtitle" id="ac-subtitle"></p>
   <div class="header-stat-row" id="header-stats"></div>
+  <button class="dl-btn" style="margin-top:18px" onclick="downloadCSV()">⬇ Download Assembly Data (CSV)</button>
 </div>
 
 <main>
@@ -398,10 +399,16 @@ async function init(){
 async function buildSummary(){
   const phases=meta.phases||[];
   const agg={del:{total:0,male:0,female:0,other:0,muslim:0,nonmuslim:0,parts:{}}};
-  await Promise.all(phases.map(async ph=>{
-    const data=await fetchCSV(`${BASE}/deletion/phase_${ph}.csv`);
-    if(!data||!data.length){allPhaseData[ph]=[];return;}
-    allPhaseData[ph]=data;
+  const allData=await fetchCSV(`${BASE}/deletion.csv`);
+  if(allData&&allData.length){
+    allData.forEach(row=>{
+      const ph=String(row.phase||'').trim();
+      if(ph){if(!allPhaseData[ph])allPhaseData[ph]=[];allPhaseData[ph].push(row);}
+    });
+  }
+  phases.forEach(ph=>{
+    const data=allPhaseData[ph]||[];
+    if(!data.length)return;
     data.forEach(row=>{
       agg.del.total++;
       const g=(row.gender||'').trim().toLowerCase();
@@ -416,7 +423,7 @@ async function buildSummary(){
         if(rel==='muslim')agg.del.parts[part].muslim++;else if(rel.includes('non'))agg.del.parts[part].nonmuslim++;
       }
     });
-  }));
+  });
 
   const d=agg.del;
   document.getElementById('summary-cards').innerHTML=`
@@ -541,11 +548,14 @@ function displayRows(){
 function goPage(p){currentPage=p;displayRows();}
 
 function downloadCSV(){
-  const phase=document.getElementById('phase-select').value;
-  if(!phase||!currentRows.length){alert('No data loaded to download.');return;}
-  const filename=`${meta.ac_name||AC_FOLDER}_${listLabel(phase).replace(/ /g,'_')}_Deletions.csv`;
-  const header='part_no,epic,name,gender';
-  const body=currentRows.map(r=>`${r.part_no||''},${r.epic||''},"${(r.name||'').replace(/"/g,'""')}",${r.gender||''}`);
+  const COLS=['phase','pdf_file','part_no','page_no','box_no','epic','name','gender'];
+  const allRows=[];
+  (meta.phases||[]).forEach(ph=>{(allPhaseData[ph]||[]).forEach(r=>allRows.push(r));});
+  if(!allRows.length){alert('No data loaded to download.');return;}
+  const filename=`${meta.ac_name||AC_FOLDER}_All_Phases_Deletions.csv`;
+  const esc=v=>{const s=String(v||'');return(s.includes(',')||s.includes('"')||s.includes('\n'))?'"'+s.replace(/"/g,'""')+'"':s;};
+  const header=COLS.join(',');
+  const body=allRows.map(r=>COLS.map(c=>esc(r[c])).join(','));
   const blob=new Blob(['\uFEFF'+[header,...body].join('\n')],{type:'text/csv;charset=utf-8;'});
   const url=URL.createObjectURL(blob);
   const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);

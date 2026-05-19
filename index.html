@@ -513,6 +513,8 @@ footer a{color:var(--accent);text-decoration:none}
   transition:all .2s;white-space:nowrap;
 }
 .ac-card:hover .ac-view-btn{background:var(--accent2);border-color:var(--accent2);color:#000}
+.ac-dl-btn{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:rgba(96,165,250,.08);border:1px solid rgba(96,165,250,.25);color:#60a5fa;padding:6px 12px;border-radius:6px;transition:all .2s;white-space:nowrap;cursor:pointer;}
+.ac-dl-btn:hover{background:rgba(96,165,250,.2);border-color:#60a5fa;}
 
 /* ── TRIBUNAL DATA REPOSITORY ─────────────────────────────────────────────── */
 .tribunal-section{
@@ -665,6 +667,7 @@ body.tm-locked{overflow:hidden}
   .tm-pdf{max-width:160px}
 }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
 
@@ -772,9 +775,10 @@ body.tm-locked{overflow:hidden}
       <div class="h-stat-sub" id="stat-del-sub">— / 27,16,393 · —%</div>
     </div>
   </div>
-    <a href="#assemblies" class="hero-scroll-btn" onclick="document.getElementById('assemblies').scrollIntoView({behavior:'smooth'});return false;">
-    View Assembly-wise Data ↓
-  </a>
+  <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;align-items:center;">
+    <a href="#assemblies" class="hero-scroll-btn" style="margin-top:0" onclick="document.getElementById('assemblies').scrollIntoView({behavior:'smooth'});return false;">View Assembly-wise Data ↓</a>
+    <a href="data/all_deletions.xlsx" download class="hero-scroll-btn" style="margin-top:0;background:rgba(96,165,250,.08);border-color:rgba(96,165,250,.35);color:#60a5fa;">⬇ Download All Data (.xlsx)</a>
+  </div>
 </div>
 
 <!-- CHANGE 2 & 3: Donation section with embedded QR code -->
@@ -907,7 +911,7 @@ let allAssemblies=[];
 let districtGroups=[];
 
 function renderAcCard(ac){
-  const phases=(ac.phases||[]);
+  const phases={length:18};
   const folder=`${ac.ac_no}_${ac.ac_name.replace(/ /g,'_')}`;
 
   const gM=+ac.deleted_male||0, gF=+ac.deleted_female||0, gT=gM+gF;
@@ -956,6 +960,7 @@ function renderAcCard(ac){
         <div class="ac-footer-lbl">Suppl. Lists</div>
       </div>
       <div class="ac-view-btn">View Data →</div>
+      <div class="ac-dl-btn" onclick="event.preventDefault();event.stopPropagation();downloadAcCsv('${folder}','${ac.ac_name}')">⬇ CSV</div>
     </div>
   </a>`;
 }
@@ -1310,6 +1315,26 @@ async function loadTeam(){
 }
 
 loadTeam();
+
+async function downloadAcCsv(folder, acName){
+  const COLS=['phase','pdf_file','part_no','page_no','box_no','epic','name','gender'];
+  const EXCLUDE=new Set(['religion','ocr_pass','warning','repeat']);
+  let data;
+  try{
+    const r=await fetch(`AC/${folder}/deletion.csv`);
+    if(!r.ok)throw new Error('fetch failed');
+    const txt=await r.text();
+    data=Papa.parse(txt,{header:true,skipEmptyLines:true}).data;
+  }catch(e){alert('Could not load data for '+acName);return;}
+  if(!data||!data.length){alert('No data for '+acName);return;}
+  const cols=COLS.filter(c=>!EXCLUDE.has(c)&&data[0]&&c in data[0]);
+  const esc=v=>{const s=String(v||'');return(s.includes(',')||s.includes('"')||s.includes('\n'))?'"'+s.replace(/"/g,'""')+'"':s;};
+  const header=cols.join(',');
+  const body=data.map(r=>cols.map(c=>esc(r[c])).join(','));
+  const blob=new Blob(['﻿'+[header,...body].join('\n')],{type:'text/csv;charset=utf-8;'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');a.href=url;a.download=`${folder}_Deletions.csv`;document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
+}
 </script>
 </body>
 </html>
