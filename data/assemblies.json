@@ -1473,6 +1473,39 @@
     "deleted_muslim": 35310,
     "deleted_nonmuslim": 1945,
     "deleted_other": 3
+  },
+  
+  {
+    "id": "59_Raghunathganj",
+    "ac_no": 59,
+    "ac_name": "Raghunathganj",
+    "district": "Murshidabad",
+    "phases": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "4a",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "12a",
+      "13",
+      "14",
+      "15",
+      "15a"
+    ],
+    "total_deletions": 45415,
+    "deleted_male": 23515,
+    "deleted_female": 21900,
+    "deleted_muslim": 44532,
+    "deleted_nonmuslim": 883,
+    "deleted_other": null
   }
 
 
