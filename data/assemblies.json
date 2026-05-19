@@ -36,11 +36,24 @@
     "deleted_other": null
   },
   {
+    "id": "45_Chanchal",
+    "ac_no": 45,
+    "ac_name": "Chanchal",
+    "district": "Malda",
+    "muslim_population_pct": null,
+    "total_deletions": 4170,
+    "deleted_male": 1672,
+    "deleted_female": 2498,
+    "deleted_other": 67.5,
+    "deleted_muslim": 3776,
+    "deleted_nonmuslim": 394
+  },
+  {
     "id": "48_Ratua",
     "ac_no": 48,
     "ac_name": "Ratua",
     "district": "Malda",
-    "muslim_population_pct": null,
+    "muslim_population_pct": 67.5,
     "total_deletions": 35571,
     "deleted_male": 18047,
     "deleted_female": 17522,
