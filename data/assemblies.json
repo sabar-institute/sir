@@ -23,7 +23,6 @@
     "deleted_nonmuslim": 2765,
     "deleted_other": null
   },
-
   {
     "id": "43_Habibpur_(ST)",
     "ac_no": 43,
@@ -48,6 +47,19 @@
     "deleted_other": 67.5,
     "deleted_muslim": 3776,
     "deleted_nonmuslim": 394
+  },
+  {
+    "id": "46_Harischandrapur",
+    "ac_no": 46,
+    "ac_name": "Harischandrapur",
+    "district": "Malda",
+    "muslim_population_pct": 67.5,
+    "total_deletions": 19582,
+    "deleted_male": 9752,
+    "deleted_female": 9830,
+    "deleted_other": null,
+    "deleted_muslim": 18693,
+    "deleted_nonmuslim": 889
   },
   {
     "id": "48_Ratua",
