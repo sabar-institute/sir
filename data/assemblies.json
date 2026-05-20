@@ -112,6 +112,19 @@
     "deleted_other": 2
   },
   {
+    "id": "56_Samserganj",
+    "ac_no": 56,
+    "ac_name": "Samserganj",
+    "district": "Murshidabad",
+    "muslim_population_pct": null,
+    "total_deletions": 71985,
+    "deleted_male": 38819,
+    "deleted_female": 33164,
+    "deleted_other": 2,
+    "deleted_muslim": 71614,
+    "deleted_nonmuslim": 371
+  },
+  {
     "id": "59_Raghunathganj",
     "ac_no": 59,
     "ac_name": "Raghunathganj",
