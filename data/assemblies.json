@@ -23,6 +23,7 @@
     "deleted_nonmuslim": 2765,
     "deleted_other": null
   },
+
   {
     "id": "43_Habibpur_(ST)",
     "ac_no": 43,
@@ -60,6 +61,19 @@
     "deleted_other": 2,
     "deleted_muslim": 35268,
     "deleted_nonmuslim": 303
+  },
+  {
+    "id": "50_Maldaha_(SC)",
+    "ac_no": 50,
+    "ac_name": "Maldaha (SC)",
+    "district": "Malda",
+    "muslim_population_pct": 22.5,
+    "total_deletions": 11033,
+    "deleted_male": 5563,
+    "deleted_female": 5470,
+    "deleted_other": null,
+    "deleted_muslim": 9160,
+    "deleted_nonmuslim": 1873
   },
   {
     "id": "52_Mothabari",
