@@ -510,6 +510,45 @@
     "deleted_other": null
   },
   {
+    "id": "211_Chandipur",
+    "ac_no": 211,
+    "ac_name": "Chandipur",
+    "district": "Purba Medinipur",
+    "muslim_population_pct": 12.5,
+    "total_deletions": 1821,
+    "deleted_male": 795,
+    "deleted_female": 1026,
+    "deleted_other": null,
+    "deleted_muslim": 1429,
+    "deleted_nonmuslim": 392
+  },
+  {
+    "id": "212_Patashpur",
+    "ac_no": 212,
+    "ac_name": "Patashpur",
+    "district": "Purba Medinipur",
+    "muslim_population_pct": 7.5,
+    "total_deletions": 471,
+    "deleted_male": 188,
+    "deleted_female": 283,
+    "deleted_other": null,
+    "deleted_muslim": 348,
+    "deleted_nonmuslim": 123
+  },
+  {
+    "id": "213_Kanthi_Uttar",
+    "ac_no": 213,
+    "ac_name": "Kanthi Uttar",
+    "district": "Purba Medinipur",
+    "muslim_population_pct": null,
+    "total_deletions": 462,
+    "deleted_male": 238,
+    "deleted_female": 224,
+    "deleted_other": null,
+    "deleted_muslim": 223,
+    "deleted_nonmuslim": 239
+  },
+  {
     "id": "214_Bhagabanpur",
     "ac_no": 214,
     "ac_name": "Bhagabanpur",
