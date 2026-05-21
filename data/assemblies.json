@@ -112,11 +112,24 @@
     "deleted_other": 2
   },
   {
+    "id": "55_Farakka",
+    "ac_no": 55,
+    "ac_name": "Farakka",
+    "district": "Murshidabad",
+    "muslim_population_pct": 67.5,
+    "total_deletions": 36100,
+    "deleted_male": 18074,
+    "deleted_female": 18025,
+    "deleted_other": 1,
+    "deleted_muslim": 34117,
+    "deleted_nonmuslim": 1983
+  },
+  {
     "id": "56_Samserganj",
     "ac_no": 56,
     "ac_name": "Samserganj",
     "district": "Murshidabad",
-    "muslim_population_pct": null,
+    "muslim_population_pct": 77.5,
     "total_deletions": 71985,
     "deleted_male": 38819,
     "deleted_female": 33164,
@@ -147,6 +160,32 @@
     "deleted_muslim": 20222,
     "deleted_nonmuslim": 1250,
     "deleted_other": null
+  },
+  {
+    "id": "61_Lalgola",
+    "ac_no": 61,
+    "ac_name": "Lalgola",
+    "district": "Murshidabad",
+    "muslim_population_pct": 77.5,
+    "total_deletions": 55391,
+    "deleted_male": 30692,
+    "deleted_female": 24699,
+    "deleted_other": null,
+    "deleted_muslim": 55123,
+    "deleted_nonmuslim": 268
+  },
+  {
+    "id": "62_Bhagabangola",
+    "ac_no": 62,
+    "ac_name": "Bhagabangola",
+    "district": "Murshidabad",
+    "muslim_population_pct": 87.5,
+    "total_deletions": 47253,
+    "deleted_male": 26354,
+    "deleted_female": 20899,
+    "deleted_other": null,
+    "deleted_muslim": 47109,
+    "deleted_nonmuslim": 144
   },
   {
     "id": "63_Raninagar",
