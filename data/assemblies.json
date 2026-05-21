@@ -100,6 +100,19 @@
     "deleted_other": 3
   },
   {
+    "id": "53_Sujapur",
+    "ac_no": 53,
+    "ac_name": "Sujapur",
+    "district": "Malda",
+    "muslim_population_pct": null,
+    "total_deletions": 26829,
+    "deleted_male": 13609,
+    "deleted_female": 13220,
+    "deleted_other": null,
+    "deleted_muslim": 26752,
+    "deleted_nonmuslim": 77
+  },
+  {
     "id": "54_Baisnabnagar",
     "ac_no": 54,
     "ac_name": "Baisnabnagar",
