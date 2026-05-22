@@ -456,14 +456,14 @@
     "id": "126_Hingalganj_(SC)",
     "ac_no": 126,
     "ac_name": "Hingalganj (SC)",
-    "district": "North 24 Parganas",
-    "muslim_population_pct": 27.5,
+    "district": "South 24 Parganas",
+    "muslim_population_pct": null,
     "total_deletions": 7520,
     "deleted_male": 2905,
     "deleted_female": 4615,
     "deleted_other": null,
-    "deleted_muslim": 5632,
-    "deleted_nonmuslim": 1888
+    "deleted_muslim": 5592,
+    "deleted_nonmuslim": 1928
   },
   {
     "id": "127_Gosaba_(SC)",
@@ -475,8 +475,8 @@
     "deleted_male": 1323,
     "deleted_female": 2130,
     "deleted_other": null,
-    "deleted_muslim": 2668,
-    "deleted_nonmuslim": 785
+    "deleted_muslim": 2649,
+    "deleted_nonmuslim": 804
   },
   {
     "id": "141_Magrahat_Purba_(SC))",
