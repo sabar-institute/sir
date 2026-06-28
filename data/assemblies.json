@@ -810,6 +810,19 @@
     "deleted_other": null
   },
   {
+    "id": "250_Raipur_(ST)",
+    "ac_no": 250,
+    "ac_name": "Raipur (ST)",
+    "district": "Bankura",
+    "muslim_population_pct": 1.38,
+    "total_deletions": 260,
+    "deleted_male": 99,
+    "deleted_female": 161,
+    "deleted_muslim": 55,
+    "deleted_nonmuslim": 205,
+    "deleted_other": null
+  },
+  {
     "id": "251_Taldangra",
     "ac_no": 251,
     "ac_name": "Taldangra",
@@ -911,6 +924,19 @@
     "deleted_female": 253,
     "deleted_muslim": 124,
     "deleted_nonmuslim": 274,
+    "deleted_other": null
+  },
+  {
+    "id": "259_Khandaghosh_(SC)",
+    "ac_no": 259,
+    "ac_name": "Khandaghosh (SC)",
+    "district": "Purba Bardhaman",
+    "muslim_population_pct": 26.06,
+    "total_deletions": 12050,
+    "deleted_male": 6821,
+    "deleted_female": 5229,
+    "deleted_muslim": 10510,
+    "deleted_nonmuslim": 1540,
     "deleted_other": null
   },
   {
