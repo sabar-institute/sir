@@ -1117,8 +1117,21 @@
     "total_deletions": 8849,
     "deleted_male": 4560,
     "deleted_female": 4289,
-    "deleted_muslim": 6378,
-    "deleted_nonmuslim": 2471,
+    "deleted_muslim": 6360,
+    "deleted_nonmuslim": 2489,
+    "deleted_other": null
+  },
+  {
+    "id": "274_Galsi_(SC)",
+    "ac_no": 274,
+    "ac_name": "Galsi (SC)",
+    "district": "Purba Bardhaman",
+    "muslim_population_pct": 21.8,
+    "total_deletions": 9859,
+    "deleted_male": 5007,
+    "deleted_female": 4852,
+    "deleted_muslim": 5432,
+    "deleted_nonmuslim": 4427,
     "deleted_other": null
   },
   {
@@ -1197,6 +1210,58 @@
     "deleted_female": 5810,
     "deleted_muslim": 2363,
     "deleted_nonmuslim": 8052,
+    "deleted_other": null
+  },
+  {
+    "id": "281_Asansol_Uttar",
+    "ac_no": 281,
+    "ac_name": "Asansol Uttar",
+    "district": "Paschim Bardhaman",
+    "muslim_population_pct": 18.85,
+    "total_deletions": 14453,
+    "deleted_male": 6664,
+    "deleted_female": 7787,
+    "deleted_muslim": 6697,
+    "deleted_nonmuslim": 7756,
+    "deleted_other": 2
+  },
+  {
+    "id": "282_Kulti",
+    "ac_no": 282,
+    "ac_name": "Kulti",
+    "district": "Paschim Bardhaman",
+    "muslim_population_pct": 14.9,
+    "total_deletions": 11605,
+    "deleted_male": 5066,
+    "deleted_female": 6538,
+    "deleted_muslim": 3914,
+    "deleted_nonmuslim": 7691,
+    "deleted_other": 1
+  },
+  {
+    "id": "283_Barabani",
+    "ac_no": 283,
+    "ac_name": "Barabani",
+    "district": "Paschim Bardhaman",
+    "muslim_population_pct": 6.76,
+    "total_deletions": 3664,
+    "deleted_male": 1619,
+    "deleted_female": 2045,
+    "deleted_muslim": 498,
+    "deleted_nonmuslim": 3166,
+    "deleted_other": null
+  },
+  {
+    "id": "284_Dubrajpur_(SC)",
+    "ac_no": 284,
+    "ac_name": "Dubrajpur (SC)",
+    "district": "Birbhum",
+    "muslim_population_pct": 27.01,
+    "total_deletions": 6943,
+    "deleted_male": 3203,
+    "deleted_female": 3740,
+    "deleted_muslim": 6470,
+    "deleted_nonmuslim": 473,
     "deleted_other": null
   },
   {

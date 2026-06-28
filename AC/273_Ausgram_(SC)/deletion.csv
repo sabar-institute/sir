@@ -309,7 +309,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-220-WI.pdf,220,1,8,YEX1984236,অঞ্জলী বালী,Female,1,,,Non-Muslim
 1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-215-WI.pdf,215,2,1,YEX2212405,উৎপল রপ্তান,Male,1,,,Non-Muslim
 1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-214-WI.pdf,214,2,5,YEX2476158,বাবল্‌ সেখ,Male,1,,,Muslim
-1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-220-WI.pdf,220,1,9,YEX1692466,বেনা বাণী,Female,1,,,Muslim
+1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-220-WI.pdf,220,1,9,YEX1692466,বেনা বাণী,Female,1,,,Non-Muslim
 1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-215-WI.pdf,215,2,2,YEX2211456,প্রিয়াংকা রপ্তান,Female,1,,,Non-Muslim
 1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-230-WI.pdf,230,1,1,YEX2368256,চন্দন মেটে,Male,1,,,Non-Muslim
 1,2026-SUPPLEMENTGEN-S25-273-1-Jo-not_eligible-BEN-214-WI.pdf,214,2,6,YEX2493724,আকাশ সেখ,Male,1,,,Muslim
@@ -1051,7 +1051,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-122-WI.pdf,122,1,9,YEX1462753,রেজিনা চৌধুরী,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-10-WI.pdf,10,1,18,BWN2623932,আব্দুর রহিম সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-117-WI.pdf,117,1,20,YEX1172071,মকরুবা বিবি মিদ্দা,Female,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-125-WI.pdf,125,1,3,GST2243111,বন্দনা বাণী,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-125-WI.pdf,125,1,3,GST2243111,বন্দনা বাণী,Female,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-11-WI.pdf,11,1,20,YEX1346329,খোকন মষ্ট্িক,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-121-WI.pdf,121,1,6,YEX1240779,রাজিয়া বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-123-WI.pdf,123,1,7,GST2538650,লুৎফা বেগম,Female,1,,,Muslim
@@ -3789,7 +3789,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-142-WI.pdf,142,12,4,2ZE2122364,তাসলিমা খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-25-WI.pdf,25,2,8,YEX1811942,মহাসিন সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-29-WI.pdf,29,1,19,YEX0112474,মালবিকা বাগ্দী,Female,1,,,Non-Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-26-WI.pdf,26,2,7,YEX2280295,সফিকুল মিঞ্জা,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-26-WI.pdf,26,2,7,YEX2280295,সফিকুল মিঞ্জা,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-24-WI.pdf,24,2,10,BWN2648004,আজমোতুল্লা হক মন্ডল,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-142-WI.pdf,142,12,5,NSX3235827,আফসানা খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-25-WI.pdf,25,2,9,YEX2222248,আব্দুল আরিফ সেখ,Male,1,,,Muslim
@@ -3968,7 +3968,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-30-WI.pdf,30,2,5,BWN2341642,মরনী বালা দাস,Female,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-25-WI.pdf,25,3,11,YEX1246396,সাহানারা খাতুন বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-32-WI.pdf,32,1,16,BWN2343325,বেচারাম দাস,Male,1,,,Non-Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-27-WI.pdf,27,3,3,YEX1246966,শোভান মিঞ্জা,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-27-WI.pdf,27,3,3,YEX1246966,শোভান মিঞ্জা,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-31-WI.pdf,31,2,2,YEX1351626,পলাশ বিশ্বাস,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-26-WI.pdf,26,3,10,YEX2335685,আসমাতারা খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-24-WI.pdf,24,3,13,BWN0812347,রিজিয়া বিবি,Female,1,,,Muslim
@@ -4052,7 +4052,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-24-WI.pdf,24,3,24,BWN2728012,মফিজুল সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-25-WI.pdf,25,3,23,YEX2087807,লাইলি খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-32-WI.pdf,32,2,7,YEX1874064,রাহুল দাস,Male,1,,,Non-Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-27-WI.pdf,27,3,15,YEX1981927,নিয়ামত মিঞ্জা,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-27-WI.pdf,27,3,15,YEX1981927,নিয়ামত মিঞ্জা,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-31-WI.pdf,31,2,14,YEX1720499,অনিমেশ বৈরাগী,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-26-WI.pdf,26,3,22,YEX1424381,আয়েসা পারভিন বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-30-WI.pdf,30,2,18,YEX1248160,লিলু দাস,Female,1,,,Non-Muslim
@@ -4520,7 +4520,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-37-WI.pdf,37,1,12,YEX1429927,তপন মেটে,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-25-WI.pdf,25,6,20,YEX2399723,সাহিদ সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-38-WI.pdf,38,1,7,YEX2295541,রুপালী বিশ্বাস,Female,1,,,Non-Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-27-WI.pdf,27,6,12,YEX1872886,দিল বাহার মিঞ্ঞা,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-27-WI.pdf,27,6,12,YEX1872886,দিল বাহার মিঞ্ঞা,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-26-WI.pdf,26,6,19,YEX2509248,সামিমা খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-34-WI.pdf,34,2,23,YEX1361477,জবা দাস,Female,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-24-WI.pdf,24,6,21,YEX1423490,আনারকলি বেগম,Female,1,,,Muslim
@@ -5358,7 +5358,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-49-WI.pdf,49,3,20,YEX24939711,মোসারফ সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-52-WI.pdf,52,1,3,YEX1891902,নাজমুল সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-45-WI.pdf,45,4,19,WB/41/267/552196,জহুরাবিবি সেখ,Female,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,1,13,YEX2034379,শাহ ফজল,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,1,13,YEX2034379,শাহ ফজল,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-41-WI.pdf,41,5,11,YEX1354166,নূর আলম মন্ডল,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-50-WI.pdf,50,2,6,YEX2339521,অনামত মির্জা,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-49-WI.pdf,49,3,21,AEM3117769,অলমিনা খাতুন,Female,1,,,Muslim
@@ -5410,7 +5410,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,1,21,YEX2113181,কমরুপ্নিসা বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-54-WI.pdf,54,1,3,YEX2229896,রাজা মাল,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-50-WI.pdf,50,2,14,YEX1867217,ফরিদা খাতুন,Female,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-53-WI.pdf,53,1,7,BWN2931822,ভোলা বাণী,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-53-WI.pdf,53,1,7,BWN2931822,ভোলা বাণী,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-41-WI.pdf,41,5,19,YEX1642727,হায়দার আলি সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-45-WI.pdf,45,5,3,YEX2338820,রাহুল সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-52-WI.pdf,52,1,12,YEX1547934,রফিকুল সেখ,Male,1,,,Muslim
@@ -5486,7 +5486,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-54-WI.pdf,54,1,14,YEX2230043,রফিকুল মল্লিক,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-52-WI.pdf,52,2,1,YEX2116051,সেখ সালেমা বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-53-WI.pdf,53,1,18,BWN2931590,ওমর মল্লিক,Male,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,2,11,YEX1255652,জ্বামাল শাহ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,2,11,YEX1255652,জ্বামাল শাহ,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-50-WI.pdf,50,3,1,YEX0205104,নিজাম মণ্ডল,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-45-WI.pdf,45,5,14,YEX1144985,সেখ আব্দুল আলিম,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-41-WI.pdf,41,6,6,YEX1723758,সাহানাজ বিবি,Female,1,,,Muslim
@@ -5527,7 +5527,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-52-WI.pdf,52,2,7,YEX1436187,নূর আলম সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-50-WI.pdf,50,3,7,YEX1435338,সালমা মন্ডল,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-53-WI.pdf,53,2,3,YEX2020824,রহিমা বেগম,Female,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,2,17,YEX2434165,টোটন শাহ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,2,17,YEX2434165,টোটন শাহ,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-41-WI.pdf,41,6,12,YEX1431485,লালন সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-54-WI.pdf,54,1,21,YEX1892322,ত্রিবুবন পাস্ডে,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-52-WI.pdf,52,2,8,YEX1088137,দেলবাহার সেখ,Male,1,,,Muslim
@@ -5546,7 +5546,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-54-WI.pdf,54,2,2,BWN2682979,রাবিয়া বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-53-WI.pdf,53,2,6,YEX0221853,অল্ন মাজি,Female,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-50-WI.pdf,50,3,10,YEX0205419,ফজলুল মোল্লা,Male,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,2,20,BWN2733301,জানেরুল শাহ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,2,20,BWN2733301,জানেরুল শাহ,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-41-WI.pdf,41,6,15,YEX1431725,সালেমা খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-55-WI.pdf,55,1,2,YEX1355866,আসমিনা বিবি,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-52-WI.pdf,52,2,11,BWN2895209,রহিমা মন্ডল,Female,1,,,Muslim
@@ -5583,7 +5583,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-50-WI.pdf,50,3,15,NUM1354422,সেবিনা খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-41-WI.pdf,41,6,20,AEM2031078,আসমিনা খাতুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-55-WI.pdf,55,1,7,YEX2412567,মহঃ মহিদুল সেখ,Male,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,3,1,YEX1148204,সমদ্দাম শাহ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-51-WI.pdf,51,3,1,YEX1148204,সমদ্দাম শাহ,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-54-WI.pdf,54,2,8,YEX1727197,টুম্পা মাজি,Female,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-53-WI.pdf,53,2,12,YEX1436872,কাবেরী মাজি,Female,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-52-WI.pdf,52,2,16,YEX0215723,শাহারুল জামাল মন্ডল,Male,1,,,Muslim
@@ -6582,7 +6582,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-7-WI.pdf,7,3,17,BWN2725000,হোসেন শাহ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-80-WI.pdf,80,1,1,YEX1735133,নবকুমার দাস,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-6-WI.pdf,6,4,12,YEX1345198,মেহেরুল্নেসা বিবি,Female,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-73-WI.pdf,73,3,8,YEX1905124,নয়ন মিঞ্জা,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-73-WI.pdf,73,3,8,YEX1905124,নয়ন মিঞ্জা,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-57-WI.pdf,57,5,17,BWN2685063,মাহেরা মির্জা,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-8-WI.pdf,8,1,8,BWN1736016,সাখাওয়াত মোল্লা,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-60-WI.pdf,60,4,8,YEX1152966,দেলু সেখ,Male,1,,,Muslim
@@ -6593,7 +6593,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-73-WI.pdf,73,3,9,BWN2157287,আরবজান বিবি সেখ,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-8-WI.pdf,8,1,9,YEX17 14245,করিম মোল্লা,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-60-WI.pdf,60,4,9,YEX1440577,সামেনা বিবি,Female,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-7-WI.pdf,7,3,19,YEX2264596,লাল চাঁদ শাহ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-7-WI.pdf,7,3,19,YEX2264596,লাল চাঁদ শাহ,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-80-WI.pdf,80,1,3,YEX1867750,উমানি বাউরী,Female,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-6-WI.pdf,6,4,14,YEX1926393,হারুপ্নিসা বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-73-WI.pdf,73,3,10,ROE1268034,শেফালি বিবি,Female,1,,,Muslim
@@ -6651,7 +6651,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-60-WI.pdf,60,4,18,YEX1729029,সেখ ফিরোজ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-73-WI.pdf,73,3,18,YEX2160810,সুজারুদ্দিন খান,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-81-WI.pdf,81,1,3,BWN1238047,কাশেম চৌধুরী,Male,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-7-WI.pdf,7,4,3,YEX1417 187,এরতেজা শাহ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-7-WI.pdf,7,4,3,YEX1417 187,এরতেজা শাহ,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-57-WI.pdf,57,6,3,YEX0247411,সামাদ সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-8-WI.pdf,8,1,18,YEX2056901,সাফিয়া বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-6-WI.pdf,6,4,23,YEX1808385,লালচাঁদ বাদশা,Male,1,,,Muslim
@@ -6666,7 +6666,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-60-WI.pdf,60,4,20,YEX2301596,রিয়া খাড়ুন,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-81-WI.pdf,81,1,5,YEX1448760,আসমাতারা বেগম,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-57-WI.pdf,57,6,5,YEX1151646,আজাদ সেখ,Male,1,,,Muslim
-2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-7-WI.pdf,7,4,5,YEX1125285,আজিজ্বল শাহ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-7-WI.pdf,7,4,5,YEX1125285,আজিজ্বল শাহ,Male,1,,,Non-Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-8-WI.pdf,8,1,20,YEX2444180,উম্মেসোলেমা বিবি,Female,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-73-WI.pdf,73,3,21,YEX2422632,রাহুল সেখ,Male,1,,,Muslim
 2,2026-SUPPLEMENTGEN-S25-273-2-Jo-not_eligible-BEN-60-WI.pdf,60,4,21,YEX2301646,জামাল হোসেন সেখ,Male,1,,,Muslim
@@ -7476,7 +7476,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-162-WI.pdf,162,2,9,YEX1477363,আজিম শা,Male,1,,,Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-163-WI.pdf,163,1,12,YEX1477843,জিতেন বাউরী,Male,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-160-WI.pdf,160,2,18,BWN2599389,সাবিলাবিবি,Female,1,,,Muslim
-3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-162-WI.pdf,162,2,10,YEX1378959,হারাধন শাহ,Male,1,,,Muslim
+3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-162-WI.pdf,162,2,10,YEX1378959,হারাধন শাহ,Male,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-67-WI.pdf,67,1,1,YEX2001238,দীপক কুমার মণ্ডল,Male,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-163-WI.pdf,163,1,13,BWN2603074,নানু বাউরী,Male,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-160-WI.pdf,160,2,19,BWN2599348,শেখ লতিফ,Male,1,,,Muslim
@@ -7488,7 +7488,7 @@ phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,r
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-67-WI.pdf,67,1,3,BWN2146462,মিঠু মন্ডল,Male,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-163-WI.pdf,163,1,15,YEX1379346,টুম্পা বাউরী,Female,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-160-WI.pdf,160,2,21,WB/41/267/417202,বেগমবিবি সেখ,Female,1,,,Muslim
-3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-162-WI.pdf,162,2,13,YEX2401149,অজিজুল শাহ,Male,1,,,Muslim
+3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-162-WI.pdf,162,2,13,YEX2401149,অজিজুল শাহ,Male,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-163-WI.pdf,163,1,16,YEX1195205,লক্ষী বাউরী,Female,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-67-WI.pdf,67,1,4,YEX1921626,সাহেব মাজি,Male,1,,,Non-Muslim
 3,2026-SUPPLEMENTGEN-S25-273-3-Jo-not_eligible-BEN-162-WI.pdf,162,2,14,YEX2315943,সেখ রাহুল,Male,1,,,Muslim
