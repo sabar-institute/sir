@@ -2,7 +2,7 @@
   "ac_no": 93,
   "ac_name": "Haringhata (SC)",
   "district": "Nadia",
-  "muslim_population_pct": 20,
+  "muslim_population_pct": "19.6",
   "phases": [
     "1",
     "2",
@@ -15,12 +15,6 @@
     "8",
     "9",
     "10",
-    "11",
-    "12",
-    "12a",
-    "13",
-    "14",
-    "15",
-    "15a"
+    "11"
   ]
 }

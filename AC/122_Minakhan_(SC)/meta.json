@@ -2,7 +2,7 @@
   "ac_no": 122,
   "ac_name": "Minakhan (SC)",
   "district": "North 24 Parganas",
-  "muslim_population_pct": 52.5,
+  "muslim_population_pct": "51.39",
   "phases": [
     "1",
     "2",
@@ -16,11 +16,7 @@
     "9",
     "10",
     "11",
-    "12",
     "12a",
-    "13",
-    "14",
-    "15",
-    "15a"
+    "13"
   ]
 }

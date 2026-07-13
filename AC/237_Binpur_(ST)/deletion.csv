@@ -1,0 +1,339 @@
+phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,religion
+1,2026-SUPPLEMENTGEN-S25-237-1-Jo-not_eligible-BEN-121-WI.pdf,121,1,1,CYS2420611,সীমা রায়,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-168-WI.pdf,168,1,1,XWO2112936,পার্বতী রাণা,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,1,XWO1668581,রুপসানা খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-167-WI.pdf,167,1,1,XWO1555853,আরজিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-165-WI.pdf,165,1,1,XWQ1668454,তানজিলা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-169-WI.pdf,169,1,1,XWQO 1667401,খুশী নায়েক,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,1,XWO2340941,বিজলী বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-168-WI.pdf,168,1,2,XWOQ1667054,জাহানারাবিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-165-WI.pdf,165,1,2,XWO1554344,পারভিন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,2,XWOQ0697235,জাম্নেগার বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-169-WI.pdf,169,1,2,XWO2443133,মানসী হেমব্তরম,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,2,XWO2007763,আসমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,3,MLLOO74757,আফসানা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-165-WI.pdf,165,1,3,XWO2082733,আনুযারী বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-169-WI.pdf,169,1,3,DRK2998905,সমবারি মাড্ডি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,3,XWO1936715,উম্মেকুলসুম বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,4,XWO1838804,আসমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-165-WI.pdf,165,1,4,ORK3048527,রেশমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-171-WI.pdf,171,1,1,XWQ2114338,হেনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-174-WI.pdf,174,1,1,XWQ1367523,দানু মুর্মূ,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-169-WI.pdf,169,1,4,XWQ1760636,পার্বতী মান্ডি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,4,XWQ1260967,জাইদন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,5,DRK3048782,আশিয়া বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-171-WI.pdf,171,1,2,XWQ2283398,জানিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-165-WI.pdf,165,1,5,XWQ2004950,রুপসানা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-175-WI.pdf,175,1,1,DRK1828524,দিপালী গিরি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,5,XWQ1450485,মুনমুন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,6,XWQ0699298,সেতারা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-171-WI.pdf,171,1,3,XWOQ0697227,আমিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-165-WI.pdf,165,1,6,XWQ2289619,দিপালী মুর্ম,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-175-WI.pdf,175,1,2,DRK1828516,অঙিত গিরি,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,6,XWOQ2287415,আসবরেফা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,7,XWQ1893110,সেক ইসরাফিল,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-171-WI.pdf,171,1,4,XWQ1838762,রোজি বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-175-WI.pdf,175,1,3,WB/33/231/030572,শ্যামারানী দাস,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,7,DRK2420909,ভাদু বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-185-WI.pdf,185,1,1,XWO2225779,বিমল সিংহ,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-183-WI.pdf,183,1,1,XWO1561018,প্রদীপ গিরি,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,8,XWO 1893128,নাজমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-171-WI.pdf,171,1,5,XWQ2435832,চাঁদনি বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,8,XWO1902790,রাহিসা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-183-WI.pdf,183,1,2,DRK1827153,পূর্ণিমা সিংহ,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,9,XWO1366533,সেলিমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-171-WI.pdf,171,1,6,XWQ2432342,রবিউল শাহ্‌,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-187-WI.pdf,187,1,1,XWQ2124030,সূমতী মাইতি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,9,XWOQ2430148,সানিয়া পরবিন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,10,XWO1838770,রেশমা খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-171-WI.pdf,171,1,7,XWO1668110,বাসিরন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-188-WI.pdf,188,1,1,XWOQ2291771,উমা কালিন্দী,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,10,XWO2383966,ফিরোজ খাঁন,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,11,XWOQ1839349,ভাদু বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-190-WI.pdf,190,1,1,XWOQ1844232,কামী মান্ডি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,11,XWQ2427011,নম্দীনি শব্বর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-188-WI.pdf,188,1,2,XWQ2171601,সুস্মিতা মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,12,XWO2008738,নাসিমা খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-190-WI.pdf,190,1,2,XWO1674605,মালতী বাস্ষে,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-191-WI.pdf,191,1,1,WB/33/231/111689,সরলা গোপ,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-193-WI.pdf,193,1,1,XWQ2345544,পারুল খেড়িয়া,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,12,XWOQ1902840,সাবানা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-188-WI.pdf,188,1,3,XWQ1995604,সোহাগী হেস্বম,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,13,XWOQ2008910,আরেমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-191-WI.pdf,191,1,2,XWQ0773549,ডমনী হেমব্রম,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,1,XWO2173201,জয়ন্ত কর্মকার,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-193-WI.pdf,193,1,2,XWO1454776,রঞ্জিৎ শবর,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,13,XWO1902857,স্কু সামিম,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-188-WI.pdf,188,1,4,DRK2997146,মলয় মাহাত,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,14,WO2341808,নাসিমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,2,XWO1454974,শিবু খেড়িয়া,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-193-WI.pdf,193,1,3,XWOQ2459261,সন্তোষ শবর,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,14,XWQ21644689,তাজমা খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-188-WI.pdf,188,1,5,XWGQ2291094,নিশা কর্মকার,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,15,XWOQ2432292,তিন্লু খান,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,3,XWO1996404,জ্যেৎন্না খেড়িয়া,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-195-WI.pdf,195,1,1,RLZ0634980,অনিতা পাতর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,15,XWQ2452688,তামান্না বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-188-WI.pdf,188,1,6,DRK2411478,ইলা শীট,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-170-WI.pdf,170,1,16,XWO2458362,সেক সান্মির আলি,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,4,XWQ1941152,অনিল খেড়িয়া,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,16,XWQ2454403,সাহামত মির্জা,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-196-WI.pdf,196,1,1,DRK2778470,শান্তি শবর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,5,XWQ1B45536,রষ্জিত বাগাল,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,17,XWQ2466804,রোজিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-200-WI.pdf,200,1,1,XWQ 1455633,মালতী মুরমু,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,6,WB/33/231/120291,উষা বাগাল,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,18,XWQ2485050,রোজিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-203-WI.pdf,203,1,1,XWO2495794,করিনা মহান্তী,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-204-WI.pdf,204,1,1,XWOQ2499457,আরতি শবর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-205-WI.pdf,205,1,1,XWQ1395680,বেবী বেরা (দাস),Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,7,XWQ1373042,জাবামনি মান্ডি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-166-WI.pdf,166,1,19,XWQ2504421,জস্মীন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-206-WI.pdf,206,1,1,XWO1276773,সুশান্ত কুমার দত্ত,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,8,XWO1941137,জয়পাল মান্ডি,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-205-WI.pdf,205,1,2,XWQ1766450,জোগেন্দ্রনাথ হাঁসদা,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-206-WI.pdf,206,1,2,XWQ1903962,বাবলু রায়,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-207-WI.pdf,207,1,1,DRK3006814,সান্ত্রানেশা মুনসুরি হোসেন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,9,XWOQ1941145,ফুলমনি মান্ডি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-205-WI.pdf,205,1,3,XWQ2411072,লক্ষ্মী হীসদা,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-206-WI.pdf,206,1,3,DRK3007283,সান্তনু দাস,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-208-WI.pdf,208,1,1,XWO2228419,বিট কুমার,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,10,XWQ2461069,পদ্মা খেরিয়া,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-209-WI.pdf,209,1,1,XWQ2016483,বাপি মাহাতো,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-206-WI.pdf,206,1,4,XWQ1276955,উপেন্দ্র পাঠক,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-208-WI.pdf,208,1,2,XWOQ1943307,পূজা দাস,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-194-WI.pdf,194,1,11,XWQ2477891,বুধরাই মান্ডি,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-209-WI.pdf,209,1,2,DRK3006038,লুসকী সরেন,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-210-WI.pdf,210,1,1,WB/33/231/087041,রায়া শবর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-206-WI.pdf,206,1,5,XWQ1277110,যোগেন পাত্র,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-208-WI.pdf,208,1,3,XWQ1278142,কমল বেহারা,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-212-WI.pdf,212,1,1,XWQ0854059,সেক তৈমুস আলি,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-215-WI.pdf,215,1,1,XWQ1281039,রবীন হেম্বম,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-212-WI.pdf,212,1,2,XWOQ2426229,নাজমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-215-WI.pdf,215,1,2,XWO2449213,পূর্নিমা হেমব্ত্রম,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-215-WI.pdf,215,1,3,XWO2483733,পোদী হেম্ত্রম,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-220-WI.pdf,220,1,1,XWO 1871900,চন্দনা বাস্ষে,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-218-WI.pdf,218,1,1,XWO1282920,নুরজ্ান বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-225-WI.pdf,225,1,1,XWO1970532,শিবানী শবর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-226-WI.pdf,226,1,1,XWQ1687235,সালমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-220-WI.pdf,220,1,2,XWO2052751,ধানী টুডু,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-215-WI.pdf,215,1,4,XWQ1852128,সরস্বতী টুডু,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-228-WI.pdf,228,1,1,XWO1856178,ঝর্না শবর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-218-WI.pdf,218,1,2,XWO2141968,রানী বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-226-WI.pdf,226,1,2,XWO1460898,করেশা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-215-WI.pdf,215,1,5,XWQ2472546,ফুলমনি হাঁসদা,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-228-WI.pdf,228,1,2,W8/33/231/153078,অরবিন্দ শতপণ্থী,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-230-WI.pdf,230,1,1,CYS2206803,পার্বতি মরু,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-226-WI.pdf,226,1,3,XWQ 1460872,সেখ মুস্তাক,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-215-WI.pdf,215,1,6,XWQ2472587,বেলমনি সরেন,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-226-WI.pdf,226,1,4,DRK1765031,আকলিমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,1,XWQ1688779,দানগী মাঙডি,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-234-WI.pdf,234,1,1,XWO1971795,সোনালী শবর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-237-WI.pdf,237,1,1,XWQ2295038,সোনালী দাস,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,2,XWOQ1383561,সরোজ কুমার মাহাত,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-239-WI.pdf,239,1,1,XWO1578186,অনিমেশ মাহাত,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,3,XWO2233674,সুমিত্রা মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-240-WI.pdf,240,1,1,DRK2477552,টুম্পা গরাই,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-242-WI.pdf,242,1,1,WB/33/231/183710,নন্দ মাহাত,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,4,XWQ2413276,দেবা কর্মকার,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-240-WI.pdf,240,1,2,XWQ1878475,শেফালী খামরাই,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-243-WI.pdf,243,1,1,XWO1774710,উমামনি মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-242-WI.pdf,242,1,2,XWQ1692094,রাধারানী রানা,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-244-WI.pdf,244,1,1,XWQ0983908,ময়না শবর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,5,DRK2781706,মামনি রানা,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-245-WI.pdf,245,1,1,XWO0984534,মালতী কিন্ছু,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-240-WI.pdf,240,1,3,DRK3013083,রবি দন্ডপাট,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-242-WI.pdf,242,1,3,XWO2354728,শিবানী হেম্মম সরেন,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-246-WI.pdf,246,1,1,XWOQ2438661,সৌতাগ্য বেরা,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,6,ORK2781664,পানমনি মুর্ূ,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-246-WI.pdf,246,1,2,XWQ1386333,মন্টু নায়েক,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,7,XWQ0936963,লাল হাঁসদা,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-247-WI.pdf,247,1,1,XWQ1861574,ভারতী হেমব্্রম,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-246-WI.pdf,246,1,3,XWQ1861491,দিলীপ প্রধান,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-232-WI.pdf,232,1,8,XWOQ1287291,পম্পা মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-249-WI.pdf,249,1,1,DRK2784767,কাজল মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-250-WI.pdf,250,1,1,XWOQ1862631,সুরজমনি মুরমু,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-251-WI.pdf,251,1,1,XWO2393049,রঞ্জিত মান্ডি,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-246-WI.pdf,246,1,4,XWQ1775246,অমিতা পাতর,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-252-WI.pdf,252,1,1,XWOQ2356582,দুবরাজ বেশ্রা,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-249-WI.pdf,249,1,2,XWO1004126,চপলা মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-252-WI.pdf,252,1,2,XWO 1863182,অমৃতা পৈড়্যা,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-249-WI.pdf,249,1,3,DRK2784759,পুষ্প মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-253-WI.pdf,253,1,1,WB/33/231/141674,রহিম মাহাত,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-259-WI.pdf,259,1,1,XWO1864966,কদম মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-264-WI.pdf,264,1,1,XWOQ1159268,হিরা দণ্ডপট,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-262-WI.pdf,262,1,1,XWQ1778281,গোপীনাথ কিন্চু,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-266-WI.pdf,266,1,1,XWO2483907,জয়ী মাহাত,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-264-WI.pdf,264,1,2,XWQ1700368,শকুন্তলা সীট,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-269-WI.pdf,269,1,1,XWO 1867845,অক্পয় বাগাল,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-271-WI.pdf,271,1,1,XWO 1888276,লছমন নায়েক,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-264-WI.pdf,264,1,3,XWQ1700392,প্রীতি শীট,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-271-WI.pdf,271,1,2,XWO1467786,নন্দ সরেন,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-274-WI.pdf,274,1,1,XWQ1391788,সেখ আলাউদ্দিন,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-277-WI.pdf,277,1,1,XWO1303510,সাবিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-278-WI.pdf,278,1,1,XWOQ1992593,সুরজ দলাই,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-279-WI.pdf,279,1,1,XWOQ2362044,মুসকান খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-274-WI.pdf,274,1,2,XWOQ2119287,খালিদা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-277-WI.pdf,277,1,2,XWQ2361798,সাবিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-278-WI.pdf,278,1,2,DRK3018488,সুগেন দলাই,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-274-WI.pdf,274,1,3,XWQ1301274,মঙ্গল সরেন,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-279-WI.pdf,279,1,2,XWOQ 1469360,সেক কামালউদ্দিন,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,1,DRK2872679,আফতার আহমেদ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-277-WI.pdf,277,1,3,DRK2503076,লজিমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-278-WI.pdf,278,1,3,XWQ2075729,সাগর দলাই,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,1,XWQ1705755,সোনিয়া বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-274-WI.pdf,274,1,4,XWO1955038,নির্মল দন্ডপাট,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-279-WI.pdf,279,1,3,DRK2788099,নাজমা খাতুন(মল্লিক),Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,2,DRK2512267,সেখ নাসির আলি,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-277-WI.pdf,277,1,4,XWO1870013,আপশানা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-282-WI.pdf,282,1,1,XWO1393826,সিতারা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,2,XWO1469808,বাসিরুন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-274-WI.pdf,274,1,5,XWQ2360766,জননী দণ্ডপাট,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,3,XWQ1956507,কুরেষা বেওয়া,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-279-WI.pdf,279,1,4,XWOQ2492056,সেক সোহনউদ্দিন,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-282-WI.pdf,282,1,2,XWO1128313,তুহিনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,3,XWO1119148,সেখ আলাউদ্দিন,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,4,XWO1870526,সাহেরা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-282-WI.pdf,282,1,3,XWQ2188969,সাজিয়া বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,4,XWOQ1956689,আজিজন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,1,XWO1132497,জসিমন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,5,XWQ2076412,নিশার আলম,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-282-WI.pdf,282,1,4,XWQ2287787,সাহানার বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-284-WI.pdf,284,1,1,DRK2787810,তপন দাস,Male,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,5,XWOQ1956705,নুরি বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,2,XWOQ2288009,রাওসান বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,6,DRK2512044,মুক্তার আলম,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-282-WI.pdf,282,1,5,XWQ 1837269,বাৰ্বী বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-284-WI.pdf,284,1,2,XWO2363265,উষা রানী নায়েক,Female,1,,,Non-Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,6,XWO1986648,নাজমা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,3,XWOQ2288017,জয়নুদ্দিন আলি,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,7,DRK2788529,সবারাতি আলি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-282-WI.pdf,282,1,6,XWQ2433829,সিমা পারভীন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,7,XWO1591502,রেহেলা বেওয়া,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,4,XWQ2363240,সেক সেলিম,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,8,ORK2513653,আসগরী বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,8,XWO1891635,মোমেনা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,5,XWQ2363224,কালিম আলি,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,9,DRK2512028,সবরাতন বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,9,XWOQ1304906,বেনাজ্ীর খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,6,XWQ1781962,সেখ আলিফ,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,10,ITG2160596,রাবিয়া খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,10,XWQ1871607,আনারুল সেক,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,7,XWQ1987075,সোনিয়া বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,11,XWQ2187979,রুব্বানা খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,11,WB/33/231/246564,সেক সালাউদ্দিন,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,8,XWQ2501112,সাইদা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,12,XWQ2362440,সামামা খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,12,XWO1781780,খালেদা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-283-WI.pdf,283,1,9,XWO1705250,আকিদা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,13,XWOQ2439404,জুম্মান আলি,Male,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,13,XWO2439313,শামসুল্নেসা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,14,XWOQ1993021,আসমিন খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-281-WI.pdf,281,1,14,XWOQ1469907,রুকসানা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,15,XWQ1956390,আজমেরী খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,16,XWOQ2286177,অনোয়ারা বিবি,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,17,XWQ1305291,সালেহা খাতুন,Female,1,,,Muslim
+2,2026-SUPPLEMENTGEN-S25-237-2-Jo-not_eligible-BEN-280-WI.pdf,280,1,18,ERX1641364,শাগুফতা পারবিন,Female,1,,,Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-1-WI.pdf,1,1,1,XWO2105922,নিলীমা মুড়া,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-102-WI.pdf,102,1,1,XWQ2102549,আত্ম বিবি,Female,1,,,Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-103-WI.pdf,103,1,1,XWOQ2326783,লিপিকা কালিন্দী,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-11-WI.pdf,11,1,1,XWOQ0043174,তরুন সরেন,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-110-WI.pdf,110,1,1,XWQ1437615,খাঁদি নায়েক,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-111-WI.pdf,111,1,1,XWOQ2328052,লক্ষ্মণ দেশোয়ালী,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-110-WI.pdf,110,1,2,XWOQ1437409,পবিত্র নায়েক,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-110-WI.pdf,110,1,3,XWQ1346071,আদিত্য নায়েক,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-112-WI.pdf,112,1,1,WZN1268416,লক্ষ্মীপ্রিয়া মন্ডল,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-115-WI.pdf,115,1,1,XWO0464032,অনিল শর্ম্বর,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-125-WI.pdf,125,1,1,XWO1841655,লাল্টু কর্মকার,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-125-WI.pdf,125,1,2,XWO1841648,শুকদেব কর্মকার,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-131-WI.pdf,131,1,1,XWQ2078814,রত্ত্বী পাতর,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-125-WI.pdf,125,1,3,XWQ 1841630,শান্তি কর্মকার,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-135-WI.pdf,135,1,1,XWQ2334530,শুক্লা কারক,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-139-WI.pdf,139,1,1,XWQ2217461,লিজালিনী পাল,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-131-WI.pdf,131,1,2,CYS2076115,বাবলু হেমরম,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-135-WI.pdf,135,1,2,XWQ2471563,টিয়া সিং,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-144-WI.pdf,144,1,1,XWO1656933,লক্ষ্মী মাইতি,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-150-WI.pdf,150,1,1,CYS2214906,শকুন্তলা মহাপাত্র,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-151-WI.pdf,151,1,1,CYS2059442,মায়ন মুরমু,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-153-WI.pdf,153,1,1,XWO1934132,ডাক্তার মুরমু,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-155-WI.pdf,155,1,1,XWQ2039170,সুভদ্রা কালিন্দি,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-157-WI.pdf,157,1,1,XWO2197507,পরিমল মান্ডি,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-159-WI.pdf,159,1,1,XWO1448992,সত্য হেমরম,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-153-WI.pdf,153,1,2,CYS2208452,কল্পনা হাঁসদা,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-162-WI.pdf,162,1,1,XWOQ1852983,বিজয় মাহাত,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-163-WI.pdf,163,1,1,XWOQ2405793,রনি মুরমু,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-153-WI.pdf,153,1,3,CYS2061976,কান্দরা মুরমু,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-162-WI.pdf,162,1,2,WB/33/232/300115,বনমালী মাহাত,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-2-WI.pdf,2,1,1,XW02106029,আলপনা মুড়া,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-4-WI.pdf,4,1,1,XWO2006476,পূর্নিমা গরাই,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-35-WI.pdf,35,1,1,CYS1918325,জয়শ্রী মাহাত সিং,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-44-WI.pdf,44,1,1,XWQ1783182,সূর্য স্বর,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-4-WI.pdf,4,1,2,XWOQ1725274,কল্পনা সরেন,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-46-WI.pdf,46,1,1,CYS2185833,সরস্বতী মান্ডি,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-58-WI.pdf,58,1,1,XWO1336031,প্রমিলা মান্ডি,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-61-WI.pdf,61,1,1,CYS1640317,শান্তি মুরমু,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-62-WI.pdf,62,1,1,CYS2410223,বাপ্পা আলি,Male,1,,,Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-61-WI.pdf,61,1,2,CYS1960096,পরমেশ্বর সরেন,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-68-WI.pdf,68,1,1,XWO1471135,বেলা মাহাত,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-71-WI.pdf,71,1,1,XWO1628411,প্রশান্ত নায়েক,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-61-WI.pdf,61,1,3,XWO1820972,কাঞ্চন দাস,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-77-WI.pdf,77,1,1,XWOQ2257442,তারাপদ নায়েক,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-79-WI.pdf,79,1,1,XWOQ18 14698,অনিতা বাস্ষে,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-61-WI.pdf,61,1,4,XWQ1331180,অষ্টমী মাহাত,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-80-WI.pdf,80,1,1,XWO1333558,বরুন বিশ্ই,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-79-WI.pdf,79,1,2,CYS2027506,পানমনি সরেন,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-84-WI.pdf,84,1,1,XWQ1632538,শর্মিলা টুডু,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-84-WI.pdf,84,1,2,XWO1828363,সুনিলা কিন্কু,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-88-WI.pdf,88,1,1,CYS2038545,ধীরেন ঘোষ,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-92-WI.pdf,92,1,1,XWO 1338490,কবিতা পাল,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-84-WI.pdf,84,1,3,CYS2307775,শত্তুনাথ আহির,Male,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-98-WI.pdf,98,1,1,XWQ1745876,পম্পা মাহাত,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-88-WI.pdf,88,1,2,XWOQ2479236,রেশমা কুমারী বিশুই,Female,1,,,Non-Muslim
+7,2026-SUPPLEMENTGEN-S25-237-7-Jo-not_eligible-BEN-84-WI.pdf,84,1,4,XWQ1334895,বিনোদ বিহারী বাক্ষে,Male,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-106-WI.pdf,106,1,1,XWQ1821065,শান্তিলতা বালা,Female,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-112-WI.pdf,112,1,1,XWO0448043,শিবু নাথ,Male,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-114-WI.pdf,114,1,1,XWO1644301,সরস্বতী নাথ,Female,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,1,WB/33/231/042203,লুতফা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-38-WI.pdf,38,1,1,XWQ1220920,কৃষ্ণপদ মুরমু,Male,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-41-WI.pdf,41,1,1,XWQ1320977,মালতী শবর,Female,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,2,XWOQ2298073,সেক মুকাদ্দর,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-38-WI.pdf,38,1,2,XWO2481430,শুকুর মনি মান্ডি,Female,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-41-WI.pdf,41,1,2,CYS1926831,বাঘরাই সরেন,Male,1,,,Non-Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,3,XWO2299337,নসরুন বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,4,XWQ2084663,সবরাতন বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,5,XWO2283240,শাহিদা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,6,XWO2287597,গুলসাবা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,7,XWQ2288348,সুকতারা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,8,XWO2287688,সেখ সাদির আলি,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,9,XWOQ2290641,সেক ইরসাদ আলি,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,10,DRK2999688,সেখ জামসেদ আলি,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,11,XWQ2287654,আনসুরা খাতুন,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,12,XWO2282648,সরুষা খাতুন,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,13,XWOQ2290542,হাসান খাঁন,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,14,XWQ2114502,আজীরা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,15,XWOQ 1838796,রেশমিনা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,16,XWOQ2288736,সীমা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,17,XWOQ2342079,ইরসাদ মির্জা,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,18,XWQ1959790,খুশবুশ্লেসা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,19,XWQ2288587,সাগিরা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,20,XWQ2288512,রুকশা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,1,21,XWO2283364,সাবা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,1,XWQ2287614,নাসিমা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,2,XWQ2166429,রোজিনা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,3,XWO2296697,সামিনা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,4,XWQ2282879,রেহানা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,5,XWQ2166106,সেক ওমর ফারুক,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,6,XWQ2290757,সয়েল খান,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,7,XWQ2290773,অমরিন খাতুন,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,8,XWQ2290799,রাজিনা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,9,XWQ2290567,আজমেরুন বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,10,XWO2085553,মহিনুদ্দিন মির্জা,Male,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,11,XWQ2290468,রেশমা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,12,XWQ2085538,মির্জা হালেমা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,13,DRK1828227,সেখ শরিফা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,14,XWQ1993203,মানিসা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,15,XWQ1587255,রিনা বিবি,Female,1,,,Muslim
+8,2026-SUPPLEMENTGEN-S25-237-8-Jo-not_eligible-BEN-171-WI.pdf,171,2,16,ORK2420024,সেক সহিদ আলি,Male,1,,,Muslim
+9,2026-SUPPLEMENTGEN-S25-237-9-Jo-not_eligible-BEN-177-WI.pdf,177,1,1,XWOQ1559095,কালিদাস হাঁসদা,Male,1,,,Non-Muslim
+9,2026-SUPPLEMENTGEN-S25-237-9-Jo-not_eligible-BEN-192-WI.pdf,192,1,1,XWQ2127876,আল্হাদি হেস্রম,Female,1,,,Non-Muslim
+9,2026-SUPPLEMENTGEN-S25-237-9-Jo-not_eligible-BEN-192-WI.pdf,192,1,2,XWO2345346,সুমিত্রা মুরমু,Female,1,,,Non-Muslim

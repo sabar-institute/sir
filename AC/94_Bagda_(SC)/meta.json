@@ -2,25 +2,15 @@
   "ac_no": 94,
   "ac_name": "Bagda (SC)",
   "district": "North 24 Parganas",
-  "muslim_population_pct": 17.5,
+  "muslim_population_pct": "11.97",
   "phases": [
     "1",
     "2",
     "3",
     "4",
     "4a",
-    "5",
     "6",
     "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "12a",
-    "13",
-    "14",
-    "15",
-    "15a"
+    "14"
   ]
 }

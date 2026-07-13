@@ -2,25 +2,12 @@
   "ac_no": 96,
   "ac_name": "Bangaon Dakshin (SC)",
   "district": "North 24 Parganas",
-  "muslim_population_pct": 15,
+  "muslim_population_pct": "8.37",
   "phases": [
     "1",
     "2",
-    "3",
-    "4",
-    "4a",
     "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
     "12a",
-    "13",
-    "14",
-    "15",
-    "15a"
+    "13"
   ]
 }

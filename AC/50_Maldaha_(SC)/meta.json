@@ -2,7 +2,7 @@
   "ac_no": 50,
   "ac_name": "Maldaha (SC)",
   "district": "Malda",
-  "muslim_population_pct": 22.5,
+  "muslim_population_pct": "22.67",
   "phases": [
     "1",
     "2",
@@ -10,15 +10,8 @@
     "4",
     "4a",
     "7",
-    "8",
     "9",
     "10",
-    "11",
-    "12",
-    "12a",
-    "13",
-    "14",
-    "15",
-    "15a"
+    "11"
   ]
 }

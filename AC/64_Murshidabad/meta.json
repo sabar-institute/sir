@@ -2,7 +2,7 @@
   "ac_no": 64,
   "ac_name": "Murshidabad",
   "district": "Murshidabad",
-  "muslim_population_pct": 41.3,
+  "muslim_population_pct": "41.3",
   "phases": [
     "2",
     "3",

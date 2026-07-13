@@ -2,7 +2,7 @@
   "ac_no": 42,
   "ac_name": "Harirampur",
   "district": "Dakshin Dinajpur",
-  "muslim_population_pct": 31.45,
+  "muslim_population_pct": "31.45",
   "phases": [
     "1",
     "2",
