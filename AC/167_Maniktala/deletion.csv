@@ -1,0 +1,734 @@
+phase,pdf_file,part_no,page_no,box_no,epic,name,gender,ocr_pass,warning,repeat,religion,confidence
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-106-WI.pdf,106,1,1,YUP 1649086,Hari Shankar Pathak,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-104-WI.pdf,104,1,1,YUP2376671,Akash Patra,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-1-WI.pdf,1,1,1,YUP2499663,Tanjura Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,1,WB/22/158/ 180515,Sk. rafique,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-10-WI.pdf,10,1,1,YUP1919067,Mona Devi,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-105-WI.pdf,105,1,1,YUP1986637,Boby Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-100-WI.pdf,100,1,1,CXF 1983626,Sashikala Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-106-WI.pdf,106,1,2,AFQ1273846,Khagendra Nath Bala,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-104-WI.pdf,104,1,2,CXF2079952,Prabhabati Devi Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-10-WI.pdf,10,1,2,YUP1919075,Satish Jha,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-1-WI.pdf,1,1,2,YUP2634962,Sakil Ali Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,2,YUP2622926,Roshan Hela,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-10-WI.pdf,10,1,3,YUP2431781,Suken Kheto,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-106-WI.pdf,106,1,3,YUP2854925,Rajan Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,3,CXF 1820679,Lak Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-1-WI.pdf,1,1,3,YUP2136273,Saidul Sardar,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-109-WI.pdf,109,1,1,YUP2594 166,Putul Sonkar,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,1,YUP1451913,Bijali Sarkar,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-10-WI.pdf,10,1,4,YUP2798817,Mina Karmakar,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,4,YUP2624740,Rahul Routh,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-1-WI.pdf,1,1,4,YUP2803112,Khushi Mondal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-109-WI.pdf,109,1,2,YUP 1493642,Suraj Sonkar,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,2,YUP2043305,Bablu Kumar Ram,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-10-WI.pdf,10,1,5,YUP2803898,Rubi Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,5,YUP2700367,ZEENAT BIBI,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-112-WI.pdf,112,1,1,WB/22/158/ 165625,Naresh Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-110-WI.pdf,110,1,1,YUP1652023,Dipasree Chakraborty,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-109-WI.pdf,109,1,3,YUP2669844,Bidhan Kumar Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,3,YUP 1451970,Keshab Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,6,YUP1942465,Tabassum Begum,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-112-WI.pdf,112,1,2,YUP2330405,Bhola Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-110-WI.pdf,110,1,2,YUP2072155,Sapna Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-109-WI.pdf,109,1,4,YUP2512994,Roshan Kumar Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-113-WI.pdf,113,1,1,YUP1653674,Amian Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,4,YUP2684041,PRIYANKA DAS,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,7,YUP2229664,Puja Gond,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-114-WI.pdf,114,1,1,CXF 2065233,Sakuntala Sharma,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-110-WI.pdf,110,1,3,YUP 1651488,Mita Sen,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-112-WI.pdf,112,1,3,YUP2330504,Munna Paswan,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-109-WI.pdf,109,1,5,YUP2669760,Kunal Kumar Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-113-WI.pdf,113,1,2,YUP2513703,Shafat Khan,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,5,YUP2822765,JHARNA KHATOON,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,8,YUP 14930907,Sk. Salman,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-114-WI.pdf,114,1,2,YUP1810563,Sk Sunney,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-109-WI.pdf,109,1,6,YUP2450732,Shaloo Choraria,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,6,YUP2308179,Malati Sardar,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-107-WI.pdf,107,1,9,YUP1493204,Amina Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,7,YUP2684132,Chotka Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,1,YUP2074359,Hena Dom Malick,Female,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-119-WI.pdf,119,1,1,YUP1945492,Rajesh Chandra Tiwari,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-12-WI.pdf,12,1,1,YUP1800051,Mahejabeen Begum,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,8,YUP2684199,RAKESH SARDAR,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-125-WI.pdf,125,1,1,YUP2076653,Boby Sharma,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,2,YUP2704906,SOHIL MALLICK,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,1,YUP1919703,Kartick Rabidas,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-119-WI.pdf,119,1,2,CXF 1979897,Pramod Chandra Tiwari,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-12-WI.pdf,12,1,2,YUP2043685,Parvati Gour,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-131-WI.pdf,131,1,1,YUP2076982,Manoj Rabi Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,9,YUP2675502,SAMIRAN ADHIKARI,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,3,CXF0578724,Jagmati Pandey,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,2,YUP2308559,Maya Hela,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-119-WI.pdf,119,1,3,YUP2377570,Gouri Shankar Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,10,YUP2675494,DIPU SAHA,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,4,YUP2074383,Raj Kumar Ray,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,3,CXF 1766022,Sabitri Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-134-WI.pdf,134,1,1,YUP2806024,Somenath Senapati,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-135-WI.pdf,135,1,1,WB/22/159/213270,Tapen Kr Dey,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-11-WI.pdf,11,1,11,YUP2847085,Biki Mishra,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,5,YUP2331908,Rajesh Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-136-WI.pdf,136,1,1,YUP 1667997,Laxmicant Chowdhury,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,4,YUP2444404,Manaj Rabi Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-134-WI.pdf,134,1,2,YUP2077543,Pink Kanti,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-138-WI.pdf,138,1,1,YUP 1949023,Gopal Chandra Saha,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,6,YUP2397412,Rabi Karak,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-136-WI.pdf,136,1,2,YUP2234417,Archana Chowdhury,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,5,YUP1919943,Parbat Rabi Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-138-WI.pdf,138,1,2,YUP1949031,Namita Saha,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,7,ZUB1436585,Shanti Sahani,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-136-WI.pdf,136,1,3,YUP 1948702,Rakhi Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-139-WI.pdf,139,1,1,YUP2398584,Chanchala Kumari,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,1,YUP2044089,Niraj Hela,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,6,YUP 1452796,Parameshwar Rabidas,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,1,YUP2147064,Rani Begum,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,8,YUP2515039,Sulekha Barik,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-136-WI.pdf,136,1,4,JSC2964278,Bapi Mitra,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-139-WI.pdf,139,1,2,YUP 1506948,Sita Ram Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,2,YUP2637734,Chanda Hela,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,7,YUP1382720,Debjani Basu,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,2,YUP2519106,Sitara Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-136-WI.pdf,136,1,5,JSC2700300,Ramu Projapat,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-139-WI.pdf,139,1,3,YUP2631927,Babui Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,1,YUP13597 10,Ashok Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-13-WI.pdf,13,1,8,YUP1382753,Namita Sett,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,3,JSC2351377,Susmita Chaudhury,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,3,YUP2414928,Riya Adhikary,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,9,YUP1356542,Sk. Shamim Rahaman Shaiki,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-136-WI.pdf,136,1,6,YUP1504943,Sona Sarkar,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-139-WI.pdf,139,1,4,YUP2852077,SOMA DAS,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,2,YUP2338135,Asha Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,4,YUP2626679,Pappu Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,4,YUP2214245,Sanjit Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,10,YUP1497601,Subhash Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-136-WI.pdf,136,1,7,YUP1812841,Khusbu Agarwal,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,3,YUP 1949866,Tumpa Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-142-WI.pdf,142,1,1,YUP2663144,Rama Ghosh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,5,YUP1359694,Indrabati Dew Singh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,5,YUP1920271,Sona Khatick,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,11,YUP 1657253,Pravash Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,4,YUP2709384,JAYDEB GHOSH,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-145-WI.pdf,145,1,1,WB/22/169/171128,Kanaklata Ghosh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-142-WI.pdf,142,1,2,YUP 1509173,Bijoy Jha,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,6,YUP2442606,Gopal Dhar,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,6,YUP1920362,Hema Knhatik,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,12,YUP2332006,Babusona Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,5,JSC2352813,Bimal Karmakar,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-146-WI.pdf,146,1,1,YUP2080810,Mayna Saha,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-142-WI.pdf,142,1,3,YUP1360106,Shanti Oas,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,7,YUP2337574,Rohit Halder,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,7,CXF1757046,Rina Goswami,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,13,YUP2231751,Ram Prasad Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,6,ARO2149268,Asgari Khatoon,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-146-WI.pdf,146,1,2,YUP 1811153,Rupak Tapadar,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-142-WI.pdf,142,1,4,YUP2671618,Paye! Harijan,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,8,YUP2785103,Sathi Mondal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,8,YUP2694034,Biswajit Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,14,YUP2680874,Bikash Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-147-WI.pdf,147,1,1,YUP1813914,Samar Roy,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,7,YUP 1508654,Biswajit Mondal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-146-WI.pdf,146,1,3,YUP2647345,Kartick Paul,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-142-WI.pdf,142,1,5,YUP2820389,Mina Devi Prajapati,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-140-WI.pdf,140,1,9,YUP2843258,PUJA GUPTA,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-14-WI.pdf,14,1,9,YUP1920222,Menoka Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-118-WI.pdf,118,1,15,YUP2795680,Raju Patra,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-147-WI.pdf,147,1,2,YUP1511815,Dalim Paul,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,8,YUP2709368,ASHA PODODAR,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-142-WI.pdf,142,1,6,JSC2920106,Bijay Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-146-WI.pdf,146,1,4,JSC2927952,Indrani Chatterjee,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,9,YUP2709467,PRITI PODDAR,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-142-WI.pdf,142,1,7,YUP2079762,Raja Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-146-WI.pdf,146,1,5,JSC2699924,Subal Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,10,YUP1950005,Sushila Devi Prajapati,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-15-WI.pdf,15,1,1,CXF 1966409,Kiran Hela,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-149-WI.pdf,149,1,1,JSC2701779,Sarada Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-152-WI.pdf,152,1,1,YUP 1361849,Pandi Gunnama Reddy,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-153-WI.pdf,153,1,1,JSC2799294,Sanchita Saha,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-146-WI.pdf,146,1,6,YUP 1511179,Rita Dutta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-15-WI.pdf,15,1,2,CXF1750520,Chaina Kar,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,11,YUP1508522,Pradip Kr Prajapati,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-146-WI.pdf,146,1,7,ALD1663038,Milan Biswas,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-155-WI.pdf,155,1,1,JSG2967131,Amar Saha,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,12,YUP2079648,Raju Prasad,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-16-WI.pdf,16,1,1,YUP2678258,Rishu Rai Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-163-WI.pdf,163,1,1,YUP2638799,Sahanaj Begam,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-165-WI.pdf,165,1,1,YUP 1521160,Astish Des,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-155-WI.pdf,155,1,2,YUP2238624,Sonia Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,13,YUP2709269,PUNAM ROY,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-166-WI.pdf,166,1,1,YUP2148484,Shambhu Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-163-WI.pdf,163,1,2,YUP2342145,Uma Sutradhar,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,14,YUP1949981,Parbati Seth,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-155-WI.pdf,155,1,3,YUP1815840,Ganesh Prajapati,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-168-WI.pdf,168,1,1,YUP2400901,Bappa Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-169-WI.pdf,169,1,1,YUP1823554,Soumen Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,15,YUP1359835,Bhola Sharma,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-168-WI.pdf,168,1,2,YUP1682624,Sutapa Paul,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-17-WI.pdf,17,1,1,YUP2684959,Sonia Kabra,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-171-WI.pdf,171,1,1,JSC2703338,Santi Ranjan Kundu,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,16,YUP1808092,Pinki Snarma,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-176-WI.pdf,176,1,1,YUP1526748,Dipa Ghosh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-177-WI.pdf,177,1,1,YUP2089134,Mahua Ghosh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,17,YUP1950294,Mira Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-176-WI.pdf,176,1,2,YUP1526557,Surendra Gond,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-178-WI.pdf,178,1,1,YUP1527217,Karuna Hazra,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-179-WI.pdf,179,1,1,1UE1276195,Satish Kr. Singhal,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-18-WI.pdf,18,1,1,YUP2685139,Ratan Halder,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,18,JSC2686137,Arabindo Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-176-WI.pdf,176,1,3,YUP1527068,Manoj Gond,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-178-WI.pdf,178,1,2,YUP2690550,Nayan Dugar,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-181-WI.pdf,181,1,1,YUP 1528660,Lakshmi Sevengi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-179-WI.pdf,179,1,2,1VE2755056,Ankita Singhal,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-186-WI.pdf,186,1,1,YUP2443349,Mayrajuddin,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,19,YUP2709350,SONU SHAW,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-178-WI.pdf,178,1,3,DKN1825504,Jai Singh Baid,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-179-WI.pdf,179,1,3,1IUE2976363,YAVIK SINGHAL,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,20,CXF 1864099,Mina Singh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-187-WI.pdf,187,1,1,YUP1367101,Dilip Kumar Bit,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-178-WI.pdf,178,1,4,YUP2681021,Purbita Dutta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-188-WI.pdf,188,1,1,YUP2652030,MUDIT SARAF,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-179-WI.pdf,179,1,4,YUP2613503,Poonam Singhal,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-189-WI.pdf,189,1,1,YUP1692854,Akima Bbi,Female,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,1,21,YUP1508530,Lata Verma,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-19-WI.pdf,19,1,1,YMQ3002185,Mahinder Kumar Agarwal,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,2,1,YUP2519304,Raja Poddar,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,1,YUP1833892,Saira Banu Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,1,YUP2551281,Dipak Sarkar,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,1,YUP1837729,Rokia Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,2,2,YUP2793990,Ajit Kumar Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-195-WI.pdf,195,1,1,YUP2153328,Mohammad Haidar,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,2,YUP2560242,Sahadat Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,1,YUP2403129,Jaitun Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,2,YUP2422558,Mayna Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-2-WI.pdf,2,1,1,YUP 1448935,Samiran Mazumder,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,2,YUP 1837786,Farida Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-141-WI.pdf,141,2,3,YUP2794006,Lalu Prasad Chowdhury,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-195-WI.pdf,195,1,2,YUP2650844,Roksana Begum,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,3,YUP2402360,Parul Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,2,YUP1959790,Rojina Bai,Female,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,3,YUP2667764,Rukhshana Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-2-WI.pdf,2,1,2,YUP2645836,Shrey Mishra,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,3,YUP1387968,Rafia Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-195-WI.pdf,195,1,3,YUP2470656,Soab Mohammad,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,4,YUP1534270,Hasina Banu,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,3,JSC2382612,Md. Islam,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,4,YUP2442051,Rejrya Bibs,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,4,YUP 1836572,Hafiza Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-195-WI.pdf,195,1,4,YUP2095537,Ismail Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,5,YUP1533124,Parvin Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-20-WI.pdf,20,1,1,YUP 1455183,Md Sadruddin,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,4,YUP 1960459,Sahajan Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,5,JSC2384212,Rabi Mondal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,5,YUP 1367689,Nice Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-195-WI.pdf,195,1,5,YUP2095131,Dibakar Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-200-WI.pdf,200,1,1,YUP2382984,Lal Chand Bairagi,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,6,YUP2348563,Sirajul Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,5,YUP1535483,Jabeda Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,6,YUP1367473,Nurisiam Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,6,YUP 1536663,Rahima Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-195-WI.pdf,195,1,6,YUP2787174,Md Dildar,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-200-WI.pdf,200,1,2,YUP1963172,Santana Sarkar Sana,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,7,YUP2092195,Babu Kha,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,6,YUP1367895,Md. Manirul Sana,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,7,YUP 1388412,Mumtaj Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,7,YUP2093276,Halima Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-201-WI.pdf,201,1,1,ATR2095404,Kaynat Parveen,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-195-WI.pdf,195,1,7,YUP2787109,Md Tamanne,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-200-WI.pdf,200,1,3,YUP1540921,Sujoy Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,8,YUP 1691369,Afsar Moral,Male,1,,,Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,7,YUP 1535228,Rijia Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-191-WI.pdf,191,1,8,YUP2832798,TAJMIRA KHATOON,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,8,YUP1536374,Tapas Bose,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-201-WI.pdf,201,1,2,YUP 1539766,Nannu Khan,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,9,YUP2705101,SADDAM SHEKH,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,8,YUP1892532,MAJEDA BIBI,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,9,YUP2246999,Akir Sardar,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,10,YUP2705218,Sumi Bibs,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,9,YUP1535277,Napmna Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-202-WI.pdf,202,1,1,YUP2383107,Bablu Paul,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-203-WI.pdf,203,1,1,YUP2517076,Badal Des,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,10,YUP1536671,Jahangir Sarder,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,11,YUP2608677,Abtab Moral,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-205-WI.pdf,205,1,1,YUP1543016,Mahipat Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,10,YUP 1692623,Sahanara Bibl,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,11,YUP1388354,Khiran Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-204-WI.pdf,204,1,1,YUP1698356,Pinki Chowdhury,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,12,YUP1551159,Nisar Mohammad,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,11,YUP1959386,Taslima Bibi (Khatoon,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-193-WI.pdf,193,1,12,YUP2837698,SONIA MUKHERJEE,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-206-WI.pdf,206,1,1,JSC2318839,Manick Kumar Saha,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-207-WI.pdf,207,1,1,YUP2657239,Mohammad Tausif,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-190-WI.pdf,190,1,13,YUP2348357,Rahan Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,12,YUP 1960343,Chhalma Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-209-WI.pdf,209,1,1,YUP2586587,Rupwati Kumari Roy,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-21-WI.pdf,21,1,1,2ZC2942365,ROHIT MALLICK,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,13,YUP2094092,Md Mofijul Islam,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-209-WI.pdf,209,1,2,JSC2934867,Reeta Bose,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-210-WI.pdf,210,1,1,YUP2606184,Ramjan Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-211-WI.pdf,211,1,1,YUP2697795,Baby Basak,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,14,YUP2403798,Asma Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-213-WI.pdf,213,1,1,WPL2501153,CHANDAN MANDAL,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,1,JSC2576593,Nuruddin Sk.,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-210-WI.pdf,210,1,2,YUP2698454,Ohuna Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-211-WI.pdf,211,1,2,YUP2668333,Madhurima Paul,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-21-WI.pdf,21,1,2,YUP2263663,Swarupananda Brahmachari,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-213-WI.pdf,213,1,2,YUP2355154,Monira Begum,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,2,YUP1847074,Tumpe Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-210-WI.pdf,210,1,3,J8C2172047,Ruma Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-216-WI.pdf,216,1,1,JSC2860633,Aparna Mazumder,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-211-WI.pdf,211,1,3,WB/22/159/318263,Anjali Choudhury,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,15,YUP2382356,Noornesha Khatoon,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-213-WI.pdf,213,1,3,YUP2355261,Binita Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,3,YUP1370220,Kalachand Miyan,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-210-WI.pdf,210,1,4,YUP2790202,Fazar Ali Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-216-WI.pdf,216,1,2,JSC2860146,DOdip Kumar Mazumder,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,16,YUP1534411,Ful Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-211-WI.pdf,211,1,4,YUP2634301,Maali Bera Saha,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,4,YUP1967173,Hafija Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-217-WI.pdf,217,1,1,JSC2860666,Aparna Ghosh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,17,YUP2793412,RAHUL MULLAH,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-211-WI.pdf,211,1,5,YUP2354884,Munna Rajbhar,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,5,YUP1547322,Badhu Khatoon,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-219-WI.pdf,219,1,1,YUP1370774,Gum Bahadur Bramoo,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,18,YUP1832993,Serina Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-211-WI.pdf,211,1,6,YUP2354645,Sourav Talukdar,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-220-WI.pdf,220,1,1,YUP2563187,Srijoyee Bhattacharyya,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,6,JSC2942100,Sahajan Ak Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-222-WI.pdf,222,1,1,JSC2996858,Gita Pal,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-219-WI.pdf,219,1,2,YUP1791615,Reba Mitra,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,19,YUP2704385,Rubiya Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-224-WI.pdf,224,1,1,YUP2729457,SABOUL ALI,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-211-WI.pdf,211,1,7,YUP2250371,Nisha Gupta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,7,XGZ1409713,Asma Laskar,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-222-WI.pdf,222,1,2,YUP2459436,SUDEEP MISHRA,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,20,YUP2093912,Bhola Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-224-WI.pdf,224,1,2,YUP2540789,Bappa Mondal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,8,YUP 1052893,Kohinoor Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-222-WI.pdf,222,1,3,JGL3710134,Moitreyee Dey,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-225-WI.pdf,225,1,1,YUP2695443,Tumpe Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,1,21,YUP1535301,Zahangir Dhali,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-224-WI.pdf,224,1,3,XCZ2488237,RAHIMA BABA,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,1,YUP2406585,Maharam Sekh,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,9,YUP2427268,Dipu Dolui,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-222-WI.pdf,222,1,4,DBL2234078,Keya Mukherjee,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-228-WI.pdf,228,1,1,YUP1390608,Mantu Oraon,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-225-WI.pdf,225,1,2,YUP2682292,Jarina Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,2,JSC1787475,Serina Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,1,YUP2651943,Hapi Dul Gaji,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,10,YUP2355360,Shrikanta Gayen,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-222-WI.pdf,222,1,5,YUP2104438,Aman Datta,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-225-WI.pdf,225,1,3,YUP1371533,Gofur Ali Sardar,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,3,YUP1744929,Asmatara Sekh,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,2,YUP 1535194,Jul Hasan Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,11,YUP2561439,Nasima Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-229-WI.pdf,229,1,1,YUP2609469,Sabdul Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-225-WI.pdf,225,1,4,YUP2459667,ROVJINA BIBI,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,1,YUP1622416,Ramesh Chandra Paul,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,4,YUP2459949,Reshma Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,3,YUP1533173,Tutul Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,12,YUP1705474,Jakir Hossain Mistry,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-229-WI.pdf,229,1,2,YUP1712439,Mamtaj Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-225-WI.pdf,225,1,5,YUP1969278,Md. Basar Ali Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-233-WI.pdf,233,1,1,WB/22/168/327431,Moloy Saha,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,2,WB/22/159/273628,Raja Ghoeh,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,5,YUP2557312,Hosen Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,4,YUP1534809,Asharaf Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,13,YUP1547165,Md Firoz Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-229-WI.pdf,229,1,3,YUP1746413,Sebila Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-225-WI.pdf,225,1,6,YUP1969 104,Jahangir Sekh,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,3,LFH0630194,Oaud Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,6,YUP2694388,ASMA BIBI,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,5,YUP 1532985,Md Mostafa Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,14,YUP1547173,Md Ajish Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-229-WI.pdf,229,1,4,JSC2712123,Isup Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,4,RXT1659853,Mamtaz Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,6,YUP1533165,Sahadat Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,7,JSC2933265,Anjula Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-234-WI.pdf,234,1,1,YUP1713817,Bhanumati Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,15,YUP2355436,Madhabi Sardar,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-229-WI.pdf,229,1,5,YUP2384899,Mantaj Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,5,YUP2797116,Mantu Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-236-WI.pdf,236,1,1,YUP1557057,Mina Devi,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,8,YUP1852728,Nurjan Bibs,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,7,YUP1692672,Billal Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,16,YUP1547454,Ajiul Sk,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,6,YUP 1390749,Morjina Bibs,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-236-WI.pdf,236,1,2,JSC2851632,Rohit Bagla,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,9,YUP2694727,Tajmira Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,8,YUP2093300,Jamuna Gazi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,17,YUP1547330,Mafijul Sk,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-237-WI.pdf,237,1,1,WB/20/139/897242,Sikha Des,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,7,YUP2385078,Kuichun Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,1,YUP2109171,Nitya Prakash Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,10,YUP 1551043,Salana Gazi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,9,YUP2348902,Md Rahul Amin Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-214-WI.pdf,214,1,18,YUP2784502,Hasina Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-237-WI.pdf,237,1,2,YUP2667624,Ratna Mitra,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,8,YUP 1712165,Nessaron Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,2,JSC2730182,Ravi Prakash Poddar,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,11,YUP1551779,Md. Jakir Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,10,YUP2246676,Saiful Halder,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-239-WI.pdf,239,1,1,YUP2877740,Radhika Hada,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,9,YUP2692564,Selim Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,3,YUP2154292,Shashi Rastogi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,12,YUP1744861,Md Manirul Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,11,YUP2551935,Rabiyul Halder,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-239-WI.pdf,239,1,2,JSC2934636,Anchita Bubna,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,1,YUP2109874,Siddhant Sharma,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,10,RXT0972802,Chabina Bibs,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,13,YUP2722262,JALAL GAZI,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,4,YUP17 18006,Puja Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,12,YUP 1692946,Aziz Joatdar,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,1,YUP2154839,Suresh Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-239-WI.pdf,239,1,3,YUP2154490,Neha Bubna,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,2,YUP2572049,Angita Kumari Rajak,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,11,YUP1390756,Ahdali Gaji,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,14,YUP17 10532,Puja Ghata,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,5,YUP1792845,Rani Jayswal,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,13,YUP 1835319,Halima Khatoon,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,2,YUP1859467,Mithilesh Kumari Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-239-WI.pdf,239,1,4,YUP2154573,Eeshani Agarwal,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,3,YUP2256154,Pinki Sharma,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,12,JSC2467587,Sk Shafiur Rahman,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,15,JSCG2719573,Phool Jhuri Molla,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,6,YUP2361608,Maya Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,14,YUP 1960541,Razzak Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,3,JSC2858942,Nikhil Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-239-WI.pdf,239,1,5,YUP1373877,Urmila Devi Agarwal,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,4,YUP2423911,Shriram Ray,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,16,YUP2559300,Soma Mondal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,13,YUP2792489,Halima Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,7,YUP2154367,Pratik Kedia,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,15,YUP1817311,Nurjamal Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,4,YUP2573137,Anupama Mishra,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,5,YUP2572410,Bishal Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,17,YUP2253870,Champa Sekh,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,14,YUP2667830,Rogina Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-238-WI.pdf,238,1,8,JSC2934578,Or. Joydeep Mitra,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,16,YUP1959022,Mostafijur Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,5,YUP1559400,Ram Sabad Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,6,YUP1172675,Nandalal Prasad,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-243-WI.pdf,243,1,1,YUP2155091,Shobha Devi Mohata,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,18,YUP1744903,Alamos Sekh,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,15,FJY1298942,Taufid Alam,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,17,YUP 1817428,Samyed Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,6,YUP2362317,Mina Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,7,YUP1973361,Shila Rani Kayat,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,19,YUP2694552,Jainal Sekh,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-230-WI.pdf,230,1,16,YUP2792521,Mantu Gazi,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,18,YUP2093680,Alamgir Molla,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,7,2201267641,Payel Das Marick,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-244-WI.pdf,244,1,1,YUP1374578,Shubajit Sarkar,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,8,YUP1973395,Pinki Devi Rajak,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,20,YUP2599702,Md Azhar Uddin,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,19,YUP1533702,Akbar Morol,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,8,YUP1374032,Prasanta Marick,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-244-WI.pdf,244,1,2,J8C2724631,Usha Rathi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-246-WI.pdf,246,1,1,JSC2714806,Santosh Devi Agarwal,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,9,JSC2644906,Rina Rajak,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,1,21,YUP2566610,Badsha Ali Khan,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,20,YUP1817329,Anarul Sana,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-241-WI.pdf,241,1,9,YUP2832806,SEEMA JAISWAL,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-246-WI.pdf,246,1,2,JSC2714913,Shilpi Gupta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-248-WI.pdf,248,1,1,YUP2574416,Mita Sarkar,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-240-WI.pdf,240,1,10,YUP2461051,Ranjit Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,21,YUP2246387,Md.Mominur Sana,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,2,1,XGZ2075414,Aphsana Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-246-WI.pdf,246,1,3,YUP1974450,Nikki Gupta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-248-WI.pdf,248,1,2,YUP1974658,Jagannath Chakraborty,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-250-WI.pdf,250,1,1,WB/22/169/297118,Kalabati Shaw,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,22,YUP2093979,Billal Sana,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,2,2,YUP1390079,Shyam Kumar Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-246-WI.pdf,246,1,4,YUP2363133,Sagnika Mukherjee Paul,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-251-WI.pdf,251,1,1,YUP2155588,Simran Agarwal,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,23,YUP2403905,Jakir Sardar,Male,1,,,Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,2,3,YUP2557692,Priyanka Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-252-WI.pdf,252,1,1,JSC2979011,Rahul Jain,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-251-WI.pdf,251,1,2,YUP1564004,Shree Gopal Kothari,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-253-WI.pdf,253,1,1,YUP1564566,Utpal Kejriwal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,2,24,YUP2247120,Rabijit Sardar,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,2,4,YUP2838209,SUMAN BAIDYA,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-255-WI.pdf,255,1,1,JSC2726586,Amal Kr. Khaitan,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-251-WI.pdf,251,1,3,JSC2979003,Ratul Snigdha Saha,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,1,YUP2570430,Rishabh Bansal,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-253-WI.pdf,253,1,2,YUP1564558,Urbdashi Kejriwal,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-226-WI.pdf,226,2,5,YUP2842334,TAZMIRA KHATOON,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,3,1,YUP 1833975,Usha Sarder,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-257-WI.pdf,257,1,1,YUP1392778,Sanjit Kumar Pandey,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,2,DPD1923457,Deepika Jain,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-253-WI.pdf,253,1,3,YUP2810877,NITU SURANA,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,3,2,YUP2610046,Guria Khatoon,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-257-WI.pdf,257,1,2,YUP 1565969,Shyam Sundar Banka,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-26-WI.pdf,26,1,1,YUP2689628,Praméda Devi Prajapati,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,3,YUP 1561042,Sukh Sagar Chowdhury,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,1,YUP1567288,Bidhan Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,3,3,YUP2704286,Soniya Parveen,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-262-WI.pdf,262,1,1,WB/21/142/378133,Kalawati Bhama,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,2,YUP 1977966,Shyam Kabitiya,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,3,4,YUP2832541,RINI KHATOON,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-267-WI.pdf,267,1,1,YUP2118230,Paro Debi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-262-WI.pdf,262,1,2,YUP2633287,Srishti Mundhra,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-272-WI.pdf,272,1,1,YUP1394386,Raju Kumar Raut,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,3,YUP1977909,Rabi Kabitiya,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-273-WI.pdf,273,1,1,WB/22/159/622497,Narendra Chowdhury,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-192-WI.pdf,192,3,5,YUP2833671,MAFIJUL GAZI,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-267-WI.pdf,267,1,2,YUP2711448,NIRAJ DAS,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-262-WI.pdf,262,1,3,YUP2797645,MUSKAN JAIN,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,4,WBE1788660,Chetan Kawtia,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-272-WI.pdf,272,1,2,YUP2711158,Naina Rauth,Female,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,4,YUP2617215,Meena Salanki,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-273-WI.pdf,273,1,2,YUP1574730,Arvind Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-267-WI.pdf,267,1,3,YUP1871215,Lakhi Hari,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,5,YUP1976554,Vishakha Mittal,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-272-WI.pdf,272,1,3,YUP1825017,Mithalesh Kumar,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,5,JSC2939932,Amarsingh Solanki,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-273-WI.pdf,273,1,3,YUP2159267,Rajesh Barma,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-267-WI.pdf,267,1,4,YUP2599223,Rahul Han,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-274-WI.pdf,274,1,1,YUP2263036,Raju Des,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,6,WB/30/205/7 11029,Samiran Ghosh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,6,JSC2939940,Kanchan Solanki,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-275-WI.pdf,275,1,1,YUP2682995,ROSHAN SHARMA,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-267-WI.pdf,267,1,5,J8C2594075,Lalbabu Mallick,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,7,YUP2186370,Swati Garg,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-274-WI.pdf,274,1,2,YUP 1738129,Pawan Kumar Kamat,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-275-WI.pdf,275,1,2,YUP2262046,Vivekanand Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,7,YUP 1567437,Laleta Solanki,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-267-WI.pdf,267,1,6,YUP2413383,Kajal Mallick,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-276-WI.pdf,276,1,1,JSC2575421,Bindeswar Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-277-WI.pdf,277,1,1,YUP 1740695,Shiwajee Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-274-WI.pdf,274,1,3,YUP2121739,Mukesh Kumar Kamat,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,8,YUP 1564996,Vishal Kumar Paswan,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-275-WI.pdf,275,1,3,YUP2410989,Vikash Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,8,JSC2939916,Sonu Solanki,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-276-WI.pdf,276,1,2,YUP1381862,Surya Narayan Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-277-WI.pdf,277,1,2,WB/22/159/462201,Deonath Prasad,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-274-WI.pdf,274,1,4,YUP2598993,Asitarfi Kumar,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,9,YUP1865001,Vikash Kumar Paswan,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,9,YUP1567528,Sunny Solanki,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-276-WI.pdf,276,1,3,YUP1985092,Sita Devi,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-274-WI.pdf,274,1,5,YUP2121770,Shila Bhandari,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-277-WI.pdf,277,1,3,YUP2682686,Soma Chakraborty,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-28-WI.pdf,28,1,1,JSC2755874,Nandalal Masi,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-256-WI.pdf,256,1,10,YUP2820983,MANOJ KUMAR BAJAJ,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,10,YUP2366300,Sonu Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-276-WI.pdf,276,1,4,YUP2682904,SITA YADAV,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,1,YUP2443794,Mohan Sarkar,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-274-WI.pdf,274,1,6,WB/21/143/276303,Suresh Varma,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-28-WI.pdf,28,1,2,YUP2215960,Brijlal Mali,Male,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,11,YUP2156925,Shashi Bidasaral,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,2,YUP2041275,Shweta Chamaria,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-28-WI.pdf,28,1,3,YUP2215952,Arti Mali,Female,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-31-WI.pdf,31,1,1,JSC2370818,Bijesh Sahi,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-32-WI.pdf,32,1,1,JSC2372365,Sovit Podder,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,12,YUP2156933,Sameer Bidasarai,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,3,YUP2468924,Chirag Jain,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-28-WI.pdf,28,1,4,JSC2954154,Shambhu Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-33-WI.pdf,33,1,1,YUP2391654,Ganesh Kumar,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-31-WI.pdf,31,1,2,YUP 1602903,Ranjit Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,1,YUP1832449,Jabir Ansari,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,13,JSC2206399,Shibji Prasad Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,4,YUP1918168,Keshan Devi,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-31-WI.pdf,31,1,3,YUP 1461003,Lipika Asch,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,2,YUP2217396,Saida Ansari,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,14,JSC2731578,Gayatri Gupta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-36-WI.pdf,36,1,1,YUP1926239,Sharmistha Chandra,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,5,YUP2306389,Priyanka Basak,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,3,YUP2217404,Najira Ansari,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-37-WI.pdf,37,1,1,WB/22/169/030433,Roy Bapi Dey,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,15,YUP1978337,Jyotsna Solanki,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-39-WI.pdf,39,1,1,YUP1345644,Vikash Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,6,CXF1964204,Sona Dew Jain,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,4,YUP2741973,Jannatun Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,16,YUP2366128,Jay Solanki,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-39-WI.pdf,39,1,2,YUP2797546,RAMDE! DEVI,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-40-WI.pdf,40,1,1,YUP1465863,Nilam Devi Chohan,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,7,YUP2642262,Sanjeev Kumar Poddar,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-41-WI.pdf,41,1,1,YUP2675692,RINKI JAISWAL,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,5,JSC2691590,Sabita Roy,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,17,YUP2114239,Akhaya Kumar Jana,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-40-WI.pdf,40,1,2,YUP1926245,Sukla Kurmi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-42-WI.pdf,42,1,1,YUP1608108,Om Prakash Saroj,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-3-WI.pdf,3,1,8,YUP2805679,Rehana Mukeni,Female,1,,,Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-41-WI.pdf,41,1,2,JSC2924389,Anita Gupta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-260-WI.pdf,260,1,18,JSC2731743,Asha Dew Mishra,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-40-WI.pdf,40,1,3,YUP 1741677,Baby Prajapati,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-43-WI.pdf,43,1,1,YUP2656114,Krishna Prajapati,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,6,WB/20/139/669066,Subhash Sengupta,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-40-WI.pdf,40,1,4,YUP1606672,Tulu Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-43-WI.pdf,43,1,2,YUP2656262,Bishnu Prajapati,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-44-WI.pdf,44,1,1,YUP2083601,Khush Boo Sharma,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,7,YUP1462779,Rajendra Narayan Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-45-WI.pdf,45,1,1,YUP1609197,Kuber Kumar Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-46-WI.pdf,46,1,1,JSC2955888,Rahul Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-40-WI.pdf,40,1,5,YUP1607084,Bgu Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-47-WI.pdf,47,1,1,YUP2054757,Deepmala Hela,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,8,YUP 1463181,Shashi Bidasaria,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-46-WI.pdf,46,1,2,YUP2054484,Varsha Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-40-WI.pdf,40,1,6,YUP 1465590,Diraj Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-47-WI.pdf,47,1,2,YUP1928225,Hari Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,9,YUP 1461821,Manish Bidasana,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-48-WI.pdf,48,1,1,JSC2689552,Kamalesh Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-46-WI.pdf,46,1,3,YUP2643351,Gaurav Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-49-WI.pdf,49,1,1,YUP2625283,Jayanta Ghosh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-5-WI.pdf,5,1,1,YUP2212785,Vinita Jain,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-47-WI.pdf,47,1,3,YUP2084815,Satyajit Mondal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-34-WI.pdf,34,1,10,YUP1463199,Pryush Bidasana,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-48-WI.pdf,48,1,2,JSC2921740,Sima Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-46-WI.pdf,46,1,4,YUP1383462,Ramesh Prajapati,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-49-WI.pdf,49,1,2,YUP2652538,Laxmi Singh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-50-WI.pdf,50,1,1,YUP2220713,Ruma Pal,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-46-WI.pdf,46,1,5,YUP2054435,Bindu Prajapati,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-49-WI.pdf,49,1,3,YUP2372985,Mithu Bhuian,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-51-WI.pdf,51,1,1,YUP2056083,Mahesh Prajapati,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-55-WI.pdf,55,1,1,JSC2308872,Thakur Krishna Saha,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-46-WI.pdf,46,1,6,YUP2506038,Rahul Prajapat,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-49-WI.pdf,49,1,4,YUP1472224,Dinesh Yadav,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-56-WI.pdf,56,1,1,JSC2689420,Ganesh Rabi Des,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-54-WI.pdf,54,1,1,YUP2787083,TANNU KUMARI,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-58-WI.pdf,58,1,1,JSC2364511,Tunia Debi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-55-WI.pdf,55,1,2,YUP2318632,Dali Paul,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-49-WI.pdf,49,1,5,YUP1346923,Sukho Ranjan Debnath,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-58-WI.pdf,58,1,2,YUP2447472,Kalawati Debi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-49-WI.pdf,49,1,6,YUP1472497,Bhikari Prasad Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-6-WI.pdf,6,1,1,YUP2465151,Dipanwita Dey,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-60-WI.pdf,60,1,1,JSC2922136,Sambhu Modak,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-63-WI.pdf,63,1,1,YUP1348903,Chanchal Chowrasia,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-64-WI.pdf,64,1,1,YUP2447910,Nanda Ghosh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-49-WI.pdf,49,1,7,YUP2139210,Ajay Kumar Sharma,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-6-WI.pdf,6,1,2,YUP2307031,Debabrata Kundu,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-66-WI.pdf,66,1,1,YUP2774891,Mahammad Asraf Ali,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-63-WI.pdf,63,1,2,YUP2447803,RAJAN KUMAR THAKUR,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-64-WI.pdf,64,1,2,YUP1349158,Swatilekha Ghoshal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-6-WI.pdf,6,1,3,TDM1326024,Anjura Khatun,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-67-WI.pdf,67,1,1,YUP2528297,Kishan Rai,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-66-WI.pdf,66,1,2,YUP2818862,AJAY SHAW,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-63-WI.pdf,63,1,3,YUP0291591,Mita Sengupta,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-70-WI.pdf,70,1,1,WB/22/158/081273,Sunita Seal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-64-WI.pdf,64,1,3,YUP2223196,Chandan Kumar Mishra,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-6-WI.pdf,6,1,4,YUP2041812,Kashinath Chowdhury,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-67-WI.pdf,67,1,2,WB/22/158/060373,Swapna Debnath,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-71-WI.pdf,71,1,1,WB/22/158/087504,Tapati Chakraborty,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-70-WI.pdf,70,1,2,YUP2321578,Ashim Banerjee,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-63-WI.pdf,63,1,4,YUP 1478601,Basant Kumar Choudhury,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-6-WI.pdf,6,1,5,YUP2500643,Pinki Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-72-WI.pdf,72,1,1,CXF1781632,Sanjit Chowdhury,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-6-WI.pdf,6,1,6,YUP2500684,Jahanara Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-73-WI.pdf,73,1,1,CXF2178218,Munmun Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,1,CXF2043495,Basudev Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-72-WI.pdf,72,1,2,YUP2596278,Payal Chowdhury,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,1,YUP 1742295,Chameli Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-6-WI.pdf,6,1,7,YUP2850295,ALFAZ SEKH,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-76-WI.pdf,76,1,1,YUP1986306,Krishna Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-73-WI.pdf,73,1,2,CXF 1729938,Bijoy Mondal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-77-WI.pdf,77,1,1,CXF2050581,Sweta Pandey,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,2,CXF2046092,Prasadi Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-72-WI.pdf,72,1,3,WB/22/158/084672,Sova Rani Dalai,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,2,YUP 1482066,Punam Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-73-WI.pdf,73,1,3,YUP2436368,Kamal Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-76-WI.pdf,76,1,2,YUP2142230,Bhubaneswar Rabi Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-77-WI.pdf,77,1,2,CXF 1805969,Manoj Kumar Soni,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,3,WB/22/158/099313,Jago Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,3,YUP2061661,Sudhir Des,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-77-WI.pdf,77,1,3,YUP2062966,Santosh Paswan,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-78-WI.pdf,78,1,1,YUP 1935543,Lia Debi,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,4,WB/22/158/096177,Mathura Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,4,YUP2322667,Suraj Kumar Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-79-WI.pdf,79,1,1,FLG2348613,Soma Ari,Female,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-78-WI.pdf,78,1,2,YUP2225308,Rekha Singh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,5,WB/22/158/096305,Mala Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-80-WI.pdf,80,1,1,YUP 1483809,Amresh Kumar Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,5,YUP2529444,Lachhru Devi,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-78-WI.pdf,78,1,3,YUP2062602,Mukesh Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,6,WB/22/158/096306,Tara Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-8-WI.pdf,8,1,1,YUP0031823,Mahua Gangopadhyay,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-80-WI.pdf,80,1,2,YUP 1483395,Sonu Mohhammad,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-81-WI.pdf,81,1,1,CXF1972785,Manju Yadav,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,6,CXF1794791,Sakuntala Devi Muchi,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-78-WI.pdf,78,1,4,YUP2225290,Rajesh Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,7,CXF1556836,Kanti Devi Das,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-82-WI.pdf,82,1,1,YUP2729226,ROHIT MUKHI,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-80-WI.pdf,80,1,3,YUP2784106,Rukshana Begum,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-8-WI.pdf,8,1,2,YUP1340991,Savarnee Gangopadhyay,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-81-WI.pdf,81,1,2,YUP2142669,Vidya Singh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,7,YUP1935220,Khusru Rabi Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-78-WI.pdf,78,1,5,YUP2062511,Khushbu Singh,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-74-WI.pdf,74,1,8,YUP1934512,Mahendra Rabi Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-80-WI.pdf,80,1,4,YUP2833192,AUSHA KHATOON,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-8-WI.pdf,8,1,3,CXF 1964931,Saheen Parvin Ibrahim,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,8,CXF2045995,Chandan Rabidas,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-78-WI.pdf,78,1,6,YUP2322964,Goutam Singh,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-8-WI.pdf,8,1,4,YUP2683571,BHOLA DAS,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-75-WI.pdf,75,1,9,YUP2375236,Munna Kumar Rabidas,Male,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-84-WI.pdf,84,1,1,YUP2143220,Md Shamsher,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-83-WI.pdf,83,1,1,YUP 1485036,Budhan Shaw,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-85-WI.pdf,85,1,1,CXF 1825512,Radheshyam Gond,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-84-WI.pdf,84,1,2,YUP2226082,Md Ditsher,Male,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,1,YUP2324820,Asnd Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,1,CXF2076545,Vidya Chauhan,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-85-WI.pdf,85,1,2,YUP2629665,Mahesh Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,2,YUP2324937,Samar Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-9-WI.pdf,9,1,1,CXF2137313,Nilava Nandi,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-90-WI.pdf,90,1,1,WB/22/158/213067,Firoza Bibi,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-91-WI.pdf,91,1,1,YUP2598175,Biswajit Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,2,CXF 1844588,Ravindra Chauhan,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-85-WI.pdf,85,1,3,NSR1666791,Priya Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,3,YUP2395481,Mohan Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-9-WI.pdf,9,1,2,CXF 1968029,Samar Roy,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-90-WI.pdf,90,1,2,YUP2066686,Nusrat Jahan Begum,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-94-WI.pdf,94,1,1,YUP2067767,Bibeki Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,3,YUP2675833,Priyanka Chauhan,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-85-WI.pdf,85,1,4,YUP2632065,Bishal Sonkar,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,4,YUP 1486315,Anup Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-94-WI.pdf,94,1,2,CXF1983907,Shree Chowdhury,Female,1,,,Non-Muslim,B
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,4,YUP1487461,Kishan Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-85-WI.pdf,85,1,5,YUP2701886,Aakash Sonkar,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-95-WI.pdf,95,1,1,CXF 1866888,Sakuntala Mohanty,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,5,YUP2481885,Namrata Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-90-WI.pdf,90,1,3,YUP 1487651,Farida Bano,Female,1,,,Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,5,YUP 1807585,Sushda Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,6,YUP1937267,Sunita Agarwal,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-90-WI.pdf,90,1,4,CXF1851260,Jagannath Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,6,YUP2850089,Payal Chauhan,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,7,YUP1937259,Sonu Agarwal,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,7,YUP 1829134,Pratik Bothra,Male,1,,,Non-Muslim,D
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,8,YUP 1384973,Neha Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,8,YUP0431155,Anuja Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,9,YUP2485654,Deepak Agarwal,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,9,YUP2066447,Rohan Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,10,YUP2226397,Deepak Sharma,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,10,YUP2611788,Scandan Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,11,YUP2143386,Arun Das,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,11,YUP 1937903,Anshu Jaiswal,Female,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-86-WI.pdf,86,1,12,YUP2797207,Sangita Maity,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,12,YUP2066355,Shivam Jaiswal,Male,1,,,Non-Muslim,C
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,13,YUP1937952,Akash Kumar Gupta,Male,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,14,YUP1937911,Sneha Gupta,Female,1,,,Non-Muslim,A
+2,2026-SUPPLEMENTGEN-S25-167-2-Jo-not_eligible-ENG-89-WI.pdf,89,1,15,YMQ2330959,Brahma Kuman Prema,Female,1,,,Non-Muslim,D
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-223-WI.pdf,223,1,1,YUP2621803,Rina Shaw,Female,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-223-WI.pdf,223,1,2,JSC2826261,Sanjay Singh,Male,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,1,YUP2113132,Rakesh Jha,Male,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-258-WI.pdf,258,1,1,YUP2672863,Neha Hari,Female,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-259-WI.pdf,259,1,1,YUP1566611,Prem Kumar Gupta,Male,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,2,YUP1976901,Rajkumar Jha,Male,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-258-WI.pdf,258,1,2,YUP2113330,Rina Harijan,Female,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,1,YUP1973304,Sanjib Singh,Male,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,3,YUP1565761,Niraj Pandey,Male,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-258-WI.pdf,258,1,3,YUP 1566470,Madhumita Sengupta,Female,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-277-WI.pdf,277,1,1,JSC2733996,Sunil Ram,Male,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,2,YUP 1567957,Niku Balmiki,Female,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,4,JSC2731065,Ranjit Kumar Pandey,Male,1,,,Non-Muslim,B
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-258-WI.pdf,258,1,4,YUP2689463,Sulekha Harijan,Female,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-277-WI.pdf,277,1,2,YUP 1576867,Sudip Ram,Male,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,3,YUP 1979194,Bimla Devi,Female,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,5,YUP2266435,Pankaj Pandey,Male,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-258-WI.pdf,258,1,5,YUP2728988,SWETA JAISWAL,Female,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,4,YUP2259422,Suganti Devi,Female,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,6,YUP 1565860,Guna Devi,Female,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-258-WI.pdf,258,1,6,WB/22/159/47 1387,Rajkumar Das,Male,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,5,YUP2366789,Bilkss Begum,Female,1,,,Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,7,YUP2365674,Pooja Jhurghunwala,Female,1,,,Non-Muslim,C
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,6,YUP1978857,Jeetendra Mahato,Male,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,8,YUP2473858,Ranjit Singh Golchha,Male,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,7,YUP1979178,Rita Devi Ray,Female,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,8,YUP2621183,Soni Shaw,Female,1,,,Non-Muslim,A
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-257-WI.pdf,257,1,9,YUP2862258,HASHI BAJAJ,Female,1,,,Non-Muslim,D
+8,2026-SUPPLEMENTGEN-S25-167-8-Jo-not_eligible-ENG-261-WI.pdf,261,1,9,YUP2832632,Gaianti Devi,Female,1,,,Non-Muslim,A

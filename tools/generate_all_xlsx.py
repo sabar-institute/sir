@@ -7,7 +7,7 @@ from openpyxl.styles import Font, PatternFill, Alignment
 AC_ROOT = os.path.join(os.path.dirname(__file__), '..', 'AC')
 OUT = os.path.join(os.path.dirname(__file__), '..', 'data', 'all_deletions.xlsx')
 
-EXCLUDE = {'religion', 'ocr_pass', 'warning', 'repeat'}
+EXCLUDE = {'religion', 'ocr_pass', 'warning', 'repeat', 'confidence'}
 KEEP = ['phase', 'pdf_file', 'part_no', 'page_no', 'box_no', 'epic', 'name', 'gender']
 
 HEADER_FILL = PatternFill('solid', fgColor='1a1a2e')
