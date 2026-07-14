@@ -273,6 +273,45 @@
     "deleted_other": null
   },
   {
+    "id": "22_Kalimpong",
+    "ac_no": 22,
+    "ac_name": "Kalimpong",
+    "district": "Kalimpong",
+    "muslim_population_pct": null,
+    "total_deletions": 2407,
+    "deleted_male": 1007,
+    "deleted_female": 1400,
+    "deleted_muslim": 149,
+    "deleted_nonmuslim": 2258,
+    "deleted_other": null
+  },
+  {
+    "id": "23_Darjeeling",
+    "ac_no": 23,
+    "ac_name": "Darjeeling",
+    "district": "Darjeeling",
+    "muslim_population_pct": null,
+    "total_deletions": 9460,
+    "deleted_male": 4701,
+    "deleted_female": 4759,
+    "deleted_muslim": 426,
+    "deleted_nonmuslim": 9034,
+    "deleted_other": null
+  },
+  {
+    "id": "24_Kurseong",
+    "ac_no": 24,
+    "ac_name": "Kurseong",
+    "district": "Darjeeling",
+    "muslim_population_pct": null,
+    "total_deletions": 6200,
+    "deleted_male": 3168,
+    "deleted_female": 3032,
+    "deleted_muslim": 306,
+    "deleted_nonmuslim": 5894,
+    "deleted_other": null
+  },
+  {
     "id": "25_Matigara-Naxalbari_(SC)",
     "ac_no": 25,
     "ac_name": "Matigara-Naxalbari (SC)",
@@ -1469,6 +1508,19 @@
     "deleted_other": 1
   },
   {
+    "id": "117_Rajarhat_Gopalpur",
+    "ac_no": 117,
+    "ac_name": "Rajarhat Gopalpur",
+    "district": "North 24 Parganas",
+    "muslim_population_pct": "2.92",
+    "total_deletions": 7338,
+    "deleted_male": 3371,
+    "deleted_female": 3966,
+    "deleted_muslim": 464,
+    "deleted_nonmuslim": 6874,
+    "deleted_other": 1
+  },
+  {
     "id": "118_Madhyamgram",
     "ac_no": 118,
     "ac_name": "Madhyamgram",
@@ -1950,6 +2002,19 @@
     "deleted_other": null
   },
   {
+    "id": "155_Maheshtala",
+    "ac_no": 155,
+    "ac_name": "Maheshtala",
+    "district": "South 24 Parganas",
+    "muslim_population_pct": "29.12",
+    "total_deletions": 3394,
+    "deleted_male": 1535,
+    "deleted_female": 1857,
+    "deleted_muslim": 2693,
+    "deleted_nonmuslim": 701,
+    "deleted_other": 2
+  },
+  {
     "id": "156_Budge_Budge",
     "ac_no": 156,
     "ac_name": "Budge Budge",
@@ -2078,6 +2143,20 @@
     "deleted_muslim": 2103,
     "deleted_nonmuslim": 1521,
     "deleted_other": null
+  },
+  {
+    "id": "166_Shyampukur",
+    "ac_no": 166,
+    "ac_name": "Shyampukur",
+    "district": "Kolkata",
+    "muslim_population_pct": "1.46",
+    "total_deletions": 0,
+    "deleted_male": 0,
+    "deleted_female": 0,
+    "deleted_muslim": 0,
+    "deleted_nonmuslim": 0,
+    "deleted_other": null,
+    "note": "no record present"
   },
   {
     "id": "167_Maniktala",
@@ -2819,6 +2898,19 @@
     "deleted_muslim": 333,
     "deleted_nonmuslim": 1225,
     "deleted_other": null
+  },
+  {
+    "id": "224_Kharagpur_Sadar",
+    "ac_no": 224,
+    "ac_name": "Kharagpur Sadar",
+    "district": "Paschim Medinipur",
+    "muslim_population_pct": "8.79",
+    "total_deletions": 12728,
+    "deleted_male": 5522,
+    "deleted_female": 7203,
+    "deleted_muslim": 3823,
+    "deleted_nonmuslim": 8905,
+    "deleted_other": 3
   },
   {
     "id": "225_Narayangarh",
